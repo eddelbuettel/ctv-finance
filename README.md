@@ -10,7 +10,7 @@ This CRAN Task View contains a list of packages useful for empirical work in Fin
 
 Besides these packages, a very wide variety of functions suitable for empirical work in Finance is provided by both the basic R system (and its set of recommended core packages), and a number of other packages on the Comprehensive R Archive Network (CRAN). Consequently, several of the other CRAN Task Views may contain suitable packages, in particular the [Econometrics](http://cran.rstudio.com/web/views/Econometrics.html), [Multivariate](http://cran.rstudio.com/web/views/Multivariate.html), [Optimization](http://cran.rstudio.com/web/views/Optimization.html), [Robust](http://cran.rstudio.com/web/views/Robust.html), [SocialSciences](http://cran.rstudio.com/web/views/SocialSciences.html) and [TimeSeries](http://cran.rstudio.com/web/views/TimeSeries.html) Task Views.
 
-Please send suggestions for additions and extensions for this task view to the [task view maintainer](mailto:Dirk.Eddelbuettel@R-project.org).
+Contributions are always welcome, and encouraged. Since the start of this CRAN task view in April 2005, most contributions have arrived as email suggestions. This particular task view file now resides in a GitHub repository (see below) so that pull requests are also possibly.
 
 **Standard regression models**
 
@@ -238,3 +238,4 @@ Please send suggestions for additions and extensions for this task view to the [
 -   [Eric Zivot](http://faculty.washington.edu/ezivot/splus.htm)
 -   [R Code for Ruppert's 'Statistics and Finance'](http://www.stat.tamu.edu/~ljin/Finance/stat689-R.htm)
 -   [Guy Yollin](http://www.r-programming.org/papers)
+-   [GitHub repository for this Task View](https://github.com/eddelbuettel/ctv-finance)

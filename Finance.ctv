@@ -21,10 +21,11 @@
       <view>Multivariate</view>, <view>Optimization</view>, <view>Robust</view>, 
       <view>SocialSciences</view> and <view>TimeSeries</view> Task Views.
     </p>
-    <p>
-      Please send suggestions for additions and extensions for this task
-      view to the 
-      <a href="mailto:Dirk.Eddelbuettel@R-project.org">task view maintainer</a>.
+    <p> 
+      Contributions are always welcome, and encouraged. Since the start of
+      this CRAN task view in April 2005, most contributions have arrived as
+      email suggestions. This particular task view file now resides in a
+      GitHub repository (see below) so that pull requests are also possibly.
     </p>
    
     <p>
@@ -556,6 +557,7 @@
     <a href="http://www.stat.tamu.edu/~ljin/Finance/stat689-R.htm">R Code for Ruppert's 'Statistics and Finance'</a>
     <!-- <a href="http://www.decisionsynergy.com/showPackageDownload.html">FinancePack and FractalPack</a> -->
     <a href="http://www.r-programming.org/papers">Guy Yollin</a>
+    <a href="https://github.com/eddelbuettel/ctv-finance">GitHub repository for this Task View</a>
   </links>
 
 </CRANTaskView>
