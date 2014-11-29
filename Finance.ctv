@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2014-11-28</version>
+  <version>2014-11-29</version>
   
   <info>
     <p>
@@ -24,8 +24,9 @@
     <p> 
       Contributions are always welcome, and encouraged. Since the start of
       this CRAN task view in April 2005, most contributions have arrived as
-      email suggestions. This particular task view file now resides in a
-      GitHub repository (see below) so that pull requests are also possibly.
+      email suggestions. The source file for this particular task view file
+      now also reside in a GitHub repository (see below) so that pull
+      requests are also possible. 
     </p>
    
     <p>

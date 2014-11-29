@@ -4,13 +4,13 @@ CRAN Task View: Empirical Finance
 
 **Maintainer:** Dirk Eddelbuettel  
 **Contact:** Dirk.Eddelbuettel at R-project.org  
-**Version:** 2014-11-09  
+**Version:** 2014-11-29  
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
 
 Besides these packages, a very wide variety of functions suitable for empirical work in Finance is provided by both the basic R system (and its set of recommended core packages), and a number of other packages on the Comprehensive R Archive Network (CRAN). Consequently, several of the other CRAN Task Views may contain suitable packages, in particular the [Econometrics](http://cran.rstudio.com/web/views/Econometrics.html), [Multivariate](http://cran.rstudio.com/web/views/Multivariate.html), [Optimization](http://cran.rstudio.com/web/views/Optimization.html), [Robust](http://cran.rstudio.com/web/views/Robust.html), [SocialSciences](http://cran.rstudio.com/web/views/SocialSciences.html) and [TimeSeries](http://cran.rstudio.com/web/views/TimeSeries.html) Task Views.
 
-Contributions are always welcome, and encouraged. Since the start of this CRAN task view in April 2005, most contributions have arrived as email suggestions. This particular task view file now resides in a GitHub repository (see below) so that pull requests are also possibly.
+Contributions are always welcome, and encouraged. Since the start of this CRAN task view in April 2005, most contributions have arrived as email suggestions. The source file for this particular task view file now also reside in a GitHub repository (see below) so that pull requests are also possible.
 
 **Standard regression models**
 
