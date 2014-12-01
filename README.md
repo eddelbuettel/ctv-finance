@@ -4,7 +4,7 @@ CRAN Task View: Empirical Finance
 
 **Maintainer:** Dirk Eddelbuettel  
 **Contact:** Dirk.Eddelbuettel at R-project.org  
-**Version:** 2014-11-29  
+**Version:** 2014-12-01  
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
 
@@ -80,6 +80,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [frmqa](http://cran.rstudio.com/web/packages/frmqa/index.html) package aims to collect functions for Financial Risk Management and Quantitative Analysis.
 -   The [ESG](http://cran.rstudio.com/web/packages/ESG/index.html) package can be used to model for asset projection, a scenario-based simulation approach.
 -   The [riskSimul](http://cran.rstudio.com/web/packages/riskSimul/index.html) package provides efficient simulation procedures to estimate tail loss probabilities and conditional excess for a stock portfolios where log-returns are assumed to follow a t-copula model with generalized hyperbolic or t marginals.
+-   The [GCPM](http://cran.rstudio.com/web/packages/GCPM/index.html) package anlyzes the default risk of credit portfolio using both analytical and simulation approaches.
 
 **Books**
 
@@ -148,6 +149,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [frmqa](http://cran.rstudio.com/web/packages/frmqa/index.html)
 -   [fTrading](http://cran.rstudio.com/web/packages/fTrading/index.html) (core)
 -   [fUnitRoots](http://cran.rstudio.com/web/packages/fUnitRoots/index.html) (core)
+-   [GCPM](http://cran.rstudio.com/web/packages/GCPM/index.html)
 -   [GEVStableGarch](http://cran.rstudio.com/web/packages/GEVStableGarch/index.html)
 -   [ghyp](http://cran.rstudio.com/web/packages/ghyp/index.html)
 -   [gmm](http://cran.rstudio.com/web/packages/gmm/index.html)

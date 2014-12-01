@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2014-11-29</version>
+  <version>2014-12-01</version>
   
   <info>
     <p>
@@ -336,6 +336,10 @@
           excess for a stock portfolios where log-returns are assumed to
           follow a t-copula model with generalized hyperbolic or t marginals.  
       </li>
+      <li>
+	  The <pkg>GCPM</pkg> package anlyzes the default risk of credit
+          portfolio using both analytical and simulation approaches.
+      </li>
     </ul>
 
     <p>
@@ -465,6 +469,7 @@
     <pkg>forecast</pkg>
     <pkg>fracdiff</pkg>
     <pkg>frmqa</pkg>
+    <pkg>GCPM</pkg> 
     <pkg>GEVStableGarch</pkg>
     <pkg>ghyp</pkg>
     <pkg>gmm</pkg>
