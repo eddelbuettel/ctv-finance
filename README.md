@@ -4,7 +4,7 @@ CRAN Task View: Empirical Finance
 
 **Maintainer:** Dirk Eddelbuettel  
 **Contact:** Dirk.Eddelbuettel at R-project.org  
-**Version:** 2014-12-01  
+**Version:** 2014-12-05  
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
 
@@ -96,7 +96,6 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [data.table](http://cran.rstudio.com/web/packages/data.table/index.html) package provides very efficient and fast access to in-memory data sets such as asset prices.
 -   The [TFX](http://cran.rstudio.com/web/packages/TFX/index.html) package provides an interface to the TrueFX (TM) service for free streaming real-time and historical tick-by-tick market data for interbank foreign exchange rates at the millisecond resolution.
 -   The [Rbitcoin](http://cran.rstudio.com/web/packages/Rbitcoin/index.html) package offers access to Bitcoin exchange APIs (mtgox, bitstamp, btce, kraken) via public and private API calls and integration of data structures for all markets.
--   The [TAQMNGR](http://cran.rstudio.com/web/packages/TAQMNGR/index.html) package manages tick-by-tick (equity) transaction data performing 'cleaning', 'aggregation' and 'import' where cleaning and aggregation are performed according to Brownlees and Gallo (2006).
 -   The [bizdays](http://cran.rstudio.com/web/packages/bizdays/index.html) package compute business days if provided a list of holidays.
 
 ### CRAN packages:
@@ -193,7 +192,6 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [stochvol](http://cran.rstudio.com/web/packages/stochvol/index.html)
 -   [stockPortfolio](http://cran.rstudio.com/web/packages/stockPortfolio/index.html)
 -   [strucchange](http://cran.rstudio.com/web/packages/strucchange/index.html)
--   [TAQMNGR](http://cran.rstudio.com/web/packages/TAQMNGR/index.html)
 -   [tawny](http://cran.rstudio.com/web/packages/tawny/index.html)
 -   [termstrc](http://cran.rstudio.com/web/packages/termstrc/index.html)
 -   [TFX](http://cran.rstudio.com/web/packages/TFX/index.html)

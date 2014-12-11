@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2014-12-01</version>
+  <version>2014-12-05</version>
   
   <info>
     <p>
@@ -407,12 +407,6 @@
           markets.
       </li>
       <li>
-      	  The <pkg>TAQMNGR</pkg> package manages tick-by-tick (equity)
-      	  transaction data performing 'cleaning', 'aggregation' and
-      	  'import' where cleaning and aggregation are performed
-      	  according to Brownlees and Gallo (2006).
-      </li>
-      <li>
       	  The <pkg>bizdays</pkg> package compute business days if
       	  provided a list of holidays.
       </li>
@@ -513,7 +507,6 @@
     <pkg>stochvol</pkg>
     <pkg>stockPortfolio</pkg>    
     <pkg>strucchange</pkg>
-    <pkg>TAQMNGR</pkg>
     <pkg>timsac</pkg>
     <pkg priority="core">tseries</pkg>
     <pkg>termstrc</pkg>
