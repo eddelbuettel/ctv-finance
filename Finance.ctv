@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2014-12-05</version>
+  <version>2014-12-22</version>
   
   <info>
     <p>
@@ -68,7 +68,8 @@
       <li>The <pkg>dse</pkg> and <pkg>timsac</pkg> packages provide a variety of more
 	  advanced estimation methods; <pkg>fracdiff</pkg> can
 	  estimate fractionally integrated series; <pkg>longmemo</pkg> covers
-	  related material.
+	  related material. The <pkg>fractal</pkg> provide fractal time series modeling
+	  functionality.
       </li>
       <li>For volatility modeling, the standard GARCH(1,1) model can
           be estimated with the <code>garch()</code> function in the
@@ -104,7 +105,8 @@
 	  The <pkg>CADFtest</pkg> package implements the Hansen unit root test.
       </li>
       <li>
-	  The  <pkg>dlm</pkg> package  provides
+	  <pkg>MSBVAR</pkg> provides
+	  Bayesian estimation of vector autoregressive models. The  <pkg>dlm</pkg> package  provides
 	  Bayesian and likelihood analysis of dynamic linear models (ie
 	  linear Gaussian state space models). 
       </li>
@@ -144,12 +146,12 @@
     </p>
     <ul>
       <li>The Rmetrics suite of packages comprises
-          <pkg>fArma</pkg>, <pkg>fAsianOptions</pkg>, 
+          <pkg>fArma</pkg>, <pkg>fAsianOptions</pkg>, <pkg>fAssets</pkg>, 
 	  <pkg>fBasics</pkg>, <pkg>fBonds</pkg>, <pkg>timeDate</pkg> (formerly: fCalendar), 
-	  <pkg>fExoticOptions</pkg>, 
+	  <pkg>fCopulae</pkg>, <pkg>fExoticOptions</pkg>, 
 	  <pkg>fExtremes</pkg>, <pkg>fGarch</pkg>, <pkg>fImport</pkg>, 
-	  <pkg>fNonlinear</pkg>, <pkg>fOptions</pkg>, 
-	  <pkg>timeSeries</pkg> (formerly: fSeries), 
+	  <pkg>fNonlinear</pkg>, <pkg>fOptions</pkg>, <pkg>fPortfolio</pkg>,
+	  <pkg>fRegression</pkg>, <pkg>timeSeries</pkg> (formerly: fSeries), 
 	  <pkg>fTrading</pkg>, <pkg>fUnitRoots</pkg>
 	  and contains a very large number of relevant functions for different aspect of empirical
 	  and computational finance.
@@ -177,6 +179,9 @@
       </li>
       <li>The <pkg>TTR</pkg> contains functions to construct technical
           trading rules in R.
+      </li>
+      <li>The <pkg>financial</pkg> package can compute present values, cash
+	  flows and other simple finance calculations.
       </li>
       <li>The <pkg>sde</pkg> package provides simulation and inference functionality
           for stochastic differential equations.
@@ -303,7 +308,7 @@
           package provides code for multivariate Normal and t-distributions.
       </li>
       <li>
-          The Rmetrics package
+          The Rmetrics packages <pkg>fPortfolio</pkg> and 
           <pkg>fExtremes</pkg> also contain a number of relevant functions.
       </li>
       <li>
@@ -384,6 +389,10 @@
 	  provide a database table design.
       </li>
       <li>
+	  The <pkg>IBrokers</pkg> package provides access to the Interactive Brokers
+	  API for data access (but requires an account to access the service).
+      </li>
+      <li>
 	  The <pkg>data.table</pkg> package provides very efficient and fast
 	  access to in-memory data sets such as asset prices.
       </li>
@@ -399,6 +408,13 @@
 	  service for free streaming real-time and historical
 	  tick-by-tick market data for interbank foreign exchange
 	  rates at the millisecond resolution.
+      </li>
+      <li>
+	  The package <pkg>highfrequency</pkg> contains functionality
+	  to manage, clean and match highfrequency trades and quotes
+	  data and enables users to calculate various liquidity
+	  measures, estimate and forecast volatility, and investigate
+	  microstructure noise and intraday periodicity.
       </li>
       <li>
           The <pkg>Rbitcoin</pkg> package offers access to Bitcoin
@@ -445,10 +461,13 @@
     <pkg>extRemes</pkg>
     <pkg>fame</pkg>
     <pkg>fgac</pkg>
+    <pkg>financial</pkg>
     <pkg priority="core">fArma</pkg>
     <pkg priority="core">fAsianOptions</pkg>
+    <pkg priority="core">fAssets</pkg>
     <pkg priority="core">fBasics</pkg>
     <pkg priority="core">fBonds</pkg>
+    <pkg priority="core">fCopulae</pkg>
     <pkg priority="core">fExoticOptions</pkg>
     <pkg priority="core">fExtremes</pkg>
     <pkg priority="core">fGarch</pkg>
@@ -458,10 +477,13 @@
     <pkg priority="core">fMultivar</pkg>
     <pkg priority="core">fNonlinear</pkg>
     <pkg priority="core">fOptions</pkg>
+    <pkg priority="core">fPortfolio</pkg>
+    <pkg priority="core">fRegression</pkg>
     <pkg priority="core">fTrading</pkg>
     <pkg priority="core">fUnitRoots</pkg>
     <pkg>forecast</pkg>
     <pkg>fracdiff</pkg>
+    <pkg>fractal</pkg>
     <pkg>frmqa</pkg>
     <pkg>GCPM</pkg> 
     <pkg>GEVStableGarch</pkg>
@@ -469,6 +491,8 @@
     <pkg>gmm</pkg>
     <pkg>gogarch</pkg>
     <pkg>GUIDE</pkg>
+    <pkg>highfrequency</pkg>
+    <pkg>IBrokers</pkg>
     <pkg>ismev</pkg>
     <pkg>its</pkg>    
     <pkg>lgarch</pkg>
@@ -479,6 +503,7 @@
     <pkg>markovchain</pkg>
     <pkg>maRketSim</pkg>
     <pkg>MarkowitzR</pkg>
+    <pkg>MSBVAR</pkg>
     <pkg>mvtnorm</pkg>
     <pkg>nlme</pkg>
     <pkg>NMOF</pkg>
