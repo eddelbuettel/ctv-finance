@@ -65,7 +65,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [MarkowitzR](http://cran.rstudio.com/web/packages/MarkowitzR/index.html) package provides functions to test the statistical signicance of Markowitz portfolios.
 -   The [egcm](http://cran.rstudio.com/web/packages/egcm/index.html) package implements the Engle-Granger two-stage cointegration modeling procedure with a particular focus on pairs trading.
 -   The [pbo](http://cran.rstudio.com/web/packages/pbo/index.html) package models the probability of backtest overfitting, performance degradation, probability of loss, and the stochastic dominance when analysing trading strategies.
--   The [OptionPricing](http://cran.rstudio.com/web/packages/OptionPricing/index.html) package implements rfficient Monte Carlo algorithms for the price and the sensitivities of Asian and European Options under Geometric Brownian Motion.
+-   The [OptionPricing](http://cran.rstudio.com/web/packages/OptionPricing/index.html) package implements efficient Monte Carlo algorithms for the price and the sensitivities of Asian and European Options under Geometric Brownian Motion.
 
 **Risk management**
 

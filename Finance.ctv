@@ -282,7 +282,7 @@
       </li>
       <li>
 	The <pkg>OptionPricing</pkg> package implements 
-        rfficient Monte Carlo algorithms for the price and the sensitivities
+        efficient Monte Carlo algorithms for the price and the sensitivities
         of Asian and European Options under Geometric Brownian Motion. 
       </li>
     </ul>
