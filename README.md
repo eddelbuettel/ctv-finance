@@ -1,10 +1,20 @@
 CRAN Task View: Empirical Finance
 ---------------------------------
 
-
-**Maintainer:** Dirk Eddelbuettel  
-**Contact:** Dirk.Eddelbuettel at R-project.org  
-**Version:** 2014-12-05  
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="left"><strong>Maintainer:</strong>
+Dirk Eddelbuettel</td>
+<td align="left"><strong>Contact:</strong>
+Dirk.Eddelbuettel at R-project.org</td>
+</tr>
+</tbody>
+</table>
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
 
@@ -22,10 +32,10 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 
 -   A detailed overview of tools for time series analysis can be found in the [TimeSeries](http://cran.rstudio.com/web/views/TimeSeries.html) task view. Below a brief overview of the most important methods in finance is given.
 -   Classical time series functionality is provided by the `arima()` and `KalmanLike()` commands in the basic R distribution.
--   The [dse](http://cran.rstudio.com/web/packages/dse/index.html) and [timsac](http://cran.rstudio.com/web/packages/timsac/index.html) packages provide a variety of more advanced estimation methods; [fracdiff](http://cran.rstudio.com/web/packages/fracdiff/index.html) can estimate fractionally integrated series; [longmemo](http://cran.rstudio.com/web/packages/longmemo/index.html) covers related material.
+-   The [dse](http://cran.rstudio.com/web/packages/dse/index.html) and [timsac](http://cran.rstudio.com/web/packages/timsac/index.html) packages provide a variety of more advanced estimation methods; [fracdiff](http://cran.rstudio.com/web/packages/fracdiff/index.html) can estimate fractionally integrated series; [longmemo](http://cran.rstudio.com/web/packages/longmemo/index.html) covers related material. The [fractal](http://cran.rstudio.com/web/packages/fractal/index.html) provide fractal time series modeling functionality.
 -   For volatility modeling, the standard GARCH(1,1) model can be estimated with the `garch()` function in the [tseries](http://cran.rstudio.com/web/packages/tseries/index.html) package. Rmetrics (see below) contains the [fGarch](http://cran.rstudio.com/web/packages/fGarch/index.html) package which has additional models. The [rugarch](http://cran.rstudio.com/web/packages/rugarch/index.html) package can be used to model a variety of univariate GARCH models with extensions such as ARFIMA, in-mean, external regressors and various other specifications; with methods for fit, forecast, simulation, inference and plotting are provided too. The [rmgarch](http://cran.rstudio.com/web/packages/rmgarch/index.html) builds on it to provide the ability to estimate several multivariate GARCH models. The [betategarch](http://cran.rstudio.com/web/packages/betategarch/index.html) package can estimate and simulate the Beta-t-EGARCH model by Harvey. The [bayesGARCH](http://cran.rstudio.com/web/packages/bayesGARCH/index.html) package can perform Bayesian estimation of a GARCH(1,1) model with Student's t innovations. For multivariate models, the [ccgarch](http://cran.rstudio.com/web/packages/ccgarch/index.html) package can estimate (multivariate) Conditional Correlation GARCH models whereas the [gogarch](http://cran.rstudio.com/web/packages/gogarch/index.html) package provides functions for generalized orthogonal GARCH models. The [AutoSEARCH](http://cran.rstudio.com/web/packages/AutoSEARCH/index.html) package provides automated general-to-specific model selection of the mean and log-volatility of a log-ARCH-X model. The [GEVStableGarch](http://cran.rstudio.com/web/packages/GEVStableGarch/index.html) package can fit ARMA-GARCH or ARMA-APARCH models with GEV and stable conditional distributions. The [lgarch](http://cran.rstudio.com/web/packages/lgarch/index.html) package can estimate and fit log-Garch models.
 -   Unit root and cointegration tests are provided by [tseries](http://cran.rstudio.com/web/packages/tseries/index.html), and [urca](http://cran.rstudio.com/web/packages/urca/index.html). The Rmetrics packages [timeSeries](http://cran.rstudio.com/web/packages/timeSeries/index.html) and [fMultivar](http://cran.rstudio.com/web/packages/fMultivar/index.html) contain a number of estimation functions for ARMA, GARCH, long memory models, unit roots and more. The [CADFtest](http://cran.rstudio.com/web/packages/CADFtest/index.html) package implements the Hansen unit root test.
--   The [dlm](http://cran.rstudio.com/web/packages/dlm/index.html) package provides Bayesian and likelihood analysis of dynamic linear models (ie linear Gaussian state space models).
+-   [MSBVAR](http://cran.rstudio.com/web/packages/MSBVAR/index.html) provides Bayesian estimation of vector autoregressive models. The [dlm](http://cran.rstudio.com/web/packages/dlm/index.html) package provides Bayesian and likelihood analysis of dynamic linear models (ie linear Gaussian state space models).
 -   The [vars](http://cran.rstudio.com/web/packages/vars/index.html) package offer estimation, diagnostics, forecasting and error decomposition of VAR and SVAR model in a classical framework.
 -   The [dyn](http://cran.rstudio.com/web/packages/dyn/index.html) and [dynlm](http://cran.rstudio.com/web/packages/dynlm/index.html) are suitable for dynamic (linear) regression models.
 -   Several packages provide wavelet analysis functionality: [rwt](http://cran.rstudio.com/web/packages/rwt/index.html), [wavelets](http://cran.rstudio.com/web/packages/wavelets/index.html), [waveslim](http://cran.rstudio.com/web/packages/waveslim/index.html), [wavethresh](http://cran.rstudio.com/web/packages/wavethresh/index.html). Some methods from chaos theory are provided by the package [tseriesChaos](http://cran.rstudio.com/web/packages/tseriesChaos/index.html). [tsDyn](http://cran.rstudio.com/web/packages/tsDyn/index.html) adds time series analysis based on dynamical systems therory.
@@ -35,12 +45,13 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 
 **Finance**
 
--   The Rmetrics suite of packages comprises [fArma](http://cran.rstudio.com/web/packages/fArma/index.html), [fAsianOptions](http://cran.rstudio.com/web/packages/fAsianOptions/index.html), [fBasics](http://cran.rstudio.com/web/packages/fBasics/index.html), [fBonds](http://cran.rstudio.com/web/packages/fBonds/index.html), [timeDate](http://cran.rstudio.com/web/packages/timeDate/index.html) (formerly: fCalendar), [fExoticOptions](http://cran.rstudio.com/web/packages/fExoticOptions/index.html), [fExtremes](http://cran.rstudio.com/web/packages/fExtremes/index.html), [fGarch](http://cran.rstudio.com/web/packages/fGarch/index.html), [fImport](http://cran.rstudio.com/web/packages/fImport/index.html), [fNonlinear](http://cran.rstudio.com/web/packages/fNonlinear/index.html), [fOptions](http://cran.rstudio.com/web/packages/fOptions/index.html), [timeSeries](http://cran.rstudio.com/web/packages/timeSeries/index.html) (formerly: fSeries), [fTrading](http://cran.rstudio.com/web/packages/fTrading/index.html), [fUnitRoots](http://cran.rstudio.com/web/packages/fUnitRoots/index.html) and contains a very large number of relevant functions for different aspect of empirical and computational finance.
+-   The Rmetrics suite of packages comprises [fArma](http://cran.rstudio.com/web/packages/fArma/index.html), [fAsianOptions](http://cran.rstudio.com/web/packages/fAsianOptions/index.html), [fAssets](http://cran.rstudio.com/web/packages/fAssets/index.html), [fBasics](http://cran.rstudio.com/web/packages/fBasics/index.html), [fBonds](http://cran.rstudio.com/web/packages/fBonds/index.html), [timeDate](http://cran.rstudio.com/web/packages/timeDate/index.html) (formerly: fCalendar), [fCopulae](http://cran.rstudio.com/web/packages/fCopulae/index.html), [fExoticOptions](http://cran.rstudio.com/web/packages/fExoticOptions/index.html), [fExtremes](http://cran.rstudio.com/web/packages/fExtremes/index.html), [fGarch](http://cran.rstudio.com/web/packages/fGarch/index.html), [fImport](http://cran.rstudio.com/web/packages/fImport/index.html), [fNonlinear](http://cran.rstudio.com/web/packages/fNonlinear/index.html), [fOptions](http://cran.rstudio.com/web/packages/fOptions/index.html), [fPortfolio](http://cran.rstudio.com/web/packages/fPortfolio/index.html), [fRegression](http://cran.rstudio.com/web/packages/fRegression/index.html), [timeSeries](http://cran.rstudio.com/web/packages/timeSeries/index.html) (formerly: fSeries), [fTrading](http://cran.rstudio.com/web/packages/fTrading/index.html), [fUnitRoots](http://cran.rstudio.com/web/packages/fUnitRoots/index.html) and contains a very large number of relevant functions for different aspect of empirical and computational finance.
 -   The [RQuantLib](http://cran.rstudio.com/web/packages/RQuantLib/index.html) package provides several option-pricing functions as well as some fixed-income functionality from the QuantLib project to R.
 -   The [quantmod](http://cran.rstudio.com/web/packages/quantmod/index.html) package offers a number of functions for quantitative modelling in finance as well as data acqusition, plotting and other utilities.
 -   The [portfolio](http://cran.rstudio.com/web/packages/portfolio/index.html) package contains classes for equity portfolio management; the [portfolioSim](http://cran.rstudio.com/web/packages/portfolioSim/index.html) builds a related simulation framework. The [backtest](http://cran.rstudio.com/web/packages/backtest/index.html) offers tools to explore portfolio-based hypotheses about financial instruments. The [stockPortfolio](http://cran.rstudio.com/web/packages/stockPortfolio/index.html) package provides functions for single index, constant correlation and multigroup models. The [pa](http://cran.rstudio.com/web/packages/pa/index.html) package offers performance attribution functionality for equity portfolios.
 -   The [PerformanceAnalytics](http://cran.rstudio.com/web/packages/PerformanceAnalytics/index.html) package contains a large number of functions for portfolio performance calculations and risk management.
 -   The [TTR](http://cran.rstudio.com/web/packages/TTR/index.html) contains functions to construct technical trading rules in R.
+-   The [financial](http://cran.rstudio.com/web/packages/financial/index.html) package can compute present values, cash flows and other simple finance calculations.
 -   The [sde](http://cran.rstudio.com/web/packages/sde/index.html) package provides simulation and inference functionality for stochastic differential equations.
 -   The [termstrc](http://cran.rstudio.com/web/packages/termstrc/index.html) and [YieldCurve](http://cran.rstudio.com/web/packages/YieldCurve/index.html) packages contain methods for the estimation of zero-coupon yield curves and spread curves based the parametric Nelson and Siegel (1987) method with the Svensson (1994) extension. The former package adds the McCulloch (1975) cubic splines approach, the latter package adds the Diebold and Li approach. The [SmithWilsonYieldCurve](http://cran.rstudio.com/web/packages/SmithWilsonYieldCurve/index.html) construct the yield curve using the Smith-Wilson approach based on LIBOR and SWAP rates.
 -   The [vrtest](http://cran.rstudio.com/web/packages/vrtest/index.html) package contains a number of variance ratio tests for the weak-form of the efficient markets hypothesis.
@@ -72,7 +83,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   Several packages provide functionality for Extreme Value Theory models: [evd](http://cran.rstudio.com/web/packages/evd/index.html), [evdbayes](http://cran.rstudio.com/web/packages/evdbayes/index.html), [evir](http://cran.rstudio.com/web/packages/evir/index.html), [extRemes](http://cran.rstudio.com/web/packages/extRemes/index.html), [ismev](http://cran.rstudio.com/web/packages/ismev/index.html).
 -   The packages [CreditMetrics](http://cran.rstudio.com/web/packages/CreditMetrics/index.html) and [crp.CSFP](http://cran.rstudio.com/web/packages/crp.CSFP/index.html) provide function for modelling credit risks.
 -   The [mvtnorm](http://cran.rstudio.com/web/packages/mvtnorm/index.html) package provides code for multivariate Normal and t-distributions.
--   The Rmetrics package [fExtremes](http://cran.rstudio.com/web/packages/fExtremes/index.html) also contain a number of relevant functions.
+-   The Rmetrics packages [fPortfolio](http://cran.rstudio.com/web/packages/fPortfolio/index.html) and [fExtremes](http://cran.rstudio.com/web/packages/fExtremes/index.html) also contain a number of relevant functions.
 -   The [copula](http://cran.rstudio.com/web/packages/copula/index.html) and [fgac](http://cran.rstudio.com/web/packages/fgac/index.html) packages cover multivariate dependency structures using copula methods.
 -   The [actuar](http://cran.rstudio.com/web/packages/actuar/index.html) package provides an actuarial perspective to risk management.
 -   The [ghyp](http://cran.rstudio.com/web/packages/ghyp/index.html) package provides generalized hyberbolic distribution functions as well as procedures for VaR, CVaR or target-return portfolio optimizations.
@@ -84,7 +95,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 
 **Books**
 
--   The [FinTS](http://cran.rstudio.com/web/packages/FinTS/index.html) package provides an R companion to Tsay (2005), *Analysis of Financial Time Series*, 2nd ed. Wiley, and includes data sets, functions and script files to work some of the examples.
+-   The [FinTS](http://cran.rstudio.com/web/packages/FinTS/index.html) package provides an R companion to Tsay (2005), *Analysis of Financial Time Series* , 2nd ed. Wiley, and includes data sets, functions and script files to work some of the examples.
 -   The [NMOF](http://cran.rstudio.com/web/packages/NMOF/index.html) package provides functions, examples and data from *Numerical Methods in Finance* by Manfred Gilli, Dietmar Maringer and Enrico Schumann (2011), including the different optimization heuristics such as Differential Evolution, Genetic Algorithms, Particle Swarms, and Threshold Accepting.
 
 **Data and date management**
@@ -93,8 +104,10 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [timeDate](http://cran.rstudio.com/web/packages/timeDate/index.html) also addresses calendar issues such as recurring holidays for a large number of financial centers, and provides code for high-frequency data sets.
 -   The [fame](http://cran.rstudio.com/web/packages/fame/index.html) package can access Fame time series databases (but also requires a Fame backend). The [tis](http://cran.rstudio.com/web/packages/tis/index.html) package provides time indices and time-indexed series compatible with Fame frequencies.
 -   The [TSdbi](http://cran.rstudio.com/web/packages/TSdbi/index.html) package provides a unifying interface for several time series data base backends, and its SQL implementations provide a database table design.
+-   The [IBrokers](http://cran.rstudio.com/web/packages/IBrokers/index.html) package provides access to the Interactive Brokers API for data access (but requires an account to access the service).
 -   The [data.table](http://cran.rstudio.com/web/packages/data.table/index.html) package provides very efficient and fast access to in-memory data sets such as asset prices.
 -   The [TFX](http://cran.rstudio.com/web/packages/TFX/index.html) package provides an interface to the TrueFX (TM) service for free streaming real-time and historical tick-by-tick market data for interbank foreign exchange rates at the millisecond resolution.
+-   The package [highfrequency](http://cran.rstudio.com/web/packages/highfrequency/index.html) contains functionality to manage, clean and match highfrequency trades and quotes data and enables users to calculate various liquidity measures, estimate and forecast volatility, and investigate microstructure noise and intraday periodicity.
 -   The [Rbitcoin](http://cran.rstudio.com/web/packages/Rbitcoin/index.html) package offers access to Bitcoin exchange APIs (mtgox, bitstamp, btce, kraken) via public and private API calls and integration of data structures for all markets.
 -   The [bizdays](http://cran.rstudio.com/web/packages/bizdays/index.html) package compute business days if provided a list of holidays.
 
@@ -131,20 +144,26 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [fame](http://cran.rstudio.com/web/packages/fame/index.html)
 -   [fArma](http://cran.rstudio.com/web/packages/fArma/index.html) (core)
 -   [fAsianOptions](http://cran.rstudio.com/web/packages/fAsianOptions/index.html) (core)
+-   [fAssets](http://cran.rstudio.com/web/packages/fAssets/index.html) (core)
 -   [fBasics](http://cran.rstudio.com/web/packages/fBasics/index.html) (core)
 -   [fBonds](http://cran.rstudio.com/web/packages/fBonds/index.html) (core)
+-   [fCopulae](http://cran.rstudio.com/web/packages/fCopulae/index.html) (core)
 -   [fExoticOptions](http://cran.rstudio.com/web/packages/fExoticOptions/index.html) (core)
 -   [fExtremes](http://cran.rstudio.com/web/packages/fExtremes/index.html) (core)
 -   [fgac](http://cran.rstudio.com/web/packages/fgac/index.html)
 -   [fGarch](http://cran.rstudio.com/web/packages/fGarch/index.html) (core)
 -   [fImport](http://cran.rstudio.com/web/packages/fImport/index.html) (core)
+-   [financial](http://cran.rstudio.com/web/packages/financial/index.html)
 -   [FinAsym](http://cran.rstudio.com/web/packages/FinAsym/index.html)
 -   [FinTS](http://cran.rstudio.com/web/packages/FinTS/index.html)
 -   [fMultivar](http://cran.rstudio.com/web/packages/fMultivar/index.html) (core)
 -   [fNonlinear](http://cran.rstudio.com/web/packages/fNonlinear/index.html) (core)
 -   [fOptions](http://cran.rstudio.com/web/packages/fOptions/index.html) (core)
 -   [forecast](http://cran.rstudio.com/web/packages/forecast/index.html)
+-   [fPortfolio](http://cran.rstudio.com/web/packages/fPortfolio/index.html) (core)
 -   [fracdiff](http://cran.rstudio.com/web/packages/fracdiff/index.html)
+-   [fractal](http://cran.rstudio.com/web/packages/fractal/index.html)
+-   [fRegression](http://cran.rstudio.com/web/packages/fRegression/index.html) (core)
 -   [frmqa](http://cran.rstudio.com/web/packages/frmqa/index.html)
 -   [fTrading](http://cran.rstudio.com/web/packages/fTrading/index.html) (core)
 -   [fUnitRoots](http://cran.rstudio.com/web/packages/fUnitRoots/index.html) (core)
@@ -154,6 +173,8 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [gmm](http://cran.rstudio.com/web/packages/gmm/index.html)
 -   [gogarch](http://cran.rstudio.com/web/packages/gogarch/index.html)
 -   [GUIDE](http://cran.rstudio.com/web/packages/GUIDE/index.html)
+-   [highfrequency](http://cran.rstudio.com/web/packages/highfrequency/index.html)
+-   [IBrokers](http://cran.rstudio.com/web/packages/IBrokers/index.html)
 -   [ismev](http://cran.rstudio.com/web/packages/ismev/index.html)
 -   [its](http://cran.rstudio.com/web/packages/its/index.html)
 -   [lgarch](http://cran.rstudio.com/web/packages/lgarch/index.html)
@@ -164,6 +185,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [maRketSim](http://cran.rstudio.com/web/packages/maRketSim/index.html)
 -   [markovchain](http://cran.rstudio.com/web/packages/markovchain/index.html)
 -   [MarkowitzR](http://cran.rstudio.com/web/packages/MarkowitzR/index.html)
+-   [MSBVAR](http://cran.rstudio.com/web/packages/MSBVAR/index.html)
 -   [mvtnorm](http://cran.rstudio.com/web/packages/mvtnorm/index.html)
 -   [nlme](http://cran.rstudio.com/web/packages/nlme/index.html)
 -   [NMOF](http://cran.rstudio.com/web/packages/NMOF/index.html)
