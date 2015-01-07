@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2014-12-22</version>
+  <version>2015-01-07</version>
   
   <info>
     <p>
@@ -90,8 +90,8 @@
           (multivariate) Conditional Correlation GARCH models whereas
           the <pkg>gogarch</pkg> package provides functions for
           generalized orthogonal GARCH models.  The
-          <pkg>AutoSEARCH</pkg> package provides automated
-          general-to-specific model selection of the mean and
+          <pkg>gets</pkg> package (which was preceded by a related package
+          AutoSEARCH) provides automated general-to-specific model selection of the mean and
           log-volatility of a log-ARCH-X model. The <pkg>GEVStableGarch</pkg>
           package can fit  ARMA-GARCH or ARMA-APARCH models with GEV and 
           stable conditional distributions. The <pkg>lgarch</pkg> package 
@@ -433,7 +433,6 @@
   <packagelist>
     <pkg>actuar</pkg>
     <pkg>AmericanCallOpt</pkg>
-    <pkg>AutoSEARCH</pkg>
     <pkg>backtest</pkg>
     <pkg>bayesGARCH</pkg>
     <pkg>BenfordTests</pkg>
@@ -487,6 +486,7 @@
     <pkg>frmqa</pkg>
     <pkg>GCPM</pkg> 
     <pkg>GEVStableGarch</pkg>
+    <pkg>gets</pkg>
     <pkg>ghyp</pkg>
     <pkg>gmm</pkg>
     <pkg>gogarch</pkg>
