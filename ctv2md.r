@@ -1,5 +1,8 @@
 #!/usr/bin/r
 ## if you do not have /usr/bin/r from littler, just use Rscript
+##
+## Copyright 2014 - 2015  Dirk Eddelbuettel
+## Released under GPL-2 or later
 
 ctv <- "Finance"
 
