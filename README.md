@@ -110,6 +110,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The package [highfrequency](http://cran.rstudio.com/web/packages/highfrequency/index.html) contains functionality to manage, clean and match highfrequency trades and quotes data and enables users to calculate various liquidity measures, estimate and forecast volatility, and investigate microstructure noise and intraday periodicity.
 -   The [Rbitcoin](http://cran.rstudio.com/web/packages/Rbitcoin/index.html) package offers access to Bitcoin exchange APIs (mtgox, bitstamp, btce, kraken) via public and private API calls and integration of data structures for all markets.
 -   The [bizdays](http://cran.rstudio.com/web/packages/bizdays/index.html) package compute business days if provided a list of holidays.
+-   The [TAQMNGR](http://cran.rstudio.com/web/packages/TAQMNGR/index.html) package manages tick-by-tick (equity) transaction data performing 'cleaning', 'aggregation' and 'import' where cleaning and aggregation are performed according to Brownlees and Gallo (2006).
 
 ### CRAN packages:
 
@@ -214,6 +215,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [stochvol](http://cran.rstudio.com/web/packages/stochvol/index.html)
 -   [stockPortfolio](http://cran.rstudio.com/web/packages/stockPortfolio/index.html)
 -   [strucchange](http://cran.rstudio.com/web/packages/strucchange/index.html)
+-   [TAQMNGR](http://cran.rstudio.com/web/packages/TAQMNGR/index.html)
 -   [tawny](http://cran.rstudio.com/web/packages/tawny/index.html)
 -   [termstrc](http://cran.rstudio.com/web/packages/termstrc/index.html)
 -   [TFX](http://cran.rstudio.com/web/packages/TFX/index.html)
