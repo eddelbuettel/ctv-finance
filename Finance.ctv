@@ -290,6 +290,12 @@
         efficient Monte Carlo algorithms for the price and the sensitivities
         of Asian and European Options under Geometric Brownian Motion. 
       </li>
+      <li>
+        The <pkg>matchingMarkets</pkg> package implements a structural
+        estimator to correct for the bias arising from endogenous matching
+        (e.g. group formation in microfinance or matching of firms and
+        venture capitalists). 
+      </li>
     </ul>
 
     <p>

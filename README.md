@@ -77,6 +77,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [egcm](http://cran.rstudio.com/web/packages/egcm/index.html) package implements the Engle-Granger two-stage cointegration modeling procedure with a particular focus on pairs trading.
 -   The [pbo](http://cran.rstudio.com/web/packages/pbo/index.html) package models the probability of backtest overfitting, performance degradation, probability of loss, and the stochastic dominance when analysing trading strategies.
 -   The [OptionPricing](http://cran.rstudio.com/web/packages/OptionPricing/index.html) package implements efficient Monte Carlo algorithms for the price and the sensitivities of Asian and European Options under Geometric Brownian Motion.
+-   The [matchingMarkets](http://cran.rstudio.com/web/packages/matchingMarkets/index.html) package implements a structural estimator to correct for the bias arising from endogenous matching (e.g. group formation in microfinance or matching of firms and venture capitalists).
 
 **Risk management**
 
