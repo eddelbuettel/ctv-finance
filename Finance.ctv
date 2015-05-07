@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2015-01-07</version>
+  <version>2015-05-07</version>
   
   <info>
     <p>
@@ -296,6 +296,10 @@
         (e.g. group formation in microfinance or matching of firms and
         venture capitalists). 
       </li>
+      <li>
+	The <pkg>QFRM</pkg> package implements another set of pricers for
+        vanilla and exotic option contracts.
+      </li>
     </ul>
 
     <p>
@@ -516,6 +520,7 @@
     <pkg>markovchain</pkg>
     <pkg>maRketSim</pkg>
     <pkg>MarkowitzR</pkg>
+    <pkg>matchingMarkets</pkg>
     <pkg>MSBVAR</pkg>
     <pkg>mvtnorm</pkg>
     <pkg>nlme</pkg>
@@ -529,6 +534,7 @@
     <pkg priority="core">PerformanceAnalytics</pkg>
     <pkg>portfolio</pkg>
     <pkg>portfolioSim</pkg>
+    <pkg>QFRM</pkg>
     <pkg>quantmod</pkg>
     <pkg>Rbitcoin</pkg>
     <pkg>Rcmdr</pkg>
