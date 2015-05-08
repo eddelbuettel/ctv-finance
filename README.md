@@ -78,7 +78,6 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [pbo](http://cran.rstudio.com/web/packages/pbo/index.html) package models the probability of backtest overfitting, performance degradation, probability of loss, and the stochastic dominance when analysing trading strategies.
 -   The [OptionPricing](http://cran.rstudio.com/web/packages/OptionPricing/index.html) package implements efficient Monte Carlo algorithms for the price and the sensitivities of Asian and European Options under Geometric Brownian Motion.
 -   The [matchingMarkets](http://cran.rstudio.com/web/packages/matchingMarkets/index.html) package implements a structural estimator to correct for the bias arising from endogenous matching (e.g. group formation in microfinance or matching of firms and venture capitalists).
--   The [QFRM](http://cran.rstudio.com/web/packages/QFRM/index.html) package implements another set of pricers for vanilla and exotic option contracts.
 
 **Risk management**
 
@@ -202,7 +201,6 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [PerformanceAnalytics](http://cran.rstudio.com/web/packages/PerformanceAnalytics/index.html) (core)
 -   [portfolio](http://cran.rstudio.com/web/packages/portfolio/index.html)
 -   [portfolioSim](http://cran.rstudio.com/web/packages/portfolioSim/index.html)
--   [QFRM](http://cran.rstudio.com/web/packages/QFRM/index.html)
 -   [quantmod](http://cran.rstudio.com/web/packages/quantmod/index.html)
 -   [Rbitcoin](http://cran.rstudio.com/web/packages/Rbitcoin/index.html)
 -   [Rcmdr](http://cran.rstudio.com/web/packages/Rcmdr/index.html)

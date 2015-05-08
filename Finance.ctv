@@ -296,10 +296,6 @@
         (e.g. group formation in microfinance or matching of firms and
         venture capitalists). 
       </li>
-      <li>
-	The <pkg>QFRM</pkg> package implements another set of pricers for
-        vanilla and exotic option contracts.
-      </li>
     </ul>
 
     <p>
@@ -534,7 +530,6 @@
     <pkg priority="core">PerformanceAnalytics</pkg>
     <pkg>portfolio</pkg>
     <pkg>portfolioSim</pkg>
-    <pkg>QFRM</pkg>
     <pkg>quantmod</pkg>
     <pkg>Rbitcoin</pkg>
     <pkg>Rcmdr</pkg>
