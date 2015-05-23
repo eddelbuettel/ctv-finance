@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2015-05-07</version>
+  <version>2015-05-23</version>
   
   <info>
     <p>
@@ -296,6 +296,10 @@
         (e.g. group formation in microfinance or matching of firms and
         venture capitalists). 
       </li>
+      <li>
+        The <pkg>restimizeapi</pkg> package interfaces the API at
+        www.estimize.com which provides crowd-sourced earnings estimates.
+      </li>
     </ul>
 
     <p>
@@ -533,6 +537,7 @@
     <pkg>quantmod</pkg>
     <pkg>Rbitcoin</pkg>
     <pkg>Rcmdr</pkg>
+    <pkg>restimizeapi</pkg>
     <pkg>riskSimul</pkg>
     <pkg>rmgarch</pkg> 
     <pkg>RND</pkg>
