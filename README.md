@@ -94,6 +94,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [ESG](http://cran.rstudio.com/web/packages/ESG/index.html) package can be used to model for asset projection, a scenario-based simulation approach.
 -   The [riskSimul](http://cran.rstudio.com/web/packages/riskSimul/index.html) package provides efficient simulation procedures to estimate tail loss probabilities and conditional excess for a stock portfolios where log-returns are assumed to follow a t-copula model with generalized hyperbolic or t marginals.
 -   The [GCPM](http://cran.rstudio.com/web/packages/GCPM/index.html) package anlyzes the default risk of credit portfolio using both analytical and simulation approaches.
+-   The [FatTailsR](http://cran.rstudio.com/web/packages/FatTailsR/index.html) package provides a family of four distributions tailored to distribution with symmetric and asymmetric fat tails.
 
 **Books**
 
@@ -147,6 +148,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [fArma](http://cran.rstudio.com/web/packages/fArma/index.html) (core)
 -   [fAsianOptions](http://cran.rstudio.com/web/packages/fAsianOptions/index.html) (core)
 -   [fAssets](http://cran.rstudio.com/web/packages/fAssets/index.html) (core)
+-   [FatTailsR](http://cran.rstudio.com/web/packages/FatTailsR/index.html)
 -   [fBasics](http://cran.rstudio.com/web/packages/fBasics/index.html) (core)
 -   [fBonds](http://cran.rstudio.com/web/packages/fBonds/index.html) (core)
 -   [fCopulae](http://cran.rstudio.com/web/packages/fCopulae/index.html) (core)

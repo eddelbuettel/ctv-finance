@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2015-05-23</version>
+  <version>2015-07-08</version>
   
   <info>
     <p>
@@ -355,6 +355,12 @@
 	  The <pkg>GCPM</pkg> package anlyzes the default risk of credit
           portfolio using both analytical and simulation approaches.
       </li>
+      <li>
+          The <pkg>FatTailsR</pkg> package provides a family of four
+          distributions tailored to distribution with symmetric and asymmetric
+          fat tails.
+      </li>
+
     </ul>
 
     <p>
@@ -476,6 +482,7 @@
     <pkg>evir</pkg>
     <pkg>extRemes</pkg>
     <pkg>fame</pkg>
+    <pkg>FatTailsR</pkg>
     <pkg>fgac</pkg>
     <pkg>financial</pkg>
     <pkg priority="core">fArma</pkg>
