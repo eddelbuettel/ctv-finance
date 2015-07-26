@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2015-07-08</version>
+  <version>2015-07-25</version>
   
   <info>
     <p>
@@ -300,6 +300,9 @@
         The <pkg>restimizeapi</pkg> package interfaces the API at
         www.estimize.com which provides crowd-sourced earnings estimates.
       </li>
+      <li> The <pkg>credule</pkg> package is another pricer for credit
+      default swaps.
+      </li>
     </ul>
 
     <p>
@@ -469,6 +472,7 @@
     <pkg>ChainLadder</pkg>
     <pkg>copula</pkg>
     <pkg>CreditMetrics</pkg>
+    <pkg>credule</pkg>
     <pkg>crp.CSFP</pkg>
     <pkg>data.table</pkg>
     <pkg>dlm</pkg>
