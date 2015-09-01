@@ -96,6 +96,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [riskSimul](http://cran.rstudio.com/web/packages/riskSimul/index.html) package provides efficient simulation procedures to estimate tail loss probabilities and conditional excess for a stock portfolios where log-returns are assumed to follow a t-copula model with generalized hyperbolic or t marginals.
 -   The [GCPM](http://cran.rstudio.com/web/packages/GCPM/index.html) package anlyzes the default risk of credit portfolio using both analytical and simulation approaches.
 -   The [FatTailsR](http://cran.rstudio.com/web/packages/FatTailsR/index.html) package provides a family of four distributions tailored to distribution with symmetric and asymmetric fat tails.
+-   The [Dowd](http://cran.rstudio.com/web/packages/Dowd/index.html) package contains functions ported from the 'MMR2' toolbox offered in Kevin Dowd's book "Measuring Market Risk".
 
 **Books**
 
@@ -137,6 +138,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [crp.CSFP](http://cran.rstudio.com/web/packages/crp.CSFP/index.html)
 -   [data.table](http://cran.rstudio.com/web/packages/data.table/index.html)
 -   [dlm](http://cran.rstudio.com/web/packages/dlm/index.html)
+-   [Dowd](http://cran.rstudio.com/web/packages/Dowd/index.html)
 -   [dse](http://cran.rstudio.com/web/packages/dse/index.html)
 -   [dyn](http://cran.rstudio.com/web/packages/dyn/index.html)
 -   [dynlm](http://cran.rstudio.com/web/packages/dynlm/index.html)

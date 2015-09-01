@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2015-07-25</version>
+  <version>2015-09-01</version>
   
   <info>
     <p>
@@ -363,6 +363,10 @@
           distributions tailored to distribution with symmetric and asymmetric
           fat tails.
       </li>
+      <li>
+        The <pkg>Dowd</pkg> package contains functions ported from the 'MMR2'
+        toolbox offered in Kevin Dowd's book "Measuring Market Risk".
+      </li>
 
     </ul>
 
@@ -476,6 +480,7 @@
     <pkg>crp.CSFP</pkg>
     <pkg>data.table</pkg>
     <pkg>dlm</pkg>
+    <pkg>Dowd</pkg>    
     <pkg>dse</pkg>
     <pkg>dyn</pkg>
     <pkg>dynlm</pkg>
