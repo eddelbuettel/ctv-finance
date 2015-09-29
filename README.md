@@ -80,6 +80,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [matchingMarkets](http://cran.rstudio.com/web/packages/matchingMarkets/index.html) package implements a structural estimator to correct for the bias arising from endogenous matching (e.g. group formation in microfinance or matching of firms and venture capitalists).
 -   The [restimizeapi](http://cran.rstudio.com/web/packages/restimizeapi/index.html) package interfaces the API at www.estimize.com which provides crowd-sourced earnings estimates.
 -   The [credule](http://cran.rstudio.com/web/packages/credule/index.html) package is another pricer for credit default swaps.
+-   The [covmat](http://cran.rstudio.com/web/packages/covmat/index.html) package provides several different methods for computing covariance matrices.
 
 **Risk management**
 
@@ -133,6 +134,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [ccgarch](http://cran.rstudio.com/web/packages/ccgarch/index.html)
 -   [ChainLadder](http://cran.rstudio.com/web/packages/ChainLadder/index.html)
 -   [copula](http://cran.rstudio.com/web/packages/copula/index.html)
+-   [covmat](http://cran.rstudio.com/web/packages/covmat/index.html)
 -   [CreditMetrics](http://cran.rstudio.com/web/packages/CreditMetrics/index.html)
 -   [credule](http://cran.rstudio.com/web/packages/credule/index.html)
 -   [crp.CSFP](http://cran.rstudio.com/web/packages/crp.CSFP/index.html)
