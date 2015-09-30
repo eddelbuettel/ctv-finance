@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2015-09-29</version>
+  <version>2015-09-30</version>
   
   <info>
     <p>
@@ -305,7 +305,10 @@
       </li>
       <li> The <pkg>covmat</pkg> package provides several different methods
       for computing covariance matrices.
-
+      </li>
+      <li> The <pkg>PortfolioEffectHFT</pkg> package provides portfolio
+      analysis suitable for intra-day and high-frequency data, and also interfaces the
+      PortfolioEffect service.
       </li>
     </ul>
 

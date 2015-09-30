@@ -81,6 +81,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [restimizeapi](http://cran.rstudio.com/web/packages/restimizeapi/index.html) package interfaces the API at www.estimize.com which provides crowd-sourced earnings estimates.
 -   The [credule](http://cran.rstudio.com/web/packages/credule/index.html) package is another pricer for credit default swaps.
 -   The [covmat](http://cran.rstudio.com/web/packages/covmat/index.html) package provides several different methods for computing covariance matrices.
+-   The [PortfolioEffectHFT](http://cran.rstudio.com/web/packages/PortfolioEffectHFT/index.html) package provides portfolio analysis suitable for intra-day and high-frequency data, and also interfaces the PortfolioEffect service.
 
 **Risk management**
 
