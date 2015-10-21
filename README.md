@@ -99,6 +99,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [GCPM](http://cran.rstudio.com/web/packages/GCPM/index.html) package anlyzes the default risk of credit portfolio using both analytical and simulation approaches.
 -   The [FatTailsR](http://cran.rstudio.com/web/packages/FatTailsR/index.html) package provides a family of four distributions tailored to distribution with symmetric and asymmetric fat tails.
 -   The [Dowd](http://cran.rstudio.com/web/packages/Dowd/index.html) package contains functions ported from the 'MMR2' toolbox offered in Kevin Dowd's book "Measuring Market Risk".
+-   The [PortRisk](http://cran.rstudio.com/web/packages/PortRisk/index.html) computes portfolio risk attribution.
 
 **Books**
 
@@ -211,6 +212,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [PerformanceAnalytics](http://cran.rstudio.com/web/packages/PerformanceAnalytics/index.html) (core)
 -   [portfolio](http://cran.rstudio.com/web/packages/portfolio/index.html)
 -   [portfolioSim](http://cran.rstudio.com/web/packages/portfolioSim/index.html)
+-   [PortRisk](http://cran.rstudio.com/web/packages/PortRisk/index.html)
 -   [quantmod](http://cran.rstudio.com/web/packages/quantmod/index.html)
 -   [Rbitcoin](http://cran.rstudio.com/web/packages/Rbitcoin/index.html)
 -   [Rcmdr](http://cran.rstudio.com/web/packages/Rcmdr/index.html)

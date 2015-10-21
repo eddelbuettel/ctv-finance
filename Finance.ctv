@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2015-09-30</version>
+  <version>2015-10-21</version>
   
   <info>
     <p>
@@ -374,6 +374,9 @@
         The <pkg>Dowd</pkg> package contains functions ported from the 'MMR2'
         toolbox offered in Kevin Dowd's book "Measuring Market Risk".
       </li>
+      <li>
+        The <pkg>PortRisk</pkg> computes portfolio risk attribution.
+      </li>
 
     </ul>
 
@@ -558,6 +561,7 @@
     <pkg priority="core">PerformanceAnalytics</pkg>
     <pkg>portfolio</pkg>
     <pkg>portfolioSim</pkg>
+    <pkg>PortRisk</pkg>
     <pkg>quantmod</pkg>
     <pkg>Rbitcoin</pkg>
     <pkg>Rcmdr</pkg>
