@@ -465,6 +465,12 @@
           'import' where cleaning and aggregation are performed
           according to Brownlees and Gallo (2006).
       </li>
+      <li>
+      	  The <pkg>Rblpapi</pkg> offers efficient access to the Bloomberg API
+          and allows <code>bdp</code>, <code>bdh</code>, and <code>bds</code>
+          queries as well as data retrieval both in (regular time-)bars and
+          ticks (albeit without subsecond resolution).
+      </li>
 
     </ul>
 
@@ -564,6 +570,7 @@
     <pkg>PortRisk</pkg>
     <pkg>quantmod</pkg>
     <pkg>Rbitcoin</pkg>
+    <pkg>Rblpapi</pkg>
     <pkg>Rcmdr</pkg>
     <pkg>restimizeapi</pkg>
     <pkg>riskSimul</pkg>

@@ -119,6 +119,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [Rbitcoin](http://cran.rstudio.com/web/packages/Rbitcoin/index.html) package offers access to Bitcoin exchange APIs (mtgox, bitstamp, btce, kraken) via public and private API calls and integration of data structures for all markets.
 -   The [bizdays](http://cran.rstudio.com/web/packages/bizdays/index.html) package compute business days if provided a list of holidays.
 -   The [TAQMNGR](http://cran.rstudio.com/web/packages/TAQMNGR/index.html) package manages tick-by-tick (equity) transaction data performing 'cleaning', 'aggregation' and 'import' where cleaning and aggregation are performed according to Brownlees and Gallo (2006).
+-   The [Rblpapi](http://cran.rstudio.com/web/packages/Rblpapi/index.html) offers efficient access to the Bloomberg API and allows `bdp`, `bdh`, and `bds` queries as well as data retrieval both in (regular time-)bars and ticks (albeit without subsecond resolution).
 
 ### CRAN packages:
 
@@ -215,6 +216,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [PortRisk](http://cran.rstudio.com/web/packages/PortRisk/index.html)
 -   [quantmod](http://cran.rstudio.com/web/packages/quantmod/index.html)
 -   [Rbitcoin](http://cran.rstudio.com/web/packages/Rbitcoin/index.html)
+-   [Rblpapi](http://cran.rstudio.com/web/packages/Rblpapi/index.html)
 -   [Rcmdr](http://cran.rstudio.com/web/packages/Rcmdr/index.html)
 -   [restimizeapi](http://cran.rstudio.com/web/packages/restimizeapi/index.html)
 -   [riskSimul](http://cran.rstudio.com/web/packages/riskSimul/index.html)
