@@ -394,6 +394,10 @@
 	 Enrico Schumann (2011), including the different optimization heuristics such as 
 	 Differential Evolution, Genetic Algorithms, Particle Swarms, and Threshold Accepting.
       </li>
+      <li>The <pkg>FRAPO</pkg> package provides data sets and code for the
+         book <em>Financial Risk Modelling and Portfolio Optimization with
+         R</em> by Bernhard Paff (2013). 
+      </li>
     </ul>
 
     <p>
