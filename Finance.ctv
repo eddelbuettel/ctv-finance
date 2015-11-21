@@ -624,7 +624,7 @@
     <view>TimeSeries</view>
     <a href="http://www.rmetrics.org">Rmetrics contains a wealth of R code for Finance</a>
     <a href="http://www.quantlib.org">Quantlib is a C++ library for quantitative finance</a>
-    <a href="http://findata.org/rbloomberg/">Access data from a Bloomberg installation in R</a>
+    <a href="http://www.bloomberglabs.com//">Documentation for the Bloomberg API accessed by <pkg>Rblpapi</pkg></a>
     <a href="https://stat.ethz.ch/mailman/listinfo/R-SIG-Finance/">Mailing list: R Special Interest Group Finance</a>
     <!-- <a href="http://www.russell.com/US/Indexes/US/index_values.asp">Russell indexes data</a> -->
     <a href="http://www.msci.com/">MSCI indexes data</a>

@@ -270,7 +270,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   CRAN Task View: [TimeSeries](TimeSeries.html)
 -   [Rmetrics contains a wealth of R code for Finance](http://www.rmetrics.org)
 -   [Quantlib is a C++ library for quantitative finance](http://www.quantlib.org)
--   [Access data from a Bloomberg installation in R](http://findata.org/rbloomberg/)
+-   [Documentation for the Bloomberg API accessed by](http://www.bloomberglabs.com//)[Rblpapi](http://cran.rstudio.com/web/packages/Rblpapi/index.html)
 -   [Mailing list: R Special Interest Group Finance](https://stat.ethz.ch/mailman/listinfo/R-SIG-Finance/)
 -   [MSCI indexes data](http://www.msci.com/)
 -   [French/Fama data](http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html)
