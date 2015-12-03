@@ -98,7 +98,6 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [riskSimul](http://cran.rstudio.com/web/packages/riskSimul/index.html) package provides efficient simulation procedures to estimate tail loss probabilities and conditional excess for a stock portfolios where log-returns are assumed to follow a t-copula model with generalized hyperbolic or t marginals.
 -   The [GCPM](http://cran.rstudio.com/web/packages/GCPM/index.html) package anlyzes the default risk of credit portfolio using both analytical and simulation approaches.
 -   The [FatTailsR](http://cran.rstudio.com/web/packages/FatTailsR/index.html) package provides a family of four distributions tailored to distribution with symmetric and asymmetric fat tails.
--   The [Dowd](http://cran.rstudio.com/web/packages/Dowd/index.html) package contains functions ported from the 'MMR2' toolbox offered in Kevin Dowd's book "Measuring Market Risk".
 -   The [PortRisk](http://cran.rstudio.com/web/packages/PortRisk/index.html) computes portfolio risk attribution.
 
 **Books**
@@ -144,7 +143,6 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [crp.CSFP](http://cran.rstudio.com/web/packages/crp.CSFP/index.html)
 -   [data.table](http://cran.rstudio.com/web/packages/data.table/index.html)
 -   [dlm](http://cran.rstudio.com/web/packages/dlm/index.html)
--   [Dowd](http://cran.rstudio.com/web/packages/Dowd/index.html)
 -   [dse](http://cran.rstudio.com/web/packages/dse/index.html)
 -   [dyn](http://cran.rstudio.com/web/packages/dyn/index.html)
 -   [dynlm](http://cran.rstudio.com/web/packages/dynlm/index.html)
@@ -271,13 +269,13 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   CRAN Task View: [TimeSeries](TimeSeries.html)
 -   [Rmetrics contains a wealth of R code for Finance](http://www.rmetrics.org)
 -   [Quantlib is a C++ library for quantitative finance](http://www.quantlib.org)
--   [Documentation for the Bloomberg API accessed by](http://www.bloomberglabs.com//)[Rblpapi](http://cran.rstudio.com/web/packages/Rblpapi/index.html)
+-   [Documentation for the Bloomberg API accessed by Rblpapi](http://www.bloomberglabs.com//)
 -   [Mailing list: R Special Interest Group Finance](https://stat.ethz.ch/mailman/listinfo/R-SIG-Finance/)
 -   [MSCI indexes data](http://www.msci.com/)
 -   [French/Fama data](http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html)
 -   [Wilshire indexes data](http://www.wilshire.com/Indexes/calculator/)
 -   [Rene Carmona](http://orfe.princeton.edu/~rcarmona/maindownload.html)
 -   [Eric Zivot](http://faculty.washington.edu/ezivot/splus.htm)
--   [R Code for Ruppert's 'Statistics and Finance'](http://faculty.tamucc.edu/ljin1/financeR/stat689-R.htm)
+-   [R Code for Ruppert's 'Statistics and Finance'](http://christopherggreen.github.io/RuppertStatisticsFinance2004/)
 -   [Guy Yollin](http://www.r-programming.org/papers)
 -   [GitHub repository for this Task View](https://github.com/eddelbuettel/ctv-finance)

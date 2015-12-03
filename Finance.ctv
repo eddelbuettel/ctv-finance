@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2015-11-21</version>
+  <version>2015-12-03</version>
   
   <info>
     <p>
@@ -371,10 +371,6 @@
           fat tails.
       </li>
       <li>
-        The <pkg>Dowd</pkg> package contains functions ported from the 'MMR2'
-        toolbox offered in Kevin Dowd's book "Measuring Market Risk".
-      </li>
-      <li>
         The <pkg>PortRisk</pkg> computes portfolio risk attribution.
       </li>
 
@@ -501,7 +497,6 @@
     <pkg>crp.CSFP</pkg>
     <pkg>data.table</pkg>
     <pkg>dlm</pkg>
-    <pkg>Dowd</pkg>    
     <pkg>dse</pkg>
     <pkg>dyn</pkg>
     <pkg>dynlm</pkg>
@@ -628,7 +623,7 @@
     <view>TimeSeries</view>
     <a href="http://www.rmetrics.org">Rmetrics contains a wealth of R code for Finance</a>
     <a href="http://www.quantlib.org">Quantlib is a C++ library for quantitative finance</a>
-    <a href="http://www.bloomberglabs.com//">Documentation for the Bloomberg API accessed by <pkg>Rblpapi</pkg></a>
+    <a href="http://www.bloomberglabs.com//">Documentation for the Bloomberg API accessed by Rblpapi</a>
     <a href="https://stat.ethz.ch/mailman/listinfo/R-SIG-Finance/">Mailing list: R Special Interest Group Finance</a>
     <!-- <a href="http://www.russell.com/US/Indexes/US/index_values.asp">Russell indexes data</a> -->
     <a href="http://www.msci.com/">MSCI indexes data</a>
@@ -637,7 +632,7 @@
     <!-- <a href="http://www.barra.com/Research/DownloadMonthlyReturns.aspx">Barra indexes data</a> -->
     <a href="http://orfe.princeton.edu/~rcarmona/maindownload.html">Rene Carmona</a>
     <a href="http://faculty.washington.edu/ezivot/splus.htm">Eric Zivot</a>
-    <a href="http://faculty.tamucc.edu/ljin1/financeR/stat689-R.htm">R Code for Ruppert's 'Statistics and Finance'</a>
+    <a href="http://christopherggreen.github.io/RuppertStatisticsFinance2004/">R Code for Ruppert's 'Statistics and Finance'</a>
     <!-- <a href="http://www.decisionsynergy.com/showPackageDownload.html">FinancePack and FractalPack</a> -->
     <a href="http://www.r-programming.org/papers">Guy Yollin</a>
     <a href="https://github.com/eddelbuettel/ctv-finance">GitHub repository for this Task View</a>
