@@ -532,6 +532,7 @@
     <pkg>forecast</pkg>
     <pkg>fracdiff</pkg>
     <pkg>fractal</pkg>
+    <pkg>FRAPO</pkg>
     <pkg>frmqa</pkg>
     <pkg>GCPM</pkg> 
     <pkg>GEVStableGarch</pkg>
@@ -565,6 +566,7 @@
     <pkg>pbo</pkg> 
     <pkg priority="core">PerformanceAnalytics</pkg>
     <pkg>portfolio</pkg>
+    <pkg>PortfolioEffectHFT</pkg>
     <pkg>portfolioSim</pkg>
     <pkg>PortRisk</pkg>
     <pkg>quantmod</pkg>
