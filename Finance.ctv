@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2015-12-03</version>
+  <version>2016-01-26</version>
   
   <info>
     <p>
@@ -310,6 +310,9 @@
       analysis suitable for intra-day and high-frequency data, and also interfaces the
       PortfolioEffect service.
       </li>
+      <li> The <pkg>obAnalytics</pkg> package analyses and visualizes
+      information from events in limit order book data.
+      </li>
     </ul>
 
     <p>
@@ -558,6 +561,7 @@
     <pkg>mvtnorm</pkg>
     <pkg>nlme</pkg>
     <pkg>NMOF</pkg>
+    <pkg>obAnalytics</pkg>
     <pkg>opefimor</pkg>
     <pkg>OptHedging</pkg>
     <pkg>OptionPricing</pkg>

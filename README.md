@@ -82,6 +82,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [credule](http://cran.rstudio.com/web/packages/credule/index.html) package is another pricer for credit default swaps.
 -   The [covmat](http://cran.rstudio.com/web/packages/covmat/index.html) package provides several different methods for computing covariance matrices.
 -   The [PortfolioEffectHFT](http://cran.rstudio.com/web/packages/PortfolioEffectHFT/index.html) package provides portfolio analysis suitable for intra-day and high-frequency data, and also interfaces the PortfolioEffect service.
+-   The [obAnalytics](http://cran.rstudio.com/web/packages/obAnalytics/index.html) package analyses and visualizes information from events in limit order book data.
 
 **Risk management**
 
@@ -204,6 +205,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [mvtnorm](http://cran.rstudio.com/web/packages/mvtnorm/index.html)
 -   [nlme](http://cran.rstudio.com/web/packages/nlme/index.html)
 -   [NMOF](http://cran.rstudio.com/web/packages/NMOF/index.html)
+-   [obAnalytics](http://cran.rstudio.com/web/packages/obAnalytics/index.html)
 -   [opefimor](http://cran.rstudio.com/web/packages/opefimor/index.html)
 -   [OptHedging](http://cran.rstudio.com/web/packages/OptHedging/index.html)
 -   [OptionPricing](http://cran.rstudio.com/web/packages/OptionPricing/index.html)
