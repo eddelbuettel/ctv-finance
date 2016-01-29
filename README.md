@@ -81,7 +81,6 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [restimizeapi](http://cran.rstudio.com/web/packages/restimizeapi/index.html) package interfaces the API at www.estimize.com which provides crowd-sourced earnings estimates.
 -   The [credule](http://cran.rstudio.com/web/packages/credule/index.html) package is another pricer for credit default swaps.
 -   The [covmat](http://cran.rstudio.com/web/packages/covmat/index.html) package provides several different methods for computing covariance matrices.
--   The [PortfolioEffectHFT](http://cran.rstudio.com/web/packages/PortfolioEffectHFT/index.html) package provides portfolio analysis suitable for intra-day and high-frequency data, and also interfaces the PortfolioEffect service.
 -   The [obAnalytics](http://cran.rstudio.com/web/packages/obAnalytics/index.html) package analyses and visualizes information from events in limit order book data.
 
 **Risk management**
@@ -214,7 +213,6 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [pbo](http://cran.rstudio.com/web/packages/pbo/index.html)
 -   [PerformanceAnalytics](http://cran.rstudio.com/web/packages/PerformanceAnalytics/index.html) (core)
 -   [portfolio](http://cran.rstudio.com/web/packages/portfolio/index.html)
--   [PortfolioEffectHFT](http://cran.rstudio.com/web/packages/PortfolioEffectHFT/index.html)
 -   [portfolioSim](http://cran.rstudio.com/web/packages/portfolioSim/index.html)
 -   [PortRisk](http://cran.rstudio.com/web/packages/PortRisk/index.html)
 -   [quantmod](http://cran.rstudio.com/web/packages/quantmod/index.html)

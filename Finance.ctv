@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2016-01-26</version>
+  <version>2016-01-27</version>
   
   <info>
     <p>
@@ -306,10 +306,6 @@
       <li> The <pkg>covmat</pkg> package provides several different methods
       for computing covariance matrices.
       </li>
-      <li> The <pkg>PortfolioEffectHFT</pkg> package provides portfolio
-      analysis suitable for intra-day and high-frequency data, and also interfaces the
-      PortfolioEffect service.
-      </li>
       <li> The <pkg>obAnalytics</pkg> package analyses and visualizes
       information from events in limit order book data.
       </li>
@@ -570,7 +566,6 @@
     <pkg>pbo</pkg> 
     <pkg priority="core">PerformanceAnalytics</pkg>
     <pkg>portfolio</pkg>
-    <pkg>PortfolioEffectHFT</pkg>
     <pkg>portfolioSim</pkg>
     <pkg>PortRisk</pkg>
     <pkg>quantmod</pkg>
