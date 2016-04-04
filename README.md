@@ -1,20 +1,10 @@
 CRAN Task View: Empirical Finance
 ---------------------------------
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td align="left"><strong>Maintainer:</strong>
-Dirk Eddelbuettel</td>
-<td align="left"><strong>Contact:</strong>
-Dirk.Eddelbuettel at R-project.org</td>
-</tr>
-</tbody>
-</table>
+|-----------------|------------------------------------  
+| **Maintainer:** | Dirk Eddelbuettel                    
+| **Contact:**    | Dirk.Eddelbuettel at R-project.org   
+| **Version:**    | 2016-04-03                           
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
 
@@ -119,7 +109,8 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [Rbitcoin](http://cran.rstudio.com/web/packages/Rbitcoin/index.html) package offers access to Bitcoin exchange APIs (mtgox, bitstamp, btce, kraken) via public and private API calls and integration of data structures for all markets.
 -   The [bizdays](http://cran.rstudio.com/web/packages/bizdays/index.html) package compute business days if provided a list of holidays.
 -   The [TAQMNGR](http://cran.rstudio.com/web/packages/TAQMNGR/index.html) package manages tick-by-tick (equity) transaction data performing 'cleaning', 'aggregation' and 'import' where cleaning and aggregation are performed according to Brownlees and Gallo (2006).
--   The [Rblpapi](http://cran.rstudio.com/web/packages/Rblpapi/index.html) offers efficient access to the Bloomberg API and allows `bdp`, `bdh`, and `bds` queries as well as data retrieval both in (regular time-)bars and ticks (albeit without subsecond resolution).
+-   The [Rblpapi](http://cran.rstudio.com/web/packages/Rblpapi/index.html) package offers efficient access to the Bloomberg API and allows `bdp`, `bdh`, and `bds` queries as well as data retrieval both in (regular time-)bars and ticks (albeit without subsecond resolution).
+-   The [finreportr](http://cran.rstudio.com/web/packages/finreportr/index.html) package can download reports from the SEC Edgar database, and relies on, inter alia, the [XBRL](http://cran.rstudio.com/web/packages/XBRL/index.html) package for parsing these reports.
 
 ### CRAN packages:
 
@@ -167,6 +158,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [fImport](http://cran.rstudio.com/web/packages/fImport/index.html) (core)
 -   [financial](http://cran.rstudio.com/web/packages/financial/index.html)
 -   [FinAsym](http://cran.rstudio.com/web/packages/FinAsym/index.html)
+-   [finreportr](http://cran.rstudio.com/web/packages/finreportr/index.html)
 -   [FinTS](http://cran.rstudio.com/web/packages/FinTS/index.html)
 -   [fMultivar](http://cran.rstudio.com/web/packages/fMultivar/index.html) (core)
 -   [fNonlinear](http://cran.rstudio.com/web/packages/fNonlinear/index.html) (core)
@@ -255,6 +247,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [wavelets](http://cran.rstudio.com/web/packages/wavelets/index.html)
 -   [waveslim](http://cran.rstudio.com/web/packages/waveslim/index.html)
 -   [wavethresh](http://cran.rstudio.com/web/packages/wavethresh/index.html)
+-   [XBRL](http://cran.rstudio.com/web/packages/XBRL/index.html)
 -   [xts](http://cran.rstudio.com/web/packages/xts/index.html) (core)
 -   [ycinterextra](http://cran.rstudio.com/web/packages/ycinterextra/index.html)
 -   [YieldCurve](http://cran.rstudio.com/web/packages/YieldCurve/index.html)

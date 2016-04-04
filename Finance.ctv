@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2016-01-27</version>
+  <version>2016-04-03</version>
   
   <info>
     <p>
@@ -465,10 +465,15 @@
           according to Brownlees and Gallo (2006).
       </li>
       <li>
-      	  The <pkg>Rblpapi</pkg> offers efficient access to the Bloomberg API
+      	  The <pkg>Rblpapi</pkg> package offers efficient access to the Bloomberg API
           and allows <code>bdp</code>, <code>bdh</code>, and <code>bds</code>
           queries as well as data retrieval both in (regular time-)bars and
           ticks (albeit without subsecond resolution).
+      </li>
+      <li>
+          The <pkg>finreportr</pkg> package can download reports from the SEC
+          Edgar database, and relies on, inter alia, the <pkg>XBRL</pkg>
+          package for parsing these reports.
       </li>
 
     </ul>
@@ -505,6 +510,7 @@
     <pkg>evdbayes</pkg>
     <pkg>evir</pkg>
     <pkg>extRemes</pkg>
+    <pkg>finreportr</pkg>
     <pkg>fame</pkg>
     <pkg>FatTailsR</pkg>
     <pkg>fgac</pkg>
@@ -610,6 +616,7 @@
     <pkg>wavethresh</pkg> 
     <pkg>ycinterextra</pkg>
     <pkg>YieldCurve</pkg>
+    <pkg>XBRL</pkg>
     <pkg priority="core">xts</pkg> 
     <pkg>Zelig</pkg>
     <pkg priority="core">zoo</pkg>    
