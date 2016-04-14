@@ -4,7 +4,7 @@ CRAN Task View: Empirical Finance
 |-----------------|------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                    
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org   
-| **Version:**    | 2016-04-03                           
+| **Version:**    | 2016-04-14                           
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
 
@@ -72,6 +72,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [credule](http://cran.rstudio.com/web/packages/credule/index.html) package is another pricer for credit default swaps.
 -   The [covmat](http://cran.rstudio.com/web/packages/covmat/index.html) package provides several different methods for computing covariance matrices.
 -   The [obAnalytics](http://cran.rstudio.com/web/packages/obAnalytics/index.html) package analyses and visualizes information from events in limit order book data.
+-   The [bootTimeInference](http://cran.rstudio.com/web/packages/bootTimeInference/index.html) package performs robust resampling tests for the difference in Sharpe ratios.
 
 **Risk management**
 
@@ -121,6 +122,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [BenfordTests](http://cran.rstudio.com/web/packages/BenfordTests/index.html)
 -   [betategarch](http://cran.rstudio.com/web/packages/betategarch/index.html)
 -   [bizdays](http://cran.rstudio.com/web/packages/bizdays/index.html)
+-   [bootTimeInference](http://cran.rstudio.com/web/packages/bootTimeInference/index.html)
 -   [BurStFin](http://cran.rstudio.com/web/packages/BurStFin/index.html)
 -   [BurStMisc](http://cran.rstudio.com/web/packages/BurStMisc/index.html)
 -   [CADFtest](http://cran.rstudio.com/web/packages/CADFtest/index.html)

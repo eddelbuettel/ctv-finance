@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2016-04-03</version>
+  <version>2016-04-14</version>
   
   <info>
     <p>
@@ -304,10 +304,13 @@
       default swaps.
       </li>
       <li> The <pkg>covmat</pkg> package provides several different methods
-      for computing covariance matrices.
+        for computing covariance matrices.
       </li>
       <li> The <pkg>obAnalytics</pkg> package analyses and visualizes
-      information from events in limit order book data.
+        information from events in limit order book data.
+      </li>
+      <li> The <pkg>bootTimeInference</pkg> package performs robust
+        resampling tests for the difference in Sharpe ratios.
       </li>
     </ul>
 
@@ -488,6 +491,7 @@
     <pkg>BenfordTests</pkg>
     <pkg>betategarch</pkg>
     <pkg>bizdays</pkg>
+    <pkg>bootTimeInference</pkg>    
     <pkg>BurStFin</pkg>
     <pkg>BurStMisc</pkg>
     <pkg>CADFtest</pkg>
