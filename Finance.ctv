@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2016-04-14</version>
+  <version>2016-05-09</version>
   
   <info>
     <p>
@@ -312,6 +312,11 @@
       <li> The <pkg>bootTimeInference</pkg> package performs robust
         resampling tests for the difference in Sharpe ratios.
       </li>
+      <li> The <pkg>derivmkts</pkg> package adds a set of pricing and
+      expository functions useful in teaching derivatives markets..
+      </li>
+      
+      
     </ul>
 
     <p>
@@ -504,6 +509,7 @@
     <pkg>credule</pkg>
     <pkg>crp.CSFP</pkg>
     <pkg>data.table</pkg>
+    <pkg>derivmkts</pkg>    
     <pkg>dlm</pkg>
     <pkg>dse</pkg>
     <pkg>dyn</pkg>

@@ -4,7 +4,7 @@ CRAN Task View: Empirical Finance
 |-----------------|------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                    
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org   
-| **Version:**    | 2016-04-14                           
+| **Version:**    | 2016-05-09                           
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
 
@@ -73,6 +73,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [covmat](http://cran.rstudio.com/web/packages/covmat/index.html) package provides several different methods for computing covariance matrices.
 -   The [obAnalytics](http://cran.rstudio.com/web/packages/obAnalytics/index.html) package analyses and visualizes information from events in limit order book data.
 -   The [bootTimeInference](http://cran.rstudio.com/web/packages/bootTimeInference/index.html) package performs robust resampling tests for the difference in Sharpe ratios.
+-   The [derivmkts](http://cran.rstudio.com/web/packages/derivmkts/index.html) package adds a set of pricing and expository functions useful in teaching derivatives markets..
 
 **Risk management**
 
@@ -135,6 +136,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [credule](http://cran.rstudio.com/web/packages/credule/index.html)
 -   [crp.CSFP](http://cran.rstudio.com/web/packages/crp.CSFP/index.html)
 -   [data.table](http://cran.rstudio.com/web/packages/data.table/index.html)
+-   [derivmkts](http://cran.rstudio.com/web/packages/derivmkts/index.html)
 -   [dlm](http://cran.rstudio.com/web/packages/dlm/index.html)
 -   [dse](http://cran.rstudio.com/web/packages/dse/index.html)
 -   [dyn](http://cran.rstudio.com/web/packages/dyn/index.html)
