@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2016-05-09</version>
+  <version>2016-08-25</version>
   
   <info>
     <p>
@@ -315,8 +315,10 @@
       <li> The <pkg>derivmkts</pkg> package adds a set of pricing and
       expository functions useful in teaching derivatives markets..
       </li>
-      
-      
+      <li> The <pkg>PortfolioEffectHFT</pkg> package provides portfolio
+      analysis suitable for intra-day and high-frequency data, and also interfaces the
+      PortfolioEffect service.
+      </li>
     </ul>
 
     <p>
@@ -376,6 +378,10 @@
           The <pkg>FatTailsR</pkg> package provides a family of four
           distributions tailored to distribution with symmetric and asymmetric
           fat tails.
+      </li>
+      <li>
+        The <pkg>Dowd</pkg> package contains functions ported from the 'MMR2'
+        toolbox offered in Kevin Dowd's book "Measuring Market Risk".
       </li>
       <li>
         The <pkg>PortRisk</pkg> computes portfolio risk attribution.
@@ -484,6 +490,15 @@
           package for parsing these reports.
       </li>
 
+      <li>
+          The <pkg>GetTDData</pkg> package imports Brazilian government
+          bonds data (such as LTN, NTN-B and LFT ) from the Tesouro Direto website.
+          The <pkg>GetHFData</pkg> package downloads and aggregates tick-by-tick
+          trade data for equity and derivatives markets in Brazil.
+      </li>
+
+
+      
     </ul>
 
   </info>
@@ -511,6 +526,7 @@
     <pkg>data.table</pkg>
     <pkg>derivmkts</pkg>    
     <pkg>dlm</pkg>
+    <pkg>Dowd</pkg>    
     <pkg>dse</pkg>
     <pkg>dyn</pkg>
     <pkg>dynlm</pkg>
@@ -550,8 +566,10 @@
     <pkg>FRAPO</pkg>
     <pkg>frmqa</pkg>
     <pkg>GCPM</pkg> 
-    <pkg>GEVStableGarch</pkg>
+    <pkg>GetHFData</pkg>
     <pkg>gets</pkg>
+    <pkg>GetTDData</pkg>
+    <pkg>GEVStableGarch</pkg>
     <pkg>ghyp</pkg>
     <pkg>gmm</pkg>
     <pkg>gogarch</pkg>
@@ -582,6 +600,7 @@
     <pkg>pbo</pkg> 
     <pkg priority="core">PerformanceAnalytics</pkg>
     <pkg>portfolio</pkg>
+    <pkg>PortfolioEffectHFT</pkg>
     <pkg>portfolioSim</pkg>
     <pkg>PortRisk</pkg>
     <pkg>quantmod</pkg>

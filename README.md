@@ -5,7 +5,7 @@ CRAN Task View: Empirical Finance
 |-----------------|------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                    
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org   
-| **Version:**    | 2016-05-09                           
+| **Version:**    | 2016-08-25                           
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
 
@@ -75,6 +75,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [obAnalytics](https://cloud.r-project.org/web/packages/obAnalytics/index.html) package analyses and visualizes information from events in limit order book data.
 -   The [bootTimeInference](https://cloud.r-project.org/web/packages/bootTimeInference/index.html) package performs robust resampling tests for the difference in Sharpe ratios.
 -   The [derivmkts](https://cloud.r-project.org/web/packages/derivmkts/index.html) package adds a set of pricing and expository functions useful in teaching derivatives markets..
+-   The [PortfolioEffectHFT](https://cloud.r-project.org/web/packages/PortfolioEffectHFT/index.html) package provides portfolio analysis suitable for intra-day and high-frequency data, and also interfaces the PortfolioEffect service.
 
 **Risk management**
 
@@ -91,6 +92,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [riskSimul](https://cloud.r-project.org/web/packages/riskSimul/index.html) package provides efficient simulation procedures to estimate tail loss probabilities and conditional excess for a stock portfolios where log-returns are assumed to follow a t-copula model with generalized hyperbolic or t marginals.
 -   The [GCPM](https://cloud.r-project.org/web/packages/GCPM/index.html) package anlyzes the default risk of credit portfolio using both analytical and simulation approaches.
 -   The [FatTailsR](https://cloud.r-project.org/web/packages/FatTailsR/index.html) package provides a family of four distributions tailored to distribution with symmetric and asymmetric fat tails.
+-   The [Dowd](https://cloud.r-project.org/web/packages/Dowd/index.html) package contains functions ported from the 'MMR2' toolbox offered in Kevin Dowd's book "Measuring Market Risk".
 -   The [PortRisk](https://cloud.r-project.org/web/packages/PortRisk/index.html) computes portfolio risk attribution.
 
 **Books**
@@ -114,6 +116,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [TAQMNGR](https://cloud.r-project.org/web/packages/TAQMNGR/index.html) package manages tick-by-tick (equity) transaction data performing 'cleaning', 'aggregation' and 'import' where cleaning and aggregation are performed according to Brownlees and Gallo (2006).
 -   The [Rblpapi](https://cloud.r-project.org/web/packages/Rblpapi/index.html) package offers efficient access to the Bloomberg API and allows `bdp`, `bdh`, and `bds` queries as well as data retrieval both in (regular time-)bars and ticks (albeit without subsecond resolution).
 -   The [finreportr](https://cloud.r-project.org/web/packages/finreportr/index.html) package can download reports from the SEC Edgar database, and relies on, inter alia, the [XBRL](https://cloud.r-project.org/web/packages/XBRL/index.html) package for parsing these reports.
+-   The [GetTDData](https://cloud.r-project.org/web/packages/GetTDData/index.html) package imports Brazilian government bonds data (such as LTN, NTN-B and LFT ) from the Tesouro Direto website. The [GetHFData](https://cloud.r-project.org/web/packages/GetHFData/index.html) package downloads and aggregates tick-by-tick trade data for equity and derivatives markets in Brazil.
 
 ### CRAN packages:
 
@@ -139,6 +142,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [data.table](https://cloud.r-project.org/web/packages/data.table/index.html)
 -   [derivmkts](https://cloud.r-project.org/web/packages/derivmkts/index.html)
 -   [dlm](https://cloud.r-project.org/web/packages/dlm/index.html)
+-   [Dowd](https://cloud.r-project.org/web/packages/Dowd/index.html)
 -   [dse](https://cloud.r-project.org/web/packages/dse/index.html)
 -   [dyn](https://cloud.r-project.org/web/packages/dyn/index.html)
 -   [dynlm](https://cloud.r-project.org/web/packages/dynlm/index.html)
@@ -178,7 +182,9 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [fTrading](https://cloud.r-project.org/web/packages/fTrading/index.html) (core)
 -   [fUnitRoots](https://cloud.r-project.org/web/packages/fUnitRoots/index.html) (core)
 -   [GCPM](https://cloud.r-project.org/web/packages/GCPM/index.html)
+-   [GetHFData](https://cloud.r-project.org/web/packages/GetHFData/index.html)
 -   [gets](https://cloud.r-project.org/web/packages/gets/index.html)
+-   [GetTDData](https://cloud.r-project.org/web/packages/GetTDData/index.html)
 -   [GEVStableGarch](https://cloud.r-project.org/web/packages/GEVStableGarch/index.html)
 -   [ghyp](https://cloud.r-project.org/web/packages/ghyp/index.html)
 -   [gmm](https://cloud.r-project.org/web/packages/gmm/index.html)
@@ -210,6 +216,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [pbo](https://cloud.r-project.org/web/packages/pbo/index.html)
 -   [PerformanceAnalytics](https://cloud.r-project.org/web/packages/PerformanceAnalytics/index.html) (core)
 -   [portfolio](https://cloud.r-project.org/web/packages/portfolio/index.html)
+-   [PortfolioEffectHFT](https://cloud.r-project.org/web/packages/PortfolioEffectHFT/index.html)
 -   [portfolioSim](https://cloud.r-project.org/web/packages/portfolioSim/index.html)
 -   [PortRisk](https://cloud.r-project.org/web/packages/PortRisk/index.html)
 -   [quantmod](https://cloud.r-project.org/web/packages/quantmod/index.html)
