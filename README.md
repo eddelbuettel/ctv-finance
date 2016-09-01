@@ -5,7 +5,7 @@ CRAN Task View: Empirical Finance
 |-----------------|------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                    
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org   
-| **Version:**    | 2016-08-25                           
+| **Version:**    | 2016-09-01                           
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
 
@@ -32,7 +32,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   Several packages provide wavelet analysis functionality: [rwt](https://cloud.r-project.org/web/packages/rwt/index.html), [wavelets](https://cloud.r-project.org/web/packages/wavelets/index.html), [waveslim](https://cloud.r-project.org/web/packages/waveslim/index.html), [wavethresh](https://cloud.r-project.org/web/packages/wavethresh/index.html). Some methods from chaos theory are provided by the package [tseriesChaos](https://cloud.r-project.org/web/packages/tseriesChaos/index.html). [tsDyn](https://cloud.r-project.org/web/packages/tsDyn/index.html) adds time series analysis based on dynamical systems therory.
 -   The [forecast](https://cloud.r-project.org/web/packages/forecast/index.html) package adds functions for forecasting problems.
 -   The [tsfa](https://cloud.r-project.org/web/packages/tsfa/index.html) package provides functions for time series factor analysis.
--   The [stochvol](https://cloud.r-project.org/web/packages/stochvol/index.html) package implements Bayesian estimation of stochastic volatility using Markov Chain Monte Carlo.
+-   The [stochvol](https://cloud.r-project.org/web/packages/stochvol/index.html) package implements Bayesian estimation of stochastic volatility using Markov Chain Monte Carlo, and [factorstockvol](https://cloud.r-project.org/web/packages/factorstockvol/index.html) extends this to the multivariate case.
 
 **Finance**
 
@@ -152,6 +152,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [evdbayes](https://cloud.r-project.org/web/packages/evdbayes/index.html)
 -   [evir](https://cloud.r-project.org/web/packages/evir/index.html)
 -   [extRemes](https://cloud.r-project.org/web/packages/extRemes/index.html)
+-   [factorstockvol](https://cloud.r-project.org/web/packages/factorstockvol/index.html)
 -   [fame](https://cloud.r-project.org/web/packages/fame/index.html)
 -   [fArma](https://cloud.r-project.org/web/packages/fArma/index.html) (core)
 -   [fAsianOptions](https://cloud.r-project.org/web/packages/fAsianOptions/index.html) (core)
