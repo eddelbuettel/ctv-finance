@@ -137,7 +137,7 @@
       <li>
 	  The <pkg>stochvol</pkg> package implements Bayesian
 	  estimation of stochastic volatility using Markov Chain Monte
-	  Carlo, and <pkg>factorstockvol</pkg> extends this to the
+	  Carlo, and <pkg>factorstochvol</pkg> extends this to the
           multivariate case. 
       </li> 
     </ul>
@@ -537,7 +537,7 @@
     <pkg>evdbayes</pkg>
     <pkg>evir</pkg>
     <pkg>extRemes</pkg>
-    <pkg>factorstockvol</pkg>    
+    <pkg>factorstochvol</pkg>    
     <pkg>finreportr</pkg>
     <pkg>fame</pkg>
     <pkg>FatTailsR</pkg>
