@@ -5,7 +5,7 @@ CRAN Task View: Empirical Finance
 |-----------------|------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                    
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org   
-| **Version:**    | 2016-09-01                           
+| **Version:**    | 2016-09-19                           
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
 
@@ -229,7 +229,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [rmgarch](https://cloud.r-project.org/web/packages/rmgarch/index.html)
 -   [RND](https://cloud.r-project.org/web/packages/RND/index.html)
 -   [RQuantLib](https://cloud.r-project.org/web/packages/RQuantLib/index.html)
--   [rugarch](https://cloud.r-project.org/web/packages/rugarch/index.html)
+-   [rugarch](https://cloud.r-project.org/web/packages/rugarch/index.html) (core)
 -   [rwt](https://cloud.r-project.org/web/packages/rwt/index.html)
 -   [sandwich](https://cloud.r-project.org/web/packages/sandwich/index.html)
 -   [sde](https://cloud.r-project.org/web/packages/sde/index.html)
