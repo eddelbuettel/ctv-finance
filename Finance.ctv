@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2016-09-19</version>
+  <version>2016-10-14</version>
   
   <info>
     <p>
@@ -139,6 +139,10 @@
 	  estimation of stochastic volatility using Markov Chain Monte
 	  Carlo, and <pkg>factorstochvol</pkg> extends this to the
           multivariate case. 
+      </li> 
+      <li>
+	  The <pkg>MSGARCH</pkg> package adds methods to fit (by Maximum Likelihood
+          or Bayesian), simulate, and forecast various Markov-Switching GARCH processes. 
       </li> 
     </ul>
 
@@ -319,6 +323,15 @@
       <li> The <pkg>PortfolioEffectHFT</pkg> package provides portfolio
       analysis suitable for intra-day and high-frequency data, and also interfaces the
       PortfolioEffect service.
+      </li>
+      <li> The <pkg>ragtop</pkg> prices equity derivatives under an extension
+      to Black and Scholes supporting default under a power-law link price
+      and hazard rate.
+      </li>
+      <li> The <pkg>sharpeRratio</pkg> adds moment-free estimation of Sharpe ratios.
+      </li>
+      <li> The <pkg>QuantTools</pkg> offers enhanced quantitative trading
+        and modeling tools.
       </li>
     </ul>
 
@@ -590,6 +603,7 @@
     <pkg>MarkowitzR</pkg>
     <pkg>matchingMarkets</pkg>
     <pkg>MSBVAR</pkg>
+    <pkg>MSGARCH</pkg>
     <pkg>mvtnorm</pkg>
     <pkg>nlme</pkg>
     <pkg>NMOF</pkg>
@@ -606,6 +620,8 @@
     <pkg>portfolioSim</pkg>
     <pkg>PortRisk</pkg>
     <pkg>quantmod</pkg>
+    <pkg>QuantTools</pkg>
+    <pkg>ragtop</pkg>
     <pkg>Rbitcoin</pkg>
     <pkg>Rblpapi</pkg>
     <pkg>Rcmdr</pkg>
@@ -619,6 +635,7 @@
     <pkg>sandwich</pkg>
     <pkg>sde</pkg>
     <pkg>SharpeR</pkg>
+    <pkg>sharpeRratio</pkg>
     <pkg>SmithWilsonYieldCurve</pkg>
     <pkg>stochvol</pkg>
     <pkg>stockPortfolio</pkg>    

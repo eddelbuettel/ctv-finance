@@ -1,11 +1,12 @@
 CRAN Task View: Empirical Finance
 ---------------------------------
 
-|                 |                                      
-|-----------------|------------------------------------  
-| **Maintainer:** | Dirk Eddelbuettel                    
-| **Contact:**    | Dirk.Eddelbuettel at R-project.org   
-| **Version:**    | 2016-09-19                           
+|                 |                                             
+|-----------------|-------------------------------------------  
+| **Maintainer:** | Dirk Eddelbuettel                           
+| **Contact:**    | Dirk.Eddelbuettel at R-project.org          
+| **Version:**    | 2016-10-14                                  
+| **URL:**        | <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
 
@@ -33,6 +34,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [forecast](https://cloud.r-project.org/web/packages/forecast/index.html) package adds functions for forecasting problems.
 -   The [tsfa](https://cloud.r-project.org/web/packages/tsfa/index.html) package provides functions for time series factor analysis.
 -   The [stochvol](https://cloud.r-project.org/web/packages/stochvol/index.html) package implements Bayesian estimation of stochastic volatility using Markov Chain Monte Carlo, and [factorstochvol](https://cloud.r-project.org/web/packages/factorstochvol/index.html) extends this to the multivariate case.
+-   The [MSGARCH](https://cloud.r-project.org/web/packages/MSGARCH/index.html) package adds methods to fit (by Maximum Likelihood or Bayesian), simulate, and forecast various Markov-Switching GARCH processes.
 
 **Finance**
 
@@ -76,6 +78,9 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [bootTimeInference](https://cloud.r-project.org/web/packages/bootTimeInference/index.html) package performs robust resampling tests for the difference in Sharpe ratios.
 -   The [derivmkts](https://cloud.r-project.org/web/packages/derivmkts/index.html) package adds a set of pricing and expository functions useful in teaching derivatives markets..
 -   The [PortfolioEffectHFT](https://cloud.r-project.org/web/packages/PortfolioEffectHFT/index.html) package provides portfolio analysis suitable for intra-day and high-frequency data, and also interfaces the PortfolioEffect service.
+-   The [ragtop](https://cloud.r-project.org/web/packages/ragtop/index.html) prices equity derivatives under an extension to Black and Scholes supporting default under a power-law link price and hazard rate.
+-   The [sharpeRratio](https://cloud.r-project.org/web/packages/sharpeRratio/index.html) adds moment-free estimation of Sharpe ratios.
+-   The [QuantTools](https://cloud.r-project.org/web/packages/QuantTools/index.html) offers enhanced quantitative trading and modeling tools.
 
 **Risk management**
 
@@ -205,6 +210,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [MarkowitzR](https://cloud.r-project.org/web/packages/MarkowitzR/index.html)
 -   [matchingMarkets](https://cloud.r-project.org/web/packages/matchingMarkets/index.html)
 -   [MSBVAR](https://cloud.r-project.org/web/packages/MSBVAR/index.html)
+-   [MSGARCH](https://cloud.r-project.org/web/packages/MSGARCH/index.html)
 -   [mvtnorm](https://cloud.r-project.org/web/packages/mvtnorm/index.html)
 -   [nlme](https://cloud.r-project.org/web/packages/nlme/index.html)
 -   [NMOF](https://cloud.r-project.org/web/packages/NMOF/index.html)
@@ -221,6 +227,8 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [portfolioSim](https://cloud.r-project.org/web/packages/portfolioSim/index.html)
 -   [PortRisk](https://cloud.r-project.org/web/packages/PortRisk/index.html)
 -   [quantmod](https://cloud.r-project.org/web/packages/quantmod/index.html)
+-   [QuantTools](https://cloud.r-project.org/web/packages/QuantTools/index.html)
+-   [ragtop](https://cloud.r-project.org/web/packages/ragtop/index.html)
 -   [Rbitcoin](https://cloud.r-project.org/web/packages/Rbitcoin/index.html)
 -   [Rblpapi](https://cloud.r-project.org/web/packages/Rblpapi/index.html)
 -   [Rcmdr](https://cloud.r-project.org/web/packages/Rcmdr/index.html)
@@ -234,6 +242,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [sandwich](https://cloud.r-project.org/web/packages/sandwich/index.html)
 -   [sde](https://cloud.r-project.org/web/packages/sde/index.html)
 -   [SharpeR](https://cloud.r-project.org/web/packages/SharpeR/index.html)
+-   [sharpeRratio](https://cloud.r-project.org/web/packages/sharpeRratio/index.html)
 -   [SmithWilsonYieldCurve](https://cloud.r-project.org/web/packages/SmithWilsonYieldCurve/index.html)
 -   [stochvol](https://cloud.r-project.org/web/packages/stochvol/index.html)
 -   [stockPortfolio](https://cloud.r-project.org/web/packages/stockPortfolio/index.html)
