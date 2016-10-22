@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2016-10-14</version>
+  <version>2016-10-22</version>
   
   <info>
     <p>
@@ -339,12 +339,11 @@
     <strong>Risk management</strong>
     </p>
     <ul>
-      <li>Several packages provide functionality for 
-          Extreme Value Theory models: <pkg>evd</pkg>, <pkg>evdbayes</pkg>, 
-          <pkg>evir</pkg>, <pkg>extRemes</pkg>, <pkg>ismev</pkg>.
+      <li>
+         The Task View <view>ExtremeValueTheory</view> regroups a number of relevant packages.
       </li>
       <li>
-	The packages <pkg>CreditMetrics</pkg> and <pkg>crp.CSFP</pkg> provide function for modelling credit risks.
+ 	 The packages <pkg>CreditMetrics</pkg> and <pkg>crp.CSFP</pkg> provide function for modelling credit risks.
       </li>
       <li>
           The <pkg>mvtnorm</pkg> 
@@ -546,10 +545,6 @@
     <pkg>dynlm</pkg>
     <pkg>egcm</pkg>
     <pkg>ESG</pkg>
-    <pkg>evd</pkg>
-    <pkg>evdbayes</pkg>
-    <pkg>evir</pkg>
-    <pkg>extRemes</pkg>
     <pkg>factorstochvol</pkg>    
     <pkg>finreportr</pkg>
     <pkg>fame</pkg>
@@ -591,7 +586,6 @@
     <pkg>GUIDE</pkg>
     <pkg>highfrequency</pkg>
     <pkg>IBrokers</pkg>
-    <pkg>ismev</pkg>
     <pkg>its</pkg>    
     <pkg>lgarch</pkg>
     <pkg>lifecontingencies</pkg>
@@ -672,6 +666,7 @@
 
   <links>
     <view>Econometrics</view>
+    <view>ExtremeValueTheory</view>
     <view>Multivariate</view>
     <view>Optimization</view>
     <view>Robust</view>

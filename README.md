@@ -5,7 +5,7 @@ CRAN Task View: Empirical Finance
 |-----------------|-------------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                           
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org          
-| **Version:**    | 2016-10-14                                  
+| **Version:**    | 2016-10-22                                  
 | **URL:**        | <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
@@ -84,7 +84,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 
 **Risk management**
 
--   Several packages provide functionality for Extreme Value Theory models: [evd](https://cloud.r-project.org/web/packages/evd/index.html), [evdbayes](https://cloud.r-project.org/web/packages/evdbayes/index.html), [evir](https://cloud.r-project.org/web/packages/evir/index.html), [extRemes](https://cloud.r-project.org/web/packages/extRemes/index.html), [ismev](https://cloud.r-project.org/web/packages/ismev/index.html).
+-   The Task View [ExtremeValueTheory](https://cloud.r-project.org/web/views/ExtremeValueTheory.html) regroups a number of relevant packages.
 -   The packages [CreditMetrics](https://cloud.r-project.org/web/packages/CreditMetrics/index.html) and [crp.CSFP](https://cloud.r-project.org/web/packages/crp.CSFP/index.html) provide function for modelling credit risks.
 -   The [mvtnorm](https://cloud.r-project.org/web/packages/mvtnorm/index.html) package provides code for multivariate Normal and t-distributions.
 -   The Rmetrics packages [fPortfolio](https://cloud.r-project.org/web/packages/fPortfolio/index.html) and [fExtremes](https://cloud.r-project.org/web/packages/fExtremes/index.html) also contain a number of relevant functions.
@@ -153,10 +153,6 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [dynlm](https://cloud.r-project.org/web/packages/dynlm/index.html)
 -   [egcm](https://cloud.r-project.org/web/packages/egcm/index.html)
 -   [ESG](https://cloud.r-project.org/web/packages/ESG/index.html)
--   [evd](https://cloud.r-project.org/web/packages/evd/index.html)
--   [evdbayes](https://cloud.r-project.org/web/packages/evdbayes/index.html)
--   [evir](https://cloud.r-project.org/web/packages/evir/index.html)
--   [extRemes](https://cloud.r-project.org/web/packages/extRemes/index.html)
 -   [factorstochvol](https://cloud.r-project.org/web/packages/factorstochvol/index.html)
 -   [fame](https://cloud.r-project.org/web/packages/fame/index.html)
 -   [fArma](https://cloud.r-project.org/web/packages/fArma/index.html) (core)
@@ -198,7 +194,6 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [GUIDE](https://cloud.r-project.org/web/packages/GUIDE/index.html)
 -   [highfrequency](https://cloud.r-project.org/web/packages/highfrequency/index.html)
 -   [IBrokers](https://cloud.r-project.org/web/packages/IBrokers/index.html)
--   [ismev](https://cloud.r-project.org/web/packages/ismev/index.html)
 -   [its](https://cloud.r-project.org/web/packages/its/index.html)
 -   [lgarch](https://cloud.r-project.org/web/packages/lgarch/index.html)
 -   [lifecontingencies](https://cloud.r-project.org/web/packages/lifecontingencies/index.html)
@@ -279,6 +274,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 ### Related links:
 
 -   CRAN Task View: [Econometrics](Econometrics.html)
+-   CRAN Task View: [ExtremeValueTheory](ExtremeValueTheory.html)
 -   CRAN Task View: [Multivariate](Multivariate.html)
 -   CRAN Task View: [Optimization](Optimization.html)
 -   CRAN Task View: [Robust](Robust.html)
