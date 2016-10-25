@@ -5,7 +5,7 @@ CRAN Task View: Empirical Finance
 |-----------------|-------------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                           
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org          
-| **Version:**    | 2016-10-22                                  
+| **Version:**    | 2016-10-25                                  
 | **URL:**        | <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
@@ -78,9 +78,10 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [bootTimeInference](https://cloud.r-project.org/web/packages/bootTimeInference/index.html) package performs robust resampling tests for the difference in Sharpe ratios.
 -   The [derivmkts](https://cloud.r-project.org/web/packages/derivmkts/index.html) package adds a set of pricing and expository functions useful in teaching derivatives markets..
 -   The [PortfolioEffectHFT](https://cloud.r-project.org/web/packages/PortfolioEffectHFT/index.html) package provides portfolio analysis suitable for intra-day and high-frequency data, and also interfaces the PortfolioEffect service.
--   The [ragtop](https://cloud.r-project.org/web/packages/ragtop/index.html) prices equity derivatives under an extension to Black and Scholes supporting default under a power-law link price and hazard rate.
--   The [sharpeRratio](https://cloud.r-project.org/web/packages/sharpeRratio/index.html) adds moment-free estimation of Sharpe ratios.
--   The [QuantTools](https://cloud.r-project.org/web/packages/QuantTools/index.html) offers enhanced quantitative trading and modeling tools.
+-   The [ragtop](https://cloud.r-project.org/web/packages/ragtop/index.html) package prices equity derivatives under an extension to Black and Scholes supporting default under a power-law link price and hazard rate.
+-   The [sharpeRratio](https://cloud.r-project.org/web/packages/sharpeRratio/index.html) package adds moment-free estimation of Sharpe ratios.
+-   The [QuantTools](https://cloud.r-project.org/web/packages/QuantTools/index.html) package offers enhanced quantitative trading and modeling tools.
+-   The [pinbasic](https://cloud.r-project.org/web/packages/pinbasic/index.html) package estimates the Probability of Informed Trading (PIN) by Easley et al.
 
 **Risk management**
 
@@ -217,6 +218,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [parma](https://cloud.r-project.org/web/packages/parma/index.html)
 -   [pbo](https://cloud.r-project.org/web/packages/pbo/index.html)
 -   [PerformanceAnalytics](https://cloud.r-project.org/web/packages/PerformanceAnalytics/index.html) (core)
+-   [pinbasic](https://cloud.r-project.org/web/packages/pinbasic/index.html)
 -   [portfolio](https://cloud.r-project.org/web/packages/portfolio/index.html)
 -   [PortfolioEffectHFT](https://cloud.r-project.org/web/packages/PortfolioEffectHFT/index.html)
 -   [portfolioSim](https://cloud.r-project.org/web/packages/portfolioSim/index.html)

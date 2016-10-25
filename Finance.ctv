@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2016-10-22</version>
+  <version>2016-10-25</version>
   
   <info>
     <p>
@@ -324,14 +324,17 @@
       analysis suitable for intra-day and high-frequency data, and also interfaces the
       PortfolioEffect service.
       </li>
-      <li> The <pkg>ragtop</pkg> prices equity derivatives under an extension
+      <li> The <pkg>ragtop</pkg> package prices equity derivatives under an extension
       to Black and Scholes supporting default under a power-law link price
       and hazard rate.
       </li>
-      <li> The <pkg>sharpeRratio</pkg> adds moment-free estimation of Sharpe ratios.
+      <li> The <pkg>sharpeRratio</pkg> package adds moment-free estimation of Sharpe ratios.
       </li>
-      <li> The <pkg>QuantTools</pkg> offers enhanced quantitative trading
+      <li> The <pkg>QuantTools</pkg> package offers enhanced quantitative trading
         and modeling tools.
+      </li>
+      <li> The <pkg>pinbasic</pkg> package estimates the Probability of
+        Informed Trading (PIN) by Easley et al.
       </li>
     </ul>
 
@@ -609,6 +612,7 @@
     <pkg>parma</pkg>
     <pkg>pbo</pkg> 
     <pkg priority="core">PerformanceAnalytics</pkg>
+    <pkg>pinbasic</pkg> 
     <pkg>portfolio</pkg>
     <pkg>PortfolioEffectHFT</pkg>
     <pkg>portfolioSim</pkg>
