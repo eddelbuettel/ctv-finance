@@ -5,7 +5,7 @@ CRAN Task View: Empirical Finance
 |-----------------|-------------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                           
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org          
-| **Version:**    | 2016-10-25                                  
+| **Version:**    | 2016-12-19                                  
 | **URL:**        | <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
@@ -82,6 +82,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [sharpeRratio](https://cloud.r-project.org/web/packages/sharpeRratio/index.html) package adds moment-free estimation of Sharpe ratios.
 -   The [QuantTools](https://cloud.r-project.org/web/packages/QuantTools/index.html) package offers enhanced quantitative trading and modeling tools.
 -   The [pinbasic](https://cloud.r-project.org/web/packages/pinbasic/index.html) package estimates the Probability of Informed Trading (PIN) by Easley et al.
+-   The [FinancialMath](https://cloud.r-project.org/web/packages/FinancialMath/index.html) contains financial math and derivatives pricing functions as required by the actuarial exams by the Society of Actuaries and Casualty Actuarial Society 'Financial Mathematics' exam.
 
 **Risk management**
 
@@ -109,7 +110,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 
 **Data and date management**
 
--   The [its](https://cloud.r-project.org/web/packages/its/index.html), [zoo](https://cloud.r-project.org/web/packages/zoo/index.html) and [timeDate](https://cloud.r-project.org/web/packages/timeDate/index.html) (part of Rmetrics) packages provide support for irregularly-spaced time series. The [xts](https://cloud.r-project.org/web/packages/xts/index.html) package extends [zoo](https://cloud.r-project.org/web/packages/zoo/index.html) specifically for financial time series. See the [TimeSeries](https://cloud.r-project.org/web/views/TimeSeries.html) task view for more details.
+-   The [zoo](https://cloud.r-project.org/web/packages/zoo/index.html) and [timeDate](https://cloud.r-project.org/web/packages/timeDate/index.html) (part of Rmetrics) packages provide support for irregularly-spaced time series. The [xts](https://cloud.r-project.org/web/packages/xts/index.html) package extends [zoo](https://cloud.r-project.org/web/packages/zoo/index.html) specifically for financial time series. See the [TimeSeries](https://cloud.r-project.org/web/views/TimeSeries.html) task view for more details.
 -   [timeDate](https://cloud.r-project.org/web/packages/timeDate/index.html) also addresses calendar issues such as recurring holidays for a large number of financial centers, and provides code for high-frequency data sets.
 -   The [fame](https://cloud.r-project.org/web/packages/fame/index.html) package can access Fame time series databases (but also requires a Fame backend). The [tis](https://cloud.r-project.org/web/packages/tis/index.html) package provides time indices and time-indexed series compatible with Fame frequencies.
 -   The [TSdbi](https://cloud.r-project.org/web/packages/TSdbi/index.html) package provides a unifying interface for several time series data base backends, and its SQL implementations provide a database table design.
@@ -169,6 +170,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [fGarch](https://cloud.r-project.org/web/packages/fGarch/index.html) (core)
 -   [fImport](https://cloud.r-project.org/web/packages/fImport/index.html) (core)
 -   [financial](https://cloud.r-project.org/web/packages/financial/index.html)
+-   [FinancialMath](https://cloud.r-project.org/web/packages/FinancialMath/index.html)
 -   [FinAsym](https://cloud.r-project.org/web/packages/FinAsym/index.html)
 -   [finreportr](https://cloud.r-project.org/web/packages/finreportr/index.html)
 -   [FinTS](https://cloud.r-project.org/web/packages/FinTS/index.html)
@@ -195,7 +197,6 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [GUIDE](https://cloud.r-project.org/web/packages/GUIDE/index.html)
 -   [highfrequency](https://cloud.r-project.org/web/packages/highfrequency/index.html)
 -   [IBrokers](https://cloud.r-project.org/web/packages/IBrokers/index.html)
--   [its](https://cloud.r-project.org/web/packages/its/index.html)
 -   [lgarch](https://cloud.r-project.org/web/packages/lgarch/index.html)
 -   [lifecontingencies](https://cloud.r-project.org/web/packages/lifecontingencies/index.html)
 -   [lmtest](https://cloud.r-project.org/web/packages/lmtest/index.html)
