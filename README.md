@@ -5,7 +5,7 @@ CRAN Task View: Empirical Finance
 |-----------------|-------------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                           
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org          
-| **Version:**    | 2016-12-19                                  
+| **Version:**    | 2016-12-31                                  
 | **URL:**        | <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
@@ -81,8 +81,9 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [ragtop](https://cloud.r-project.org/web/packages/ragtop/index.html) package prices equity derivatives under an extension to Black and Scholes supporting default under a power-law link price and hazard rate.
 -   The [sharpeRratio](https://cloud.r-project.org/web/packages/sharpeRratio/index.html) package adds moment-free estimation of Sharpe ratios.
 -   The [QuantTools](https://cloud.r-project.org/web/packages/QuantTools/index.html) package offers enhanced quantitative trading and modeling tools.
--   The [pinbasic](https://cloud.r-project.org/web/packages/pinbasic/index.html) package estimates the Probability of Informed Trading (PIN) by Easley et al.
--   The [FinancialMath](https://cloud.r-project.org/web/packages/FinancialMath/index.html) contains financial math and derivatives pricing functions as required by the actuarial exams by the Society of Actuaries and Casualty Actuarial Society 'Financial Mathematics' exam.
+-   The [pinbasic](https://cloud.r-project.org/web/packages/pinbasic/index.html) package estimates the Probability of Informed Trading (PIN) by Easley et al. The [InfoTrad](https://cloud.r-project.org/web/packages/InfoTrad/index.html) packages extends PIN estimation with factorization and estimation algorithms.
+-   The [FinancialMath](https://cloud.r-project.org/web/packages/FinancialMath/index.html) package contains financial math and derivatives pricing functions as required by the actuarial exams by the Society of Actuaries and Casualty Actuarial Society 'Financial Mathematics' exam.
+-   The [tidyquant](https://cloud.r-project.org/web/packages/tidyquant/index.html) package re-arranges functionality from several other key package for use in the so-called tidyverse.
 
 **Risk management**
 
@@ -197,6 +198,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [GUIDE](https://cloud.r-project.org/web/packages/GUIDE/index.html)
 -   [highfrequency](https://cloud.r-project.org/web/packages/highfrequency/index.html)
 -   [IBrokers](https://cloud.r-project.org/web/packages/IBrokers/index.html)
+-   [InfoTrad](https://cloud.r-project.org/web/packages/InfoTrad/index.html)
 -   [lgarch](https://cloud.r-project.org/web/packages/lgarch/index.html)
 -   [lifecontingencies](https://cloud.r-project.org/web/packages/lifecontingencies/index.html)
 -   [lmtest](https://cloud.r-project.org/web/packages/lmtest/index.html)
@@ -249,6 +251,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [tawny](https://cloud.r-project.org/web/packages/tawny/index.html)
 -   [termstrc](https://cloud.r-project.org/web/packages/termstrc/index.html)
 -   [TFX](https://cloud.r-project.org/web/packages/TFX/index.html)
+-   [tidyquant](https://cloud.r-project.org/web/packages/tidyquant/index.html)
 -   [timeDate](https://cloud.r-project.org/web/packages/timeDate/index.html) (core)
 -   [timeSeries](https://cloud.r-project.org/web/packages/timeSeries/index.html) (core)
 -   [timsac](https://cloud.r-project.org/web/packages/timsac/index.html)
