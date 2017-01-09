@@ -5,7 +5,7 @@ CRAN Task View: Empirical Finance
 |-----------------|-------------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                           
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org          
-| **Version:**    | 2016-12-31                                  
+| **Version:**    | 2017-01-09                                  
 | **URL:**        | <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
@@ -125,6 +125,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [Rblpapi](https://cloud.r-project.org/web/packages/Rblpapi/index.html) package offers efficient access to the Bloomberg API and allows `bdp`, `bdh`, and `bds` queries as well as data retrieval both in (regular time-)bars and ticks (albeit without subsecond resolution).
 -   The [finreportr](https://cloud.r-project.org/web/packages/finreportr/index.html) package can download reports from the SEC Edgar database, and relies on, inter alia, the [XBRL](https://cloud.r-project.org/web/packages/XBRL/index.html) package for parsing these reports.
 -   The [GetTDData](https://cloud.r-project.org/web/packages/GetTDData/index.html) package imports Brazilian government bonds data (such as LTN, NTN-B and LFT ) from the Tesouro Direto website. The [GetHFData](https://cloud.r-project.org/web/packages/GetHFData/index.html) package downloads and aggregates tick-by-tick trade data for equity and derivatives markets in Brazil.
+-   The [fmdates](https://cloud.r-project.org/web/packages/fmdates/index.html) package implements common date calculations according to the ISDA schedules, and can check for business in different locales.
 
 ### CRAN packages:
 
@@ -175,6 +176,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [FinAsym](https://cloud.r-project.org/web/packages/FinAsym/index.html)
 -   [finreportr](https://cloud.r-project.org/web/packages/finreportr/index.html)
 -   [FinTS](https://cloud.r-project.org/web/packages/FinTS/index.html)
+-   [fmdates](https://cloud.r-project.org/web/packages/fmdates/index.html)
 -   [fMultivar](https://cloud.r-project.org/web/packages/fMultivar/index.html) (core)
 -   [fNonlinear](https://cloud.r-project.org/web/packages/fNonlinear/index.html) (core)
 -   [fOptions](https://cloud.r-project.org/web/packages/fOptions/index.html) (core)

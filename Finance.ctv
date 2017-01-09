@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2016-12-31</version>
+  <version>2017-01-09</version>
   
   <info>
     <p>
@@ -520,6 +520,11 @@
           The <pkg>GetHFData</pkg> package downloads and aggregates tick-by-tick
           trade data for equity and derivatives markets in Brazil.
       </li>
+      <li>
+          The <pkg>fmdates</pkg> package implements common date calculations
+          according to the ISDA schedules, and can check for business in
+          different locales.
+      </li>
 
 
       
@@ -557,7 +562,6 @@
     <pkg>egcm</pkg>
     <pkg>ESG</pkg>
     <pkg>factorstochvol</pkg>    
-    <pkg>finreportr</pkg>
     <pkg>fame</pkg>
     <pkg>FatTailsR</pkg>
     <pkg>fgac</pkg>
@@ -574,6 +578,7 @@
     <pkg priority="core">fImport</pkg>
     <pkg>FinancialMath</pkg>
     <pkg>FinAsym</pkg>
+    <pkg>finreportr</pkg>
     <pkg>FinTS</pkg>
     <pkg priority="core">fMultivar</pkg>
     <pkg priority="core">fNonlinear</pkg>
@@ -582,6 +587,7 @@
     <pkg priority="core">fRegression</pkg>
     <pkg priority="core">fTrading</pkg>
     <pkg priority="core">fUnitRoots</pkg>
+    <pkg>fmdates</pkg>
     <pkg>forecast</pkg>
     <pkg>fracdiff</pkg>
     <pkg>fractal</pkg>
