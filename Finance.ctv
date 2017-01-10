@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2017-01-09</version>
+  <version>2017-01-10</version>
   
   <info>
     <p>
@@ -333,9 +333,9 @@
       <li> The <pkg>QuantTools</pkg> package offers enhanced quantitative trading
         and modeling tools.
       </li>
-      <li> The <pkg>pinbasic</pkg> package estimates the Probability of
-        Informed Trading (PIN) by Easley et al. The <pkg>InfoTrad</pkg>
-        packages extends PIN estimation with factorization and estimation algorithms.
+      <li> The <pkg>pinbasic</pkg> package adds tools for fast and stable estimates the Probability of
+        Informed Trading (PIN) by Easley et al, and offers factorizations of the model likelihood. The <pkg>InfoTrad</pkg>
+        packages also estimates PIN and extends it different factorization and estimation algorithms.
       </li>
       <li> The <pkg>FinancialMath</pkg> package contains financial math and derivatives pricing functions
         as required by the actuarial exams by the Society of Actuaries and Casualty Actuarial Society
@@ -408,7 +408,11 @@
         toolbox offered in Kevin Dowd's book "Measuring Market Risk".
       </li>
       <li>
-        The <pkg>PortRisk</pkg> computes portfolio risk attribution.
+        The <pkg>PortRisk</pkg> package computes portfolio risk attribution.
+      </li>
+      <li>
+        The <pkg>NetworkRiskMeasures</pkg> package implements some risk measures for financial networks such as DebtRank, Impact
+        Susceptibility, Impact Diffusion and Impact Fluidity.
       </li>
 
     </ul>
@@ -617,6 +621,7 @@
     <pkg>MSBVAR</pkg>
     <pkg>MSGARCH</pkg>
     <pkg>mvtnorm</pkg>
+    <pkg>NetworkRiskMeasures</pkg>
     <pkg>nlme</pkg>
     <pkg>NMOF</pkg>
     <pkg>obAnalytics</pkg>

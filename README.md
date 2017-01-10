@@ -5,7 +5,7 @@ CRAN Task View: Empirical Finance
 |-----------------|-------------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                           
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org          
-| **Version:**    | 2017-01-09                                  
+| **Version:**    | 2017-01-10                                  
 | **URL:**        | <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
@@ -81,7 +81,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [ragtop](https://cloud.r-project.org/web/packages/ragtop/index.html) package prices equity derivatives under an extension to Black and Scholes supporting default under a power-law link price and hazard rate.
 -   The [sharpeRratio](https://cloud.r-project.org/web/packages/sharpeRratio/index.html) package adds moment-free estimation of Sharpe ratios.
 -   The [QuantTools](https://cloud.r-project.org/web/packages/QuantTools/index.html) package offers enhanced quantitative trading and modeling tools.
--   The [pinbasic](https://cloud.r-project.org/web/packages/pinbasic/index.html) package estimates the Probability of Informed Trading (PIN) by Easley et al. The [InfoTrad](https://cloud.r-project.org/web/packages/InfoTrad/index.html) packages extends PIN estimation with factorization and estimation algorithms.
+-   The [pinbasic](https://cloud.r-project.org/web/packages/pinbasic/index.html) package adds tools for fast and stable estimates the Probability of Informed Trading (PIN) by Easley et al, and offers factorizations of the model likelihood. The [InfoTrad](https://cloud.r-project.org/web/packages/InfoTrad/index.html) packages also estimates PIN and extends it different factorization and estimation algorithms.
 -   The [FinancialMath](https://cloud.r-project.org/web/packages/FinancialMath/index.html) package contains financial math and derivatives pricing functions as required by the actuarial exams by the Society of Actuaries and Casualty Actuarial Society 'Financial Mathematics' exam.
 -   The [tidyquant](https://cloud.r-project.org/web/packages/tidyquant/index.html) package re-arranges functionality from several other key package for use in the so-called tidyverse.
 
@@ -101,7 +101,8 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [GCPM](https://cloud.r-project.org/web/packages/GCPM/index.html) package anlyzes the default risk of credit portfolio using both analytical and simulation approaches.
 -   The [FatTailsR](https://cloud.r-project.org/web/packages/FatTailsR/index.html) package provides a family of four distributions tailored to distribution with symmetric and asymmetric fat tails.
 -   The [Dowd](https://cloud.r-project.org/web/packages/Dowd/index.html) package contains functions ported from the 'MMR2' toolbox offered in Kevin Dowd's book "Measuring Market Risk".
--   The [PortRisk](https://cloud.r-project.org/web/packages/PortRisk/index.html) computes portfolio risk attribution.
+-   The [PortRisk](https://cloud.r-project.org/web/packages/PortRisk/index.html) package computes portfolio risk attribution.
+-   The [NetworkRiskMeasures](https://cloud.r-project.org/web/packages/NetworkRiskMeasures/index.html) package implements some risk measures for financial networks such as DebtRank, Impact Susceptibility, Impact Diffusion and Impact Fluidity.
 
 **Books**
 
@@ -213,6 +214,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [MSBVAR](https://cloud.r-project.org/web/packages/MSBVAR/index.html)
 -   [MSGARCH](https://cloud.r-project.org/web/packages/MSGARCH/index.html)
 -   [mvtnorm](https://cloud.r-project.org/web/packages/mvtnorm/index.html)
+-   [NetworkRiskMeasures](https://cloud.r-project.org/web/packages/NetworkRiskMeasures/index.html)
 -   [nlme](https://cloud.r-project.org/web/packages/nlme/index.html)
 -   [NMOF](https://cloud.r-project.org/web/packages/NMOF/index.html)
 -   [obAnalytics](https://cloud.r-project.org/web/packages/obAnalytics/index.html)
