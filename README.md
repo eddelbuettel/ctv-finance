@@ -5,7 +5,7 @@ CRAN Task View: Empirical Finance
 |-----------------|-------------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                           
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org          
-| **Version:**    | 2017-01-10                                  
+| **Version:**    | 2017-02-21                                  
 | **URL:**        | <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
@@ -107,8 +107,8 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 **Books**
 
 -   The [FinTS](https://cloud.r-project.org/web/packages/FinTS/index.html) package provides an R companion to Tsay (2005), *Analysis of Financial Time Series* , 2nd ed. Wiley, and includes data sets, functions and script files to work some of the examples.
--   The [NMOF](https://cloud.r-project.org/web/packages/NMOF/index.html) package provides functions, examples and data from *Numerical Methods in Finance* by Manfred Gilli, Dietmar Maringer and Enrico Schumann (2011), including the different optimization heuristics such as Differential Evolution, Genetic Algorithms, Particle Swarms, and Threshold Accepting.
--   The [FRAPO](https://cloud.r-project.org/web/packages/FRAPO/index.html) package provides data sets and code for the book *Financial Risk Modelling and Portfolio Optimization with R* by Bernhard Paff (2013).
+-   The [NMOF](https://cloud.r-project.org/web/packages/NMOF/index.html) package provides functions, examples and data from *Numerical Methods and Optimization in Finance* by Manfred Gilli, Dietmar Maringer and Enrico Schumann (2011), including the different optimization heuristics such as Differential Evolution, Genetic Algorithms, Particle Swarms, and Threshold Accepting.
+-   The [FRAPO](https://cloud.r-project.org/web/packages/FRAPO/index.html) package provides data sets and code for the book *Financial Risk Modelling and Portfolio Optimization with R* by Bernhard Pfaff (2013).
 
 **Data and date management**
 
