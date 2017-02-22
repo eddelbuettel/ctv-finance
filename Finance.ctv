@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2017-02-21</version>
+  <version>2017-02-22</version>
   
   <info>
     <p>
@@ -334,8 +334,9 @@
         and modeling tools.
       </li>
       <li> The <pkg>pinbasic</pkg> package adds tools for fast and stable estimates the Probability of
-        Informed Trading (PIN) by Easley et al, and offers factorizations of the model likelihood. The <pkg>InfoTrad</pkg>
-        packages also estimates PIN and extends it different factorization and estimation algorithms.
+        Informed Trading (PIN) by Easley et al, and offers factorizations of
+        the model likelihood. The <pkg>InfoTrad</pkg> packages also estimates
+        PIN and extends it different factorization and estimation algorithms.
       </li>
       <li> The <pkg>FinancialMath</pkg> package contains financial math and derivatives pricing functions
         as required by the actuarial exams by the Society of Actuaries and Casualty Actuarial Society
@@ -343,6 +344,10 @@
       </li>
       <li> The <pkg>tidyquant</pkg> package re-arranges functionality from
         several other key package for use in the so-called tidyverse. 
+      </li>
+      <li> The <pkg>BCC1997</pkg> prices European options under the Bakshi,
+        Cao anc Chen (1997) model for stochastic volatility, stochastuc rates
+        and random jumps.
       </li>
     </ul>
 
@@ -541,6 +546,7 @@
     <pkg>AmericanCallOpt</pkg>
     <pkg>backtest</pkg>
     <pkg>bayesGARCH</pkg>
+    <pkg>BCC1997</pkg>    
     <pkg>BenfordTests</pkg>
     <pkg>betategarch</pkg>
     <pkg>bizdays</pkg>

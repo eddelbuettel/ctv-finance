@@ -5,7 +5,7 @@ CRAN Task View: Empirical Finance
 |-----------------|-------------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                           
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org          
-| **Version:**    | 2017-02-21                                  
+| **Version:**    | 2017-02-22                                  
 | **URL:**        | <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
@@ -84,6 +84,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [pinbasic](https://cloud.r-project.org/web/packages/pinbasic/index.html) package adds tools for fast and stable estimates the Probability of Informed Trading (PIN) by Easley et al, and offers factorizations of the model likelihood. The [InfoTrad](https://cloud.r-project.org/web/packages/InfoTrad/index.html) packages also estimates PIN and extends it different factorization and estimation algorithms.
 -   The [FinancialMath](https://cloud.r-project.org/web/packages/FinancialMath/index.html) package contains financial math and derivatives pricing functions as required by the actuarial exams by the Society of Actuaries and Casualty Actuarial Society 'Financial Mathematics' exam.
 -   The [tidyquant](https://cloud.r-project.org/web/packages/tidyquant/index.html) package re-arranges functionality from several other key package for use in the so-called tidyverse.
+-   The [BCC1997](https://cloud.r-project.org/web/packages/BCC1997/index.html) prices European options under the Bakshi, Cao anc Chen (1997) model for stochastic volatility, stochastuc rates and random jumps.
 
 **Risk management**
 
@@ -134,6 +135,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [AmericanCallOpt](https://cloud.r-project.org/web/packages/AmericanCallOpt/index.html)
 -   [backtest](https://cloud.r-project.org/web/packages/backtest/index.html)
 -   [bayesGARCH](https://cloud.r-project.org/web/packages/bayesGARCH/index.html)
+-   [BCC1997](https://cloud.r-project.org/web/packages/BCC1997/index.html)
 -   [BenfordTests](https://cloud.r-project.org/web/packages/BenfordTests/index.html)
 -   [betategarch](https://cloud.r-project.org/web/packages/betategarch/index.html)
 -   [bizdays](https://cloud.r-project.org/web/packages/bizdays/index.html)
