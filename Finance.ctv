@@ -35,8 +35,8 @@
     <ul>
       <li>A detailed overview of the available regression methodologies is
 	provided by the <view>Econometrics</view> task view. This is
-	complemented by the <view>Robust</view> which focuses on more robust
-	and resistant methods.
+	complemented by the <view>Robust</view> task view, which focuses on more
+	robust and resistant methods.
       </li>
       <li>Linear models such as ordinary least squares (OLS) can be estimated
         by <code>lm()</code> (from by the stats package contained in the basic R
