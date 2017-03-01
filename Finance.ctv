@@ -117,7 +117,7 @@
       </li>
       <li>
           The <pkg>dyn</pkg> and 
-	  <pkg>dynlm</pkg> are suitable for dynamic (linear) regression
+	  <pkg>dynlm</pkg> packages are suitable for dynamic (linear) regression
 	  models.
       </li>
       <li>
