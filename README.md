@@ -5,7 +5,7 @@ CRAN Task View: Empirical Finance
 |-----------------|-------------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                           
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org          
-| **Version:**    | 2017-02-22                                  
+| **Version:**    | 2017-03-01                                  
 | **URL:**        | <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
@@ -16,7 +16,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 
 **Standard regression models**
 
--   A detailed overview of the available regression methodologies is provided by the [Econometrics](https://cloud.r-project.org/web/views/Econometrics.html) task view. This is complemented by the [Robust](https://cloud.r-project.org/web/views/Robust.html) which focuses on more robust and resistant methods.
+-   A detailed overview of the available regression methodologies is provided by the [Econometrics](https://cloud.r-project.org/web/views/Econometrics.html) task view. This is complemented by the [Robust](https://cloud.r-project.org/web/views/Robust.html) task view, which focuses on more robust and resistant methods.
 -   Linear models such as ordinary least squares (OLS) can be estimated by `lm()` (from by the stats package contained in the basic R distribution). Maximum Likelihood (ML) estimation can be undertaken with the standard `optim()` function. Many other suitable methods are listed in the [Optimization](https://cloud.r-project.org/web/views/Optimization.html) view. Non-linear least squares can be estimated with the `nls()` function, as well as with `nlme()` from the [nlme](https://cloud.r-project.org/web/packages/nlme/index.html) package.
 -   For the linear model, a variety of regression diagnostic tests are provided by the [car](https://cloud.r-project.org/web/packages/car/index.html), [lmtest](https://cloud.r-project.org/web/packages/lmtest/index.html), [strucchange](https://cloud.r-project.org/web/packages/strucchange/index.html), [urca](https://cloud.r-project.org/web/packages/urca/index.html), and [sandwich](https://cloud.r-project.org/web/packages/sandwich/index.html) packages. The [Rcmdr](https://cloud.r-project.org/web/packages/Rcmdr/index.html) and [Zelig](https://cloud.r-project.org/web/packages/Zelig/index.html) packages provide user interfaces that may be of interest as well.
 
@@ -29,7 +29,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   Unit root and cointegration tests are provided by [tseries](https://cloud.r-project.org/web/packages/tseries/index.html), and [urca](https://cloud.r-project.org/web/packages/urca/index.html). The Rmetrics packages [timeSeries](https://cloud.r-project.org/web/packages/timeSeries/index.html) and [fMultivar](https://cloud.r-project.org/web/packages/fMultivar/index.html) contain a number of estimation functions for ARMA, GARCH, long memory models, unit roots and more. The [CADFtest](https://cloud.r-project.org/web/packages/CADFtest/index.html) package implements the Hansen unit root test.
 -   [MSBVAR](https://cloud.r-project.org/web/packages/MSBVAR/index.html) provides Bayesian estimation of vector autoregressive models. The [dlm](https://cloud.r-project.org/web/packages/dlm/index.html) package provides Bayesian and likelihood analysis of dynamic linear models (ie linear Gaussian state space models).
 -   The [vars](https://cloud.r-project.org/web/packages/vars/index.html) package offer estimation, diagnostics, forecasting and error decomposition of VAR and SVAR model in a classical framework.
--   The [dyn](https://cloud.r-project.org/web/packages/dyn/index.html) and [dynlm](https://cloud.r-project.org/web/packages/dynlm/index.html) are suitable for dynamic (linear) regression models.
+-   The [dyn](https://cloud.r-project.org/web/packages/dyn/index.html) and [dynlm](https://cloud.r-project.org/web/packages/dynlm/index.html) packages are suitable for dynamic (linear) regression models.
 -   Several packages provide wavelet analysis functionality: [rwt](https://cloud.r-project.org/web/packages/rwt/index.html), [wavelets](https://cloud.r-project.org/web/packages/wavelets/index.html), [waveslim](https://cloud.r-project.org/web/packages/waveslim/index.html), [wavethresh](https://cloud.r-project.org/web/packages/wavethresh/index.html). Some methods from chaos theory are provided by the package [tseriesChaos](https://cloud.r-project.org/web/packages/tseriesChaos/index.html). [tsDyn](https://cloud.r-project.org/web/packages/tsDyn/index.html) adds time series analysis based on dynamical systems therory.
 -   The [forecast](https://cloud.r-project.org/web/packages/forecast/index.html) package adds functions for forecasting problems.
 -   The [tsfa](https://cloud.r-project.org/web/packages/tsfa/index.html) package provides functions for time series factor analysis.
