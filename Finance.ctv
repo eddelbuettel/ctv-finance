@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2017-03-01</version>
+  <version>2017-03-06</version>
   
   <info>
     <p>
@@ -343,7 +343,7 @@
         'Financial Mathematics' exam.
       </li>
       <li> The <pkg>tidyquant</pkg> package re-arranges functionality from
-        several other key package for use in the so-called tidyverse. 
+        several other key packages for use in the so-called tidyverse. 
       </li>
       <li> The <pkg>BCC1997</pkg> prices European options under the Bakshi,
         Cao anc Chen (1997) model for stochastic volatility, stochastuc rates
@@ -356,7 +356,7 @@
     </p>
     <ul>
       <li>
-         The Task View <view>ExtremeValueTheory</view> regroups a number of relevant packages.
+         The Task View <view>ExtremeValue</view> regroups a number of relevant packages.
       </li>
       <li>
  	 The packages <pkg>CreditMetrics</pkg> and <pkg>crp.CSFP</pkg> provide function for modelling credit risks.
@@ -697,7 +697,7 @@
 
   <links>
     <view>Econometrics</view>
-    <view>ExtremeValueTheory</view>
+    <view>ExtremeValue</view>
     <view>Multivariate</view>
     <view>Optimization</view>
     <view>Robust</view>

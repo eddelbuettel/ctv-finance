@@ -5,7 +5,7 @@ CRAN Task View: Empirical Finance
 |-----------------|-------------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                           
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org          
-| **Version:**    | 2017-03-01                                  
+| **Version:**    | 2017-03-06                                  
 | **URL:**        | <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
@@ -83,12 +83,12 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [QuantTools](https://cloud.r-project.org/web/packages/QuantTools/index.html) package offers enhanced quantitative trading and modeling tools.
 -   The [pinbasic](https://cloud.r-project.org/web/packages/pinbasic/index.html) package adds tools for fast and stable estimates the Probability of Informed Trading (PIN) by Easley et al, and offers factorizations of the model likelihood. The [InfoTrad](https://cloud.r-project.org/web/packages/InfoTrad/index.html) packages also estimates PIN and extends it different factorization and estimation algorithms.
 -   The [FinancialMath](https://cloud.r-project.org/web/packages/FinancialMath/index.html) package contains financial math and derivatives pricing functions as required by the actuarial exams by the Society of Actuaries and Casualty Actuarial Society 'Financial Mathematics' exam.
--   The [tidyquant](https://cloud.r-project.org/web/packages/tidyquant/index.html) package re-arranges functionality from several other key package for use in the so-called tidyverse.
+-   The [tidyquant](https://cloud.r-project.org/web/packages/tidyquant/index.html) package re-arranges functionality from several other key packages for use in the so-called tidyverse.
 -   The [BCC1997](https://cloud.r-project.org/web/packages/BCC1997/index.html) prices European options under the Bakshi, Cao anc Chen (1997) model for stochastic volatility, stochastuc rates and random jumps.
 
 **Risk management**
 
--   The Task View [ExtremeValueTheory](https://cloud.r-project.org/web/views/ExtremeValueTheory.html) regroups a number of relevant packages.
+-   The Task View [ExtremeValue](https://cloud.r-project.org/web/views/ExtremeValue.html) regroups a number of relevant packages.
 -   The packages [CreditMetrics](https://cloud.r-project.org/web/packages/CreditMetrics/index.html) and [crp.CSFP](https://cloud.r-project.org/web/packages/crp.CSFP/index.html) provide function for modelling credit risks.
 -   The [mvtnorm](https://cloud.r-project.org/web/packages/mvtnorm/index.html) package provides code for multivariate Normal and t-distributions.
 -   The Rmetrics packages [fPortfolio](https://cloud.r-project.org/web/packages/fPortfolio/index.html) and [fExtremes](https://cloud.r-project.org/web/packages/fExtremes/index.html) also contain a number of relevant functions.
@@ -286,7 +286,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 ### Related links:
 
 -   CRAN Task View: [Econometrics](Econometrics.html)
--   CRAN Task View: [ExtremeValueTheory](ExtremeValueTheory.html)
+-   CRAN Task View: [ExtremeValue](ExtremeValue.html)
 -   CRAN Task View: [Multivariate](Multivariate.html)
 -   CRAN Task View: [Optimization](Optimization.html)
 -   CRAN Task View: [Robust](Robust.html)
