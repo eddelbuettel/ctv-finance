@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2017-03-06</version>
+  <version>2017-03-07</version>
   
   <info>
     <p>
@@ -143,7 +143,7 @@
       <li>
 	  The <pkg>MSGARCH</pkg> package adds methods to fit (by Maximum Likelihood
           or Bayesian), simulate, and forecast various Markov-Switching GARCH processes. 
-      </li> 
+      </li>
     </ul>
 
     <p>
@@ -349,6 +349,11 @@
         Cao anc Chen (1997) model for stochastic volatility, stochastuc rates
         and random jumps.
       </li>
+      <li>
+          The <pkg>Sim.DiffProc</pkg> package provides functions to simulate
+          and analyse multidimensional Itô and Stratonovitch stochastic calculus for 
+          continuous-time models.
+      </li>          
     </ul>
 
     <p>
@@ -660,6 +665,7 @@
     <pkg>sde</pkg>
     <pkg>SharpeR</pkg>
     <pkg>sharpeRratio</pkg>
+    <pkg>Sim.DiffProc</pkg>    
     <pkg>SmithWilsonYieldCurve</pkg>
     <pkg>stochvol</pkg>
     <pkg>stockPortfolio</pkg>    

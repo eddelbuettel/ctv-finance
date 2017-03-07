@@ -5,7 +5,7 @@ CRAN Task View: Empirical Finance
 |-----------------|-------------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                           
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org          
-| **Version:**    | 2017-03-06                                  
+| **Version:**    | 2017-03-07                                  
 | **URL:**        | <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
@@ -85,6 +85,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [FinancialMath](https://cloud.r-project.org/web/packages/FinancialMath/index.html) package contains financial math and derivatives pricing functions as required by the actuarial exams by the Society of Actuaries and Casualty Actuarial Society 'Financial Mathematics' exam.
 -   The [tidyquant](https://cloud.r-project.org/web/packages/tidyquant/index.html) package re-arranges functionality from several other key packages for use in the so-called tidyverse.
 -   The [BCC1997](https://cloud.r-project.org/web/packages/BCC1997/index.html) prices European options under the Bakshi, Cao anc Chen (1997) model for stochastic volatility, stochastuc rates and random jumps.
+-   The [Sim.DiffProc](https://cloud.r-project.org/web/packages/Sim.DiffProc/index.html) package provides functions to simulate and analyse multidimensional Itô and Stratonovitch stochastic calculus for continuous-time models.
 
 **Risk management**
 
@@ -249,6 +250,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [sde](https://cloud.r-project.org/web/packages/sde/index.html)
 -   [SharpeR](https://cloud.r-project.org/web/packages/SharpeR/index.html)
 -   [sharpeRratio](https://cloud.r-project.org/web/packages/sharpeRratio/index.html)
+-   [Sim.DiffProc](https://cloud.r-project.org/web/packages/Sim.DiffProc/index.html)
 -   [SmithWilsonYieldCurve](https://cloud.r-project.org/web/packages/SmithWilsonYieldCurve/index.html)
 -   [stochvol](https://cloud.r-project.org/web/packages/stochvol/index.html)
 -   [stockPortfolio](https://cloud.r-project.org/web/packages/stockPortfolio/index.html)
