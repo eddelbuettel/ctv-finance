@@ -5,16 +5,16 @@ CRAN Task View: Empirical Finance
 |-----------------|-------------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                           
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org          
-| **Version:**    | 2017-03-18                                  
+| **Version:**    | 2017-03-30                                  
 | **URL:**        | <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
 
 Besides these packages, a very wide variety of functions suitable for empirical work in Finance is provided by both the basic R system (and its set of recommended core packages), and a number of other packages on the Comprehensive R Archive Network (CRAN). Consequently, several of the other CRAN Task Views may contain suitable packages, in particular the [Econometrics](https://cran.r-project.org/web/views/Econometrics.html), [Multivariate](https://cran.r-project.org/web/views/Multivariate.html), [Optimization](https://cran.r-project.org/web/views/Optimization.html), [Robust](https://cran.r-project.org/web/views/Robust.html), [SocialSciences](https://cran.r-project.org/web/views/SocialSciences.html) and [TimeSeries](https://cran.r-project.org/web/views/TimeSeries.html) Task Views.
 
-Contributions are always welcome, and encouraged. Since the start of this CRAN task view in April 2005, most contributions have arrived as email suggestions. The source file for this particular task view file now also reside in a GitHub repository (see below) so that pull requests are also possible.
-
 The `ctv` package supports these Task Views. Its functions `install.views` and `update.views` allow, respectively, installation or update of packages from a given Task View; the option `coreOnly` can restrict operations to packages labeled as *core* below.
+
+Contributions are always welcome, and encouraged. Since the start of this CRAN task view in April 2005, most contributions have arrived as email suggestions. The source file for this particular task view file now also reside in a GitHub repository (see below) so that pull requests are also possible.
 
 **Standard regression models**
 
@@ -88,6 +88,8 @@ The `ctv` package supports these Task Views. Its functions `install.views` and `
 -   The [tidyquant](https://cran.r-project.org/package=tidyquant) package re-arranges functionality from several other key packages for use in the so-called tidyverse.
 -   The [BCC1997](https://cran.r-project.org/package=BCC1997) prices European options under the Bakshi, Cao anc Chen (1997) model for stochastic volatility, stochastuc rates and random jumps.
 -   The [Sim.DiffProc](https://cran.r-project.org/package=Sim.DiffProc) package provides functions to simulate and analyse multidimensional Itô and Stratonovitch stochastic calculus for continuous-time models.
+-   The [rpgm](https://cran.r-project.org/package=rpgm) package offers fast simulation of normal and exponential random variables and stochastic differential equations.
+-   The [BLModel](https://cran.r-project.org/package=BLModel) package computes the posterior distribution in a Black-Litterman model from a prior distribution given by asset returns and continuous distribution of views given by an external function.
 
 **Risk management**
 
@@ -142,6 +144,7 @@ The `ctv` package supports these Task Views. Its functions `install.views` and `
 -   [BenfordTests](https://cran.r-project.org/package=BenfordTests)
 -   [betategarch](https://cran.r-project.org/package=betategarch)
 -   [bizdays](https://cran.r-project.org/package=bizdays)
+-   [BLModel](https://cran.r-project.org/package=BLModel)
 -   [bootTimeInference](https://cran.r-project.org/package=bootTimeInference)
 -   [BurStFin](https://cran.r-project.org/package=BurStFin)
 -   [BurStMisc](https://cran.r-project.org/package=BurStMisc)
@@ -245,6 +248,7 @@ The `ctv` package supports these Task Views. Its functions `install.views` and `
 -   [riskSimul](https://cran.r-project.org/package=riskSimul)
 -   [rmgarch](https://cran.r-project.org/package=rmgarch)
 -   [RND](https://cran.r-project.org/package=RND)
+-   [rpgm](https://cran.r-project.org/package=rpgm)
 -   [RQuantLib](https://cran.r-project.org/package=RQuantLib)
 -   [rugarch](https://cran.r-project.org/package=rugarch) (core)
 -   [rwt](https://cran.r-project.org/package=rwt)

@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2017-03-18</version>
+  <version>2017-03-30</version>
   
   <info>
     <p>
@@ -365,6 +365,11 @@
           The <pkg>rpgm</pkg> package offers fast simulation of normal and
           exponential random variables and stochastic differential equations.
       </li>
+      <li>
+          The <pkg>BLModel</pkg> package computes the posterior distribution
+          in a Black-Litterman model from a prior distribution given by asset
+          returns and continuous distribution of views given by an external function.
+      </li>
     </ul>
 
     <p>
@@ -567,6 +572,7 @@
     <pkg>betategarch</pkg>
     <pkg>bizdays</pkg>
     <pkg>bootTimeInference</pkg>    
+    <pkg>BLModel</pkg>
     <pkg>BurStFin</pkg>
     <pkg>BurStMisc</pkg>
     <pkg>CADFtest</pkg>
