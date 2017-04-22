@@ -5,7 +5,7 @@ CRAN Task View: Empirical Finance
 |-----------------|-------------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                           
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org          
-| **Version:**    | 2017-03-30                                  
+| **Version:**    | 2017-04-21                                  
 | **URL:**        | <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
@@ -41,7 +41,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 **Finance**
 
 -   The Rmetrics suite of packages comprises [fArma](https://cran.r-project.org/package=fArma/index.html), [fAsianOptions](../packages/fAsianOptions/index.html), [fAssets](../packages/fAssets/index.html), [fBasics](../packages/fBasics/index.html), [fBonds](../packages/fBonds/index.html), [timeDate](../packages/timeDate/index.html) (formerly: fCalendar), [fCopulae](../packages/fCopulae/index.html), [fExoticOptions](../packages/fExoticOptions/index.html), [fExtremes](../packages/fExtremes/index.html), [fGarch](../packages/fGarch/index.html), [fImport](../packages/fImport/index.html), [fNonlinear](../packages/fNonlinear/index.html), [fOptions](../packages/fOptions/index.html), [fPortfolio](../packages/fPortfolio/index.html), [fRegression](../packages/fRegression/index.html), [timeSeries](../packages/timeSeries/index.html) (formerly: fSeries), [fTrading](../packages/fTrading/index.html), [fUnitRoots](../packages/fUnitRoots) and contains a very large number of relevant functions for different aspect of empirical and computational finance.
--   The [RQuantLib](https://cran.r-project.org/package=RQuantLib) package provides several option-pricing functions as well as some fixed-income functionality from the QuantLib project to R.
+-   The [RQuantLib](https://cran.r-project.org/package=RQuantLib/index.html) package provides several option-pricing functions as well as some fixed-income functionality from the QuantLib project to R. The [RcppQuantuccia](../packages/RcppQuantuccia) provides a smaller subset of QuantLib functionality as a header-only library; at current only some calendaring functionality is exposed.
 -   The [quantmod](https://cran.r-project.org/package=quantmod) package offers a number of functions for quantitative modelling in finance as well as data acqusition, plotting and other utilities.
 -   The [portfolio](https://cran.r-project.org/package=portfolio/index.html) package contains classes for equity portfolio management; the [portfolioSim](../packages/portfolioSim/index.html) builds a related simulation framework. The [backtest](../packages/backtest/index.html) offers tools to explore portfolio-based hypotheses about financial instruments. The [stockPortfolio](../packages/stockPortfolio/index.html) package provides functions for single index, constant correlation and multigroup models. The [pa](../packages/pa) package offers performance attribution functionality for equity portfolios.
 -   The [PerformanceAnalytics](https://cran.r-project.org/package=PerformanceAnalytics) package contains a large number of functions for portfolio performance calculations and risk management.
@@ -77,7 +77,6 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [credule](https://cran.r-project.org/package=credule) package is another pricer for credit default swaps.
 -   The [covmat](https://cran.r-project.org/package=covmat) package provides several different methods for computing covariance matrices.
 -   The [obAnalytics](https://cran.r-project.org/package=obAnalytics) package analyses and visualizes information from events in limit order book data.
--   The [bootTimeInference](https://cran.r-project.org/package=bootTimeInference) package performs robust resampling tests for the difference in Sharpe ratios.
 -   The [derivmkts](https://cran.r-project.org/package=derivmkts) package adds a set of pricing and expository functions useful in teaching derivatives markets..
 -   The [PortfolioEffectHFT](https://cran.r-project.org/package=PortfolioEffectHFT) package provides portfolio analysis suitable for intra-day and high-frequency data, and also interfaces the PortfolioEffect service.
 -   The [ragtop](https://cran.r-project.org/package=ragtop) package prices equity derivatives under an extension to Black and Scholes supporting default under a power-law link price and hazard rate.
@@ -90,6 +89,8 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [Sim.DiffProc](https://cran.r-project.org/package=Sim.DiffProc) package provides functions to simulate and analyse multidimensional Itô and Stratonovitch stochastic calculus for continuous-time models.
 -   The [rpgm](https://cran.r-project.org/package=rpgm) package offers fast simulation of normal and exponential random variables and stochastic differential equations.
 -   The [BLModel](https://cran.r-project.org/package=BLModel) package computes the posterior distribution in a Black-Litterman model from a prior distribution given by asset returns and continuous distribution of views given by an external function.
+-   The [rpatrec](https://cran.r-project.org/package=rpatrec) package aims to recognise charting patterns in (financial) time series data.
+-   The [PortfolioOptim](https://cran.r-project.org/package=PortfolioOptim) can solve both small and large sample portfolio optimization.
 
 **Risk management**
 
@@ -145,7 +146,6 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [betategarch](https://cran.r-project.org/package=betategarch)
 -   [bizdays](https://cran.r-project.org/package=bizdays)
 -   [BLModel](https://cran.r-project.org/package=BLModel)
--   [bootTimeInference](https://cran.r-project.org/package=bootTimeInference)
 -   [BurStFin](https://cran.r-project.org/package=BurStFin)
 -   [BurStMisc](https://cran.r-project.org/package=BurStMisc)
 -   [CADFtest](https://cran.r-project.org/package=CADFtest)
@@ -236,6 +236,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [pinbasic](https://cran.r-project.org/package=pinbasic)
 -   [portfolio](https://cran.r-project.org/package=portfolio)
 -   [PortfolioEffectHFT](https://cran.r-project.org/package=PortfolioEffectHFT)
+-   [PortfolioOptim](https://cran.r-project.org/package=PortfolioOptim)
 -   [portfolioSim](https://cran.r-project.org/package=portfolioSim)
 -   [PortRisk](https://cran.r-project.org/package=PortRisk)
 -   [quantmod](https://cran.r-project.org/package=quantmod)
@@ -244,10 +245,12 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [Rbitcoin](https://cran.r-project.org/package=Rbitcoin)
 -   [Rblpapi](https://cran.r-project.org/package=Rblpapi)
 -   [Rcmdr](https://cran.r-project.org/package=Rcmdr)
+-   [RcppQuantuccia](https://cran.r-project.org/package=RcppQuantuccia)
 -   [restimizeapi](https://cran.r-project.org/package=restimizeapi)
 -   [riskSimul](https://cran.r-project.org/package=riskSimul)
 -   [rmgarch](https://cran.r-project.org/package=rmgarch)
 -   [RND](https://cran.r-project.org/package=RND)
+-   [rpatrec](https://cran.r-project.org/package=rpatrec)
 -   [rpgm](https://cran.r-project.org/package=rpgm)
 -   [RQuantLib](https://cran.r-project.org/package=RQuantLib)
 -   [rugarch](https://cran.r-project.org/package=rugarch) (core)
