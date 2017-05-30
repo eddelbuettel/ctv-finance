@@ -261,8 +261,8 @@
        from option prices.
       </li>
       <li>
-	<pkg>LSMonteCarlo</pkg> can price American Options via the Least Squares Monte Carlo 
-        method 
+	The <pkg>LSMonteCarlo</pkg> package can price American Options via the Least Squares Monte Carlo 
+        method.
       </li>
       <li>
 	The <pkg>BenfordTests</pkg> package provides 
@@ -324,7 +324,7 @@
         information from events in limit order book data.
       </li>
       <li> The <pkg>derivmkts</pkg> package adds a set of pricing and
-      expository functions useful in teaching derivatives markets..
+      expository functions useful in teaching derivatives markets.
       </li>
       <li> The <pkg>PortfolioEffectHFT</pkg> package provides portfolio
       analysis suitable for intra-day and high-frequency data, and also interfaces the
