@@ -5,7 +5,7 @@ CRAN Task View: Empirical Finance
 |-----------------|-------------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                           
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org          
-| **Version:**    | 2017-04-21                                  
+| **Version:**    | 2017-05-30                                  
 | **URL:**        | <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
@@ -40,7 +40,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 
 **Finance**
 
--   The Rmetrics suite of packages comprises [fArma](https://cran.r-project.org/package=fArma/index.html), [fAsianOptions](../packages/fAsianOptions/index.html), [fAssets](../packages/fAssets/index.html), [fBasics](../packages/fBasics/index.html), [fBonds](../packages/fBonds/index.html), [timeDate](../packages/timeDate/index.html) (formerly: fCalendar), [fCopulae](../packages/fCopulae/index.html), [fExoticOptions](../packages/fExoticOptions/index.html), [fExtremes](../packages/fExtremes/index.html), [fGarch](../packages/fGarch/index.html), [fImport](../packages/fImport/index.html), [fNonlinear](../packages/fNonlinear/index.html), [fOptions](../packages/fOptions/index.html), [fPortfolio](../packages/fPortfolio/index.html), [fRegression](../packages/fRegression/index.html), [timeSeries](../packages/timeSeries/index.html) (formerly: fSeries), [fTrading](../packages/fTrading/index.html), [fUnitRoots](../packages/fUnitRoots) and contains a very large number of relevant functions for different aspect of empirical and computational finance.
+-   The Rmetrics suite of packages comprises [fArma](https://cran.r-project.org/package=fArma/index.html), [fAsianOptions](../packages/fAsianOptions/index.html), [fAssets](../packages/fAssets/index.html), [fBasics](../packages/fBasics/index.html), [fBonds](../packages/fBonds/index.html), [timeDate](../packages/timeDate/index.html) (formerly: fCalendar), [fCopulae](../packages/fCopulae/index.html), [fExoticOptions](../packages/fExoticOptions/index.html), [fExtremes](../packages/fExtremes/index.html), [fGarch](../packages/fGarch/index.html), [fImport](../packages/fImport/index.html), [fNonlinear](../packages/fNonlinear/index.html), [fOptions](../packages/fOptions/index.html), [fPortfolio](../packages/fPortfolio/index.html), [fRegression](../packages/fRegression/index.html), [timeSeries](../packages/timeSeries/index.html) (formerly: fSeries), [fTrading](../packages/fTrading), and contains a very large number of relevant functions for different aspect of empirical and computational finance.
 -   The [RQuantLib](https://cran.r-project.org/package=RQuantLib/index.html) package provides several option-pricing functions as well as some fixed-income functionality from the QuantLib project to R. The [RcppQuantuccia](../packages/RcppQuantuccia) provides a smaller subset of QuantLib functionality as a header-only library; at current only some calendaring functionality is exposed.
 -   The [quantmod](https://cran.r-project.org/package=quantmod) package offers a number of functions for quantitative modelling in finance as well as data acqusition, plotting and other utilities.
 -   The [portfolio](https://cran.r-project.org/package=portfolio/index.html) package contains classes for equity portfolio management; the [portfolioSim](../packages/portfolioSim/index.html) builds a related simulation framework. The [backtest](../packages/backtest/index.html) offers tools to explore portfolio-based hypotheses about financial instruments. The [stockPortfolio](../packages/stockPortfolio/index.html) package provides functions for single index, constant correlation and multigroup models. The [pa](../packages/pa) package offers performance attribution functionality for equity portfolios.
@@ -62,7 +62,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [GUIDE](https://cran.r-project.org/package=GUIDE) package provides a *GUI* for *DE* rivatives and contains numerous pricer examples as well as interactive 2d and 3d plots to study these pricing functions.
 -   The [SharpeR](https://cran.r-project.org/package=SharpeR) package contains a collection of tools for analyzing significance of trading strategies, based on the Sharpe ratio and overfit of the same.
 -   The [RND](https://cran.r-project.org/package=RND) package implements various functions to extract risk-neutral densities from option prices.
--   [LSMonteCarlo](https://cran.r-project.org/package=LSMonteCarlo) can price American Options via the Least Squares Monte Carlo method
+-   The [LSMonteCarlo](https://cran.r-project.org/package=LSMonteCarlo) package can price American Options via the Least Squares Monte Carlo method.
 -   The [BenfordTests](https://cran.r-project.org/package=BenfordTests) package provides seven statistical tests and support functions for determining if numerical data could conform to Benford's law.
 -   The [OptHedging](https://cran.r-project.org/package=OptHedging) package values call and put option portfolio and implements an optimal hedging strategy.
 -   The [markovchain](https://cran.r-project.org/package=markovchain) package provides functionality to easily handle and analyse discrete Markov chains.
@@ -77,7 +77,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [credule](https://cran.r-project.org/package=credule) package is another pricer for credit default swaps.
 -   The [covmat](https://cran.r-project.org/package=covmat) package provides several different methods for computing covariance matrices.
 -   The [obAnalytics](https://cran.r-project.org/package=obAnalytics) package analyses and visualizes information from events in limit order book data.
--   The [derivmkts](https://cran.r-project.org/package=derivmkts) package adds a set of pricing and expository functions useful in teaching derivatives markets..
+-   The [derivmkts](https://cran.r-project.org/package=derivmkts) package adds a set of pricing and expository functions useful in teaching derivatives markets.
 -   The [PortfolioEffectHFT](https://cran.r-project.org/package=PortfolioEffectHFT) package provides portfolio analysis suitable for intra-day and high-frequency data, and also interfaces the PortfolioEffect service.
 -   The [ragtop](https://cran.r-project.org/package=ragtop) package prices equity derivatives under an extension to Black and Scholes supporting default under a power-law link price and hazard rate.
 -   The [sharpeRratio](https://cran.r-project.org/package=sharpeRratio) package adds moment-free estimation of Sharpe ratios.
@@ -197,7 +197,6 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [fRegression](https://cran.r-project.org/package=fRegression) (core)
 -   [frmqa](https://cran.r-project.org/package=frmqa)
 -   [fTrading](https://cran.r-project.org/package=fTrading) (core)
--   [fUnitRoots](https://cran.r-project.org/package=fUnitRoots) (core)
 -   [GCPM](https://cran.r-project.org/package=GCPM)
 -   [GetHFData](https://cran.r-project.org/package=GetHFData)
 -   [gets](https://cran.r-project.org/package=gets)

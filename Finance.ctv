@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2017-04-21</version>
+  <version>2017-05-30</version>
   
   <info>
     <p>
@@ -164,7 +164,7 @@
 	  <pkg>fExtremes</pkg>, <pkg>fGarch</pkg>, <pkg>fImport</pkg>, 
 	  <pkg>fNonlinear</pkg>, <pkg>fOptions</pkg>, <pkg>fPortfolio</pkg>,
 	  <pkg>fRegression</pkg>, <pkg>timeSeries</pkg> (formerly: fSeries), 
-	  <pkg>fTrading</pkg>, <pkg>fUnitRoots</pkg>
+	  <pkg>fTrading</pkg>,
 	  and contains a very large number of relevant functions for different aspect of empirical
 	  and computational finance.
       </li>
@@ -622,7 +622,6 @@
     <pkg priority="core">fPortfolio</pkg>
     <pkg priority="core">fRegression</pkg>
     <pkg priority="core">fTrading</pkg>
-    <pkg priority="core">fUnitRoots</pkg>
     <pkg>fmdates</pkg>
     <pkg>forecast</pkg>
     <pkg>fracdiff</pkg>
