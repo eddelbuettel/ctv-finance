@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2017-05-30</version>
+  <version>2017-07-31</version>
   
   <info>
     <p>
@@ -452,11 +452,6 @@
     <strong>Books</strong>
     </p>
     <ul>
-      <li>The <pkg>FinTS</pkg> package provides an R companion to Tsay (2005),
-         <em>Analysis of Financial Time Series</em>, 2nd ed. Wiley,  
-         and includes data sets, functions and script files to work some 
-         of the examples.  
-      </li>
       <li>The <pkg>NMOF</pkg> package provides functions, examples and data 
          from <em>Numerical Methods and Optimization in Finance</em> by Manfred Gilli, Dietmar Maringer and 
 	 Enrico Schumann (2011), including the different optimization heuristics such as 
@@ -615,7 +610,6 @@
     <pkg>FinancialMath</pkg>
     <pkg>FinAsym</pkg>
     <pkg>finreportr</pkg>
-    <pkg>FinTS</pkg>
     <pkg priority="core">fMultivar</pkg>
     <pkg priority="core">fNonlinear</pkg>
     <pkg priority="core">fOptions</pkg>

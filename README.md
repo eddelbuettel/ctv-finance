@@ -5,7 +5,7 @@ CRAN Task View: Empirical Finance
 |-----------------|-------------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                           
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org          
-| **Version:**    | 2017-05-30                                  
+| **Version:**    | 2017-07-31                                  
 | **URL:**        | <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
@@ -113,7 +113,6 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 
 **Books**
 
--   The [FinTS](https://cran.r-project.org/package=FinTS) package provides an R companion to Tsay (2005), *Analysis of Financial Time Series* , 2nd ed. Wiley, and includes data sets, functions and script files to work some of the examples.
 -   The [NMOF](https://cran.r-project.org/package=NMOF) package provides functions, examples and data from *Numerical Methods and Optimization in Finance* by Manfred Gilli, Dietmar Maringer and Enrico Schumann (2011), including the different optimization heuristics such as Differential Evolution, Genetic Algorithms, Particle Swarms, and Threshold Accepting.
 -   The [FRAPO](https://cran.r-project.org/package=FRAPO) package provides data sets and code for the book *Financial Risk Modelling and Portfolio Optimization with R* by Bernhard Pfaff (2013).
 
@@ -184,7 +183,6 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [FinancialMath](https://cran.r-project.org/package=FinancialMath)
 -   [FinAsym](https://cran.r-project.org/package=FinAsym)
 -   [finreportr](https://cran.r-project.org/package=finreportr)
--   [FinTS](https://cran.r-project.org/package=FinTS)
 -   [fmdates](https://cran.r-project.org/package=fmdates)
 -   [fMultivar](https://cran.r-project.org/package=fMultivar) (core)
 -   [fNonlinear](https://cran.r-project.org/package=fNonlinear) (core)
