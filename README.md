@@ -5,7 +5,7 @@ CRAN Task View: Empirical Finance
 |-----------------|-------------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                           
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org          
-| **Version:**    | 2017-07-31                                  
+| **Version:**    | 2017-09-12                                  
 | **URL:**        | <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
@@ -32,7 +32,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [MSBVAR](https://cran.r-project.org/package=MSBVAR/index.html) provides Bayesian estimation of vector autoregressive models. The [dlm](../packages/dlm) package provides Bayesian and likelihood analysis of dynamic linear models (ie linear Gaussian state space models).
 -   The [vars](https://cran.r-project.org/package=vars) package offer estimation, diagnostics, forecasting and error decomposition of VAR and SVAR model in a classical framework.
 -   The [dyn](https://cran.r-project.org/package=dyn/index.html) and [dynlm](../packages/dynlm) packages are suitable for dynamic (linear) regression models.
--   Several packages provide wavelet analysis functionality: [rwt](https://cran.r-project.org/package=rwt/index.html), [wavelets](../packages/wavelets/index.html), [waveslim](../packages/waveslim/index.html), [wavethresh](../packages/wavethresh/index.html). Some methods from chaos theory are provided by the package [tseriesChaos](../packages/tseriesChaos/index.html). [tsDyn](../packages/tsDyn) adds time series analysis based on dynamical systems therory.
+-   Several packages provide wavelet analysis functionality: [rwt](https://cran.r-project.org/package=rwt/index.html), [wavelets](../packages/wavelets/index.html), [waveslim](../packages/waveslim/index.html), [wavethresh](../packages/wavethresh/index.html). Some methods from chaos theory are provided by the package [tseriesChaos](../packages/tseriesChaos/index.html). [tsDyn](../packages/tsDyn) adds time series analysis based on dynamical systems theory.
 -   The [forecast](https://cran.r-project.org/package=forecast) package adds functions for forecasting problems.
 -   The [tsfa](https://cran.r-project.org/package=tsfa) package provides functions for time series factor analysis.
 -   The [stochvol](https://cran.r-project.org/package=stochvol/index.html) package implements Bayesian estimation of stochastic volatility using Markov Chain Monte Carlo, and [factorstochvol](../packages/factorstochvol) extends this to the multivariate case.
@@ -40,10 +40,10 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 
 **Finance**
 
--   The Rmetrics suite of packages comprises [fArma](https://cran.r-project.org/package=fArma/index.html), [fAsianOptions](../packages/fAsianOptions/index.html), [fAssets](../packages/fAssets/index.html), [fBasics](../packages/fBasics/index.html), [fBonds](../packages/fBonds/index.html), [timeDate](../packages/timeDate/index.html) (formerly: fCalendar), [fCopulae](../packages/fCopulae/index.html), [fExoticOptions](../packages/fExoticOptions/index.html), [fExtremes](../packages/fExtremes/index.html), [fGarch](../packages/fGarch/index.html), [fImport](../packages/fImport/index.html), [fNonlinear](../packages/fNonlinear/index.html), [fOptions](../packages/fOptions/index.html), [fPortfolio](../packages/fPortfolio/index.html), [fRegression](../packages/fRegression/index.html), [timeSeries](../packages/timeSeries/index.html) (formerly: fSeries), [fTrading](../packages/fTrading), and contains a very large number of relevant functions for different aspect of empirical and computational finance.
+-   The Rmetrics suite of packages comprises [fAssets](https://cran.r-project.org/package=fAssets/index.html), [fBasics](../packages/fBasics/index.html), [fBonds](../packages/fBonds/index.html), [timeDate](../packages/timeDate/index.html) (formerly: fCalendar), [fCopulae](../packages/fCopulae/index.html), [fExoticOptions](../packages/fExoticOptions/index.html), [fExtremes](../packages/fExtremes/index.html), [fGarch](../packages/fGarch/index.html), [fImport](../packages/fImport/index.html), [fNonlinear](../packages/fNonlinear/index.html), [fOptions](../packages/fOptions/index.html), [fPortfolio](../packages/fPortfolio/index.html), [fRegression](../packages/fRegression/index.html), [timeSeries](../packages/timeSeries/index.html) (formerly: fSeries), [fTrading](../packages/fTrading), and contains a very large number of relevant functions for different aspect of empirical and computational finance.
 -   The [RQuantLib](https://cran.r-project.org/package=RQuantLib/index.html) package provides several option-pricing functions as well as some fixed-income functionality from the QuantLib project to R. The [RcppQuantuccia](../packages/RcppQuantuccia) provides a smaller subset of QuantLib functionality as a header-only library; at current only some calendaring functionality is exposed.
--   The [quantmod](https://cran.r-project.org/package=quantmod) package offers a number of functions for quantitative modelling in finance as well as data acqusition, plotting and other utilities.
--   The [portfolio](https://cran.r-project.org/package=portfolio/index.html) package contains classes for equity portfolio management; the [portfolioSim](../packages/portfolioSim/index.html) builds a related simulation framework. The [backtest](../packages/backtest/index.html) offers tools to explore portfolio-based hypotheses about financial instruments. The [stockPortfolio](../packages/stockPortfolio/index.html) package provides functions for single index, constant correlation and multigroup models. The [pa](../packages/pa) package offers performance attribution functionality for equity portfolios.
+-   The [quantmod](https://cran.r-project.org/package=quantmod) package offers a number of functions for quantitative modelling in finance as well as data acquisition, plotting and other utilities.
+-   The [portfolio](https://cran.r-project.org/package=portfolio/index.html) package contains classes for equity portfolio management; the [portfolioSim](../packages/portfolioSim/index.html) builds a related simulation framework. The [backtest](../packages/backtest/index.html) offers tools to explore portfolio-based hypotheses about financial instruments. The [pa](../packages/pa) package offers performance attribution functionality for equity portfolios.
 -   The [PerformanceAnalytics](https://cran.r-project.org/package=PerformanceAnalytics) package contains a large number of functions for portfolio performance calculations and risk management.
 -   The [TTR](https://cran.r-project.org/package=TTR) contains functions to construct technical trading rules in R.
 -   The [financial](https://cran.r-project.org/package=financial) package can compute present values, cash flows and other simple finance calculations.
@@ -68,8 +68,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [markovchain](https://cran.r-project.org/package=markovchain) package provides functionality to easily handle and analyse discrete Markov chains.
 -   The [ycinterextra](https://cran.r-project.org/package=ycinterextra) package models yield curve interpolation and extrapolation using via the Nelson-Siegel, Svensson, or Smith-Wilson models, as well as Hermite cubic splines.
 -   The [tvm](https://cran.r-project.org/package=tvm) package models provides functions for time value of money such as cashflows and yield curves.
--   The [MarkowitzR](https://cran.r-project.org/package=MarkowitzR) package provides functions to test the statistical signicance of Markowitz portfolios.
--   The [egcm](https://cran.r-project.org/package=egcm) package implements the Engle-Granger two-stage cointegration modeling procedure with a particular focus on pairs trading.
+-   The [MarkowitzR](https://cran.r-project.org/package=MarkowitzR) package provides functions to test the statistical significance of Markowitz portfolios.
 -   The [pbo](https://cran.r-project.org/package=pbo) package models the probability of backtest overfitting, performance degradation, probability of loss, and the stochastic dominance when analysing trading strategies.
 -   The [OptionPricing](https://cran.r-project.org/package=OptionPricing) package implements efficient Monte Carlo algorithms for the price and the sensitivities of Asian and European Options under Geometric Brownian Motion.
 -   The [matchingMarkets](https://cran.r-project.org/package=matchingMarkets) package implements a structural estimator to correct for the bias arising from endogenous matching (e.g. group formation in microfinance or matching of firms and venture capitalists).
@@ -85,7 +84,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [pinbasic](https://cran.r-project.org/package=pinbasic/index.html) package adds tools for fast and stable estimates the Probability of Informed Trading (PIN) by Easley et al, and offers factorizations of the model likelihood. The [InfoTrad](../packages/InfoTrad) packages also estimates PIN and extends it different factorization and estimation algorithms.
 -   The [FinancialMath](https://cran.r-project.org/package=FinancialMath) package contains financial math and derivatives pricing functions as required by the actuarial exams by the Society of Actuaries and Casualty Actuarial Society 'Financial Mathematics' exam.
 -   The [tidyquant](https://cran.r-project.org/package=tidyquant) package re-arranges functionality from several other key packages for use in the so-called tidyverse.
--   The [BCC1997](https://cran.r-project.org/package=BCC1997) prices European options under the Bakshi, Cao anc Chen (1997) model for stochastic volatility, stochastuc rates and random jumps.
+-   The [BCC1997](https://cran.r-project.org/package=BCC1997) prices European options under the Bakshi, Cao anc Chen (1997) model for stochastic volatility, stochastic rates and random jumps.
 -   The [Sim.DiffProc](https://cran.r-project.org/package=Sim.DiffProc) package provides functions to simulate and analyse multidimensional Itô and Stratonovitch stochastic calculus for continuous-time models.
 -   The [rpgm](https://cran.r-project.org/package=rpgm) package offers fast simulation of normal and exponential random variables and stochastic differential equations.
 -   The [BLModel](https://cran.r-project.org/package=BLModel) package computes the posterior distribution in a Black-Litterman model from a prior distribution given by asset returns and continuous distribution of views given by an external function.
@@ -105,7 +104,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [frmqa](https://cran.r-project.org/package=frmqa) package aims to collect functions for Financial Risk Management and Quantitative Analysis.
 -   The [ESG](https://cran.r-project.org/package=ESG) package can be used to model for asset projection, a scenario-based simulation approach.
 -   The [riskSimul](https://cran.r-project.org/package=riskSimul) package provides efficient simulation procedures to estimate tail loss probabilities and conditional excess for a stock portfolios where log-returns are assumed to follow a t-copula model with generalized hyperbolic or t marginals.
--   The [GCPM](https://cran.r-project.org/package=GCPM) package anlyzes the default risk of credit portfolio using both analytical and simulation approaches.
+-   The [GCPM](https://cran.r-project.org/package=GCPM) package analyzes the default risk of credit portfolio using both analytical and simulation approaches.
 -   The [FatTailsR](https://cran.r-project.org/package=FatTailsR) package provides a family of four distributions tailored to distribution with symmetric and asymmetric fat tails.
 -   The [Dowd](https://cran.r-project.org/package=Dowd) package contains functions ported from the 'MMR2' toolbox offered in Kevin Dowd's book "Measuring Market Risk".
 -   The [PortRisk](https://cran.r-project.org/package=PortRisk) package computes portfolio risk attribution.
@@ -163,12 +162,9 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [dse](https://cran.r-project.org/package=dse)
 -   [dyn](https://cran.r-project.org/package=dyn)
 -   [dynlm](https://cran.r-project.org/package=dynlm)
--   [egcm](https://cran.r-project.org/package=egcm)
 -   [ESG](https://cran.r-project.org/package=ESG)
 -   [factorstochvol](https://cran.r-project.org/package=factorstochvol)
 -   [fame](https://cran.r-project.org/package=fame)
--   [fArma](https://cran.r-project.org/package=fArma) (core)
--   [fAsianOptions](https://cran.r-project.org/package=fAsianOptions) (core)
 -   [fAssets](https://cran.r-project.org/package=fAssets) (core)
 -   [FatTailsR](https://cran.r-project.org/package=FatTailsR)
 -   [fBasics](https://cran.r-project.org/package=fBasics) (core)
@@ -259,7 +255,6 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [Sim.DiffProc](https://cran.r-project.org/package=Sim.DiffProc)
 -   [SmithWilsonYieldCurve](https://cran.r-project.org/package=SmithWilsonYieldCurve)
 -   [stochvol](https://cran.r-project.org/package=stochvol)
--   [stockPortfolio](https://cran.r-project.org/package=stockPortfolio)
 -   [strucchange](https://cran.r-project.org/package=strucchange)
 -   [TAQMNGR](https://cran.r-project.org/package=TAQMNGR)
 -   [tawny](https://cran.r-project.org/package=tawny)

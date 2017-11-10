@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2017-07-31</version>
+  <version>2017-09-12</version>
   
   <info>
     <p>
@@ -132,7 +132,7 @@
 	  functionality: <pkg>rwt</pkg>, <pkg>wavelets</pkg>, 
           <pkg>waveslim</pkg>, <pkg>wavethresh</pkg>. Some methods from chaos 
           theory are provided by the package <pkg>tseriesChaos</pkg>.
-          <pkg>tsDyn</pkg> adds time series analysis based on dynamical systems therory.
+          <pkg>tsDyn</pkg> adds time series analysis based on dynamical systems theory.
       </li>
       <li>
 	  The <pkg>forecast</pkg> package adds functions for
@@ -158,7 +158,7 @@
     </p>
     <ul>
       <li>The Rmetrics suite of packages comprises
-          <pkg>fArma</pkg>, <pkg>fAsianOptions</pkg>, <pkg>fAssets</pkg>, 
+	  <pkg>fAssets</pkg>, 
 	  <pkg>fBasics</pkg>, <pkg>fBonds</pkg>, <pkg>timeDate</pkg> (formerly: fCalendar), 
 	  <pkg>fCopulae</pkg>, <pkg>fExoticOptions</pkg>, 
 	  <pkg>fExtremes</pkg>, <pkg>fGarch</pkg>, <pkg>fImport</pkg>, 
@@ -175,7 +175,7 @@
           at current only some calendaring functionality is exposed.
       </li>
       <li>The <pkg>quantmod</pkg> package offers a number of functions for
-          quantitative modelling in finance as well as data acqusition, plotting
+          quantitative modelling in finance as well as data acquisition, plotting
           and other utilities.
       </li>
       <li>The <pkg>portfolio</pkg> package contains
@@ -183,8 +183,6 @@
           <pkg>portfolioSim</pkg> builds a related simulation framework. 
           The <pkg>backtest</pkg> offers tools to  
 	  explore portfolio-based hypotheses about financial instruments.
-	  The <pkg>stockPortfolio</pkg> package provides functions for
-	  single index, constant correlation and multigroup models.
 	  The <pkg>pa</pkg> package offers performance attribution
 	  functionality for equity portfolios.
       </li>
@@ -287,12 +285,7 @@
       </li>
       <li>
 	The <pkg>MarkowitzR</pkg> package provides functions to test
-	the statistical signicance of Markowitz portfolios.
-      </li>
-      <li>
-	The <pkg>egcm</pkg> package implements the Engle-Granger
-	two-stage cointegration modeling procedure with a particular
-	focus on pairs trading.
+	the statistical significance of Markowitz portfolios.
       </li>
       <li>
 	The <pkg>pbo</pkg> package models the probability of backtest
@@ -352,7 +345,7 @@
         several other key packages for use in the so-called tidyverse. 
       </li>
       <li> The <pkg>BCC1997</pkg> prices European options under the Bakshi,
-        Cao anc Chen (1997) model for stochastic volatility, stochastuc rates
+        Cao anc Chen (1997) model for stochastic volatility, stochastic rates
         and random jumps.
       </li>
       <li>
@@ -426,7 +419,7 @@
           follow a t-copula model with generalized hyperbolic or t marginals.  
       </li>
       <li>
-	  The <pkg>GCPM</pkg> package anlyzes the default risk of credit
+	  The <pkg>GCPM</pkg> package analyzes the default risk of credit
           portfolio using both analytical and simulation approaches.
       </li>
       <li>
@@ -590,15 +583,12 @@
     <pkg>dse</pkg>
     <pkg>dyn</pkg>
     <pkg>dynlm</pkg>
-    <pkg>egcm</pkg>
     <pkg>ESG</pkg>
     <pkg>factorstochvol</pkg>    
     <pkg>fame</pkg>
     <pkg>FatTailsR</pkg>
     <pkg>fgac</pkg>
     <pkg>financial</pkg>
-    <pkg priority="core">fArma</pkg>
-    <pkg priority="core">fAsianOptions</pkg>
     <pkg priority="core">fAssets</pkg>
     <pkg priority="core">fBasics</pkg>
     <pkg priority="core">fBonds</pkg>
@@ -686,7 +676,6 @@
     <pkg>Sim.DiffProc</pkg>    
     <pkg>SmithWilsonYieldCurve</pkg>
     <pkg>stochvol</pkg>
-    <pkg>stockPortfolio</pkg>    
     <pkg>strucchange</pkg>
     <pkg>TAQMNGR</pkg>
     <pkg>timsac</pkg>
