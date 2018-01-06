@@ -5,7 +5,7 @@ CRAN Task View: Empirical Finance
 |-----------------|-------------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                           
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org          
-| **Version:**    | 2017-09-12                                  
+| **Version:**    | 2018-01-06                                  
 | **URL:**        | <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
@@ -109,6 +109,8 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [Dowd](https://cran.r-project.org/package=Dowd) package contains functions ported from the 'MMR2' toolbox offered in Kevin Dowd's book "Measuring Market Risk".
 -   The [PortRisk](https://cran.r-project.org/package=PortRisk) package computes portfolio risk attribution.
 -   The [NetworkRiskMeasures](https://cran.r-project.org/package=NetworkRiskMeasures) package implements some risk measures for financial networks such as DebtRank, Impact Susceptibility, Impact Diffusion and Impact Fluidity.
+-   The [Risk](https://cran.r-project.org/package=Risk) package computes 26 financial risk measures for any continuous distribution.
+-   The [RiskPortfolios](https://cran.r-project.org/package=RiskPortfolios) package constructs risk-based portfolios as per the corresponding papers by Ardia et al.
 
 **Books**
 
@@ -240,6 +242,8 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [Rcmdr](https://cran.r-project.org/package=Rcmdr)
 -   [RcppQuantuccia](https://cran.r-project.org/package=RcppQuantuccia)
 -   [restimizeapi](https://cran.r-project.org/package=restimizeapi)
+-   [Risk](https://cran.r-project.org/package=Risk)
+-   [RiskPortfolios](https://cran.r-project.org/package=RiskPortfolios)
 -   [riskSimul](https://cran.r-project.org/package=riskSimul)
 -   [rmgarch](https://cran.r-project.org/package=rmgarch)
 -   [RND](https://cran.r-project.org/package=RND)

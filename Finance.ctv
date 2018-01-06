@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2017-09-12</version>
+  <version>2018-01-06</version>
   
   <info>
     <p>
@@ -438,6 +438,13 @@
         The <pkg>NetworkRiskMeasures</pkg> package implements some risk measures for financial networks such as DebtRank, Impact
         Susceptibility, Impact Diffusion and Impact Fluidity.
       </li>
+      <li>
+        The <pkg>Risk</pkg> package computes 26 financial risk measures for any continuous distribution.
+      </li>
+      <li>
+        The <pkg>RiskPortfolios</pkg> package constructs risk-based
+        portfolios as per the corresponding papers by Ardia et al.
+      </li>
 
     </ul>
 
@@ -661,6 +668,8 @@
     <pkg>Rcmdr</pkg>
     <pkg>RcppQuantuccia</pkg>    
     <pkg>restimizeapi</pkg>
+    <pkg>Risk</pkg> 
+    <pkg>RiskPortfolios</pkg> 
     <pkg>riskSimul</pkg>
     <pkg>rmgarch</pkg> 
     <pkg>RND</pkg>
