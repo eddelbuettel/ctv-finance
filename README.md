@@ -5,7 +5,7 @@ CRAN Task View: Empirical Finance
 |-----------------|-------------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                           
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org          
-| **Version:**    | 2018-01-06                                  
+| **Version:**    | 2018-02-22                                  
 | **URL:**        | <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
@@ -52,7 +52,6 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [vrtest](https://cran.r-project.org/package=vrtest) package contains a number of variance ratio tests for the weak-form of the efficient markets hypothesis.
 -   The [gmm](https://cran.r-project.org/package=gmm) package provides generalized method of moments (GMM) estimations function that are often used when estimating the parameters of the moment conditions implied by an asset pricing model.
 -   The [tawny](https://cran.r-project.org/package=tawny) package contains estimator based on random matrix theory as well as shrinkage methods to remove sampling noise when estimating sample covariance matrices.
--   The [opefimor](https://cran.r-project.org/package=opefimor) package by contains material to accompany the Iacus (2011) book entitled "Option Pricing and Estimation of Financial Models in R".
 -   The [maRketSim](https://cran.r-project.org/package=maRketSim) package provides a market simulator, initially designed around the bond market.
 -   The [BurStFin](https://cran.r-project.org/package=BurStFin/index.html) and [BurStMisc](../packages/BurStMisc) package has a collection of function for Finance including the estimation of covariance matrices.
 -   The [AmericanCallOpt](https://cran.r-project.org/package=AmericanCallOpt) package contains a pricer for different American call options.
@@ -90,6 +89,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [BLModel](https://cran.r-project.org/package=BLModel) package computes the posterior distribution in a Black-Litterman model from a prior distribution given by asset returns and continuous distribution of views given by an external function.
 -   The [rpatrec](https://cran.r-project.org/package=rpatrec) package aims to recognise charting patterns in (financial) time series data.
 -   The [PortfolioOptim](https://cran.r-project.org/package=PortfolioOptim) can solve both small and large sample portfolio optimization.
+-   The [estudy2](https://cran.r-project.org/package=estudy2) package implements most commonly used parametric and nonparametric event-study methodology tests.
 
 **Risk management**
 
@@ -165,6 +165,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [dyn](https://cran.r-project.org/package=dyn)
 -   [dynlm](https://cran.r-project.org/package=dynlm)
 -   [ESG](https://cran.r-project.org/package=ESG)
+-   [estudy2](https://cran.r-project.org/package=estudy2)
 -   [factorstochvol](https://cran.r-project.org/package=factorstochvol)
 -   [fame](https://cran.r-project.org/package=fame)
 -   [fAssets](https://cran.r-project.org/package=fAssets) (core)
@@ -221,7 +222,6 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [nlme](https://cran.r-project.org/package=nlme)
 -   [NMOF](https://cran.r-project.org/package=NMOF)
 -   [obAnalytics](https://cran.r-project.org/package=obAnalytics)
--   [opefimor](https://cran.r-project.org/package=opefimor)
 -   [OptHedging](https://cran.r-project.org/package=OptHedging)
 -   [OptionPricing](https://cran.r-project.org/package=OptionPricing)
 -   [pa](https://cran.r-project.org/package=pa)
