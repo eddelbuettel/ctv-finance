@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2018-02-22</version>
+  <version>2018-02-24</version>
   
   <info>
     <p>
@@ -444,6 +444,11 @@
         The <pkg>RiskPortfolios</pkg> package constructs risk-based
         portfolios as per the corresponding papers by Ardia et al.
       </li>
+      <li>
+        The <pkg>reinsureR</pkg> package models reinsurances a class  Claims
+        whose objective is to store claims and premiums, on which different
+        treaties can be applied. 
+      </li>
 
     </ul>
 
@@ -665,7 +670,8 @@
     <pkg>Rbitcoin</pkg>
     <pkg>Rblpapi</pkg>
     <pkg>Rcmdr</pkg>
-    <pkg>RcppQuantuccia</pkg>    
+    <pkg>RcppQuantuccia</pkg>
+    <pkg>reinsureR</pkg>    
     <pkg>restimizeapi</pkg>
     <pkg>Risk</pkg> 
     <pkg>RiskPortfolios</pkg> 

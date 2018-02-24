@@ -5,7 +5,7 @@ CRAN Task View: Empirical Finance
 |-----------------|-------------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                           
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org          
-| **Version:**    | 2018-02-22                                  
+| **Version:**    | 2018-02-24                                  
 | **URL:**        | <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
@@ -111,6 +111,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [NetworkRiskMeasures](https://cran.r-project.org/package=NetworkRiskMeasures) package implements some risk measures for financial networks such as DebtRank, Impact Susceptibility, Impact Diffusion and Impact Fluidity.
 -   The [Risk](https://cran.r-project.org/package=Risk) package computes 26 financial risk measures for any continuous distribution.
 -   The [RiskPortfolios](https://cran.r-project.org/package=RiskPortfolios) package constructs risk-based portfolios as per the corresponding papers by Ardia et al.
+-   The [reinsureR](https://cran.r-project.org/package=reinsureR) package models reinsurances a class Claims whose objective is to store claims and premiums, on which different treaties can be applied.
 
 **Books**
 
@@ -241,6 +242,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [Rblpapi](https://cran.r-project.org/package=Rblpapi)
 -   [Rcmdr](https://cran.r-project.org/package=Rcmdr)
 -   [RcppQuantuccia](https://cran.r-project.org/package=RcppQuantuccia)
+-   [reinsureR](https://cran.r-project.org/package=reinsureR)
 -   [restimizeapi](https://cran.r-project.org/package=restimizeapi)
 -   [Risk](https://cran.r-project.org/package=Risk)
 -   [RiskPortfolios](https://cran.r-project.org/package=RiskPortfolios)
