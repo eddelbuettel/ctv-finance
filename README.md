@@ -5,7 +5,7 @@ CRAN Task View: Empirical Finance
 |-----------------|-------------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                           
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org          
-| **Version:**    | 2018-02-24                                  
+| **Version:**    | 2018-03-13                                  
 | **URL:**        | <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
@@ -112,6 +112,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [Risk](https://cran.r-project.org/package=Risk) package computes 26 financial risk measures for any continuous distribution.
 -   The [RiskPortfolios](https://cran.r-project.org/package=RiskPortfolios) package constructs risk-based portfolios as per the corresponding papers by Ardia et al.
 -   The [reinsureR](https://cran.r-project.org/package=reinsureR) package models reinsurances a class Claims whose objective is to store claims and premiums, on which different treaties can be applied.
+-   The [RM2006](https://cran.r-project.org/package=RM2006) package estimates conditional covariance matrix using the RiskMetrics 2006 methodology described in Zumbach (2007).
 
 **Books**
 
@@ -247,6 +248,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [Risk](https://cran.r-project.org/package=Risk)
 -   [RiskPortfolios](https://cran.r-project.org/package=RiskPortfolios)
 -   [riskSimul](https://cran.r-project.org/package=riskSimul)
+-   [RM2006](https://cran.r-project.org/package=RM2006)
 -   [rmgarch](https://cran.r-project.org/package=rmgarch)
 -   [RND](https://cran.r-project.org/package=RND)
 -   [rpatrec](https://cran.r-project.org/package=rpatrec)

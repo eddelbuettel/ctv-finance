@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2018-02-24</version>
+  <version>2018-03-13</version>
   
   <info>
     <p>
@@ -449,7 +449,10 @@
         whose objective is to store claims and premiums, on which different
         treaties can be applied. 
       </li>
-
+      <li>
+        The <pkg>RM2006</pkg> package estimates conditional covariance matrix
+        using the RiskMetrics 2006 methodology described in Zumbach (2007).
+      </li>
     </ul>
 
     <p>
@@ -676,6 +679,7 @@
     <pkg>Risk</pkg> 
     <pkg>RiskPortfolios</pkg> 
     <pkg>riskSimul</pkg>
+    <pkg>RM2006</pkg>
     <pkg>rmgarch</pkg> 
     <pkg>RND</pkg>
     <pkg>rpatrec</pkg>    
