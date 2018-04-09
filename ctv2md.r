@@ -44,3 +44,5 @@ system(cmd)                             # run the conversion
 unlink(htmlfile)                        # remove temporary html file
 
 cat("Done.\n")
+              #"pandoc -s -r html -w markdown_github | ",
+             # "pandoc -s -r html -w gfm | ",

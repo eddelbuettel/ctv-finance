@@ -5,7 +5,7 @@ CRAN Task View: Empirical Finance
 |-----------------|-------------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                           
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org          
-| **Version:**    | 2018-03-13                                  
+| **Version:**    | 2018-04-09                                  
 | **URL:**        | <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
@@ -113,6 +113,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [RiskPortfolios](https://cran.r-project.org/package=RiskPortfolios) package constructs risk-based portfolios as per the corresponding papers by Ardia et al.
 -   The [reinsureR](https://cran.r-project.org/package=reinsureR) package models reinsurances a class Claims whose objective is to store claims and premiums, on which different treaties can be applied.
 -   The [RM2006](https://cran.r-project.org/package=RM2006) package estimates conditional covariance matrix using the RiskMetrics 2006 methodology described in Zumbach (2007).
+-   The [cvar](https://cran.r-project.org/package=cvar) package computes expected shortfall and value at risk for continuous distributions.
 
 **Books**
 
@@ -159,6 +160,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [CreditMetrics](https://cran.r-project.org/package=CreditMetrics)
 -   [credule](https://cran.r-project.org/package=credule)
 -   [crp.CSFP](https://cran.r-project.org/package=crp.CSFP)
+-   [cvar](https://cran.r-project.org/package=cvar)
 -   [data.table](https://cran.r-project.org/package=data.table)
 -   [derivmkts](https://cran.r-project.org/package=derivmkts)
 -   [dlm](https://cran.r-project.org/package=dlm)

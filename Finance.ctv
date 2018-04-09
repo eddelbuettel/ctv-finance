@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2018-03-13</version>
+  <version>2018-04-09</version>
   
   <info>
     <p>
@@ -453,6 +453,7 @@
         The <pkg>RM2006</pkg> package estimates conditional covariance matrix
         using the RiskMetrics 2006 methodology described in Zumbach (2007).
       </li>
+      <li>The <pkg>cvar</pkg> package computes expected shortfall and value at risk for continuous distributions.</li>
     </ul>
 
     <p>
@@ -590,6 +591,7 @@
     <pkg>CreditMetrics</pkg>
     <pkg>credule</pkg>
     <pkg>crp.CSFP</pkg>
+    <pkg>cvar</pkg>    
     <pkg>data.table</pkg>
     <pkg>derivmkts</pkg>    
     <pkg>dlm</pkg>
