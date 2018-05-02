@@ -5,7 +5,7 @@ CRAN Task View: Empirical Finance
 |-----------------|-------------------------------------------  
 | **Maintainer:** | Dirk Eddelbuettel                           
 | **Contact:**    | Dirk.Eddelbuettel at R-project.org          
-| **Version:**    | 2018-04-09                                  
+| **Version:**    | 2018-05-02                                  
 | **URL:**        | <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
@@ -73,7 +73,6 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [matchingMarkets](https://cran.r-project.org/package=matchingMarkets) package implements a structural estimator to correct for the bias arising from endogenous matching (e.g. group formation in microfinance or matching of firms and venture capitalists).
 -   The [restimizeapi](https://cran.r-project.org/package=restimizeapi) package interfaces the API at www.estimize.com which provides crowd-sourced earnings estimates.
 -   The [credule](https://cran.r-project.org/package=credule) package is another pricer for credit default swaps.
--   The [covmat](https://cran.r-project.org/package=covmat) package provides several different methods for computing covariance matrices.
 -   The [obAnalytics](https://cran.r-project.org/package=obAnalytics) package analyses and visualizes information from events in limit order book data.
 -   The [derivmkts](https://cran.r-project.org/package=derivmkts) package adds a set of pricing and expository functions useful in teaching derivatives markets.
 -   The [PortfolioEffectHFT](https://cran.r-project.org/package=PortfolioEffectHFT) package provides portfolio analysis suitable for intra-day and high-frequency data, and also interfaces the PortfolioEffect service.
@@ -90,6 +89,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [rpatrec](https://cran.r-project.org/package=rpatrec) package aims to recognise charting patterns in (financial) time series data.
 -   The [PortfolioOptim](https://cran.r-project.org/package=PortfolioOptim) can solve both small and large sample portfolio optimization.
 -   The [estudy2](https://cran.r-project.org/package=estudy2) package implements most commonly used parametric and nonparametric event-study methodology tests.
+-   The [DtD](https://cran.r-project.org/package=DtD) package computes the *distance to default* per Merton's model.
 
 **Risk management**
 
@@ -156,7 +156,6 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [ccgarch](https://cran.r-project.org/package=ccgarch)
 -   [ChainLadder](https://cran.r-project.org/package=ChainLadder)
 -   [copula](https://cran.r-project.org/package=copula)
--   [covmat](https://cran.r-project.org/package=covmat)
 -   [CreditMetrics](https://cran.r-project.org/package=CreditMetrics)
 -   [credule](https://cran.r-project.org/package=credule)
 -   [crp.CSFP](https://cran.r-project.org/package=crp.CSFP)
@@ -166,6 +165,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [dlm](https://cran.r-project.org/package=dlm)
 -   [Dowd](https://cran.r-project.org/package=Dowd)
 -   [dse](https://cran.r-project.org/package=dse)
+-   [DtD](https://cran.r-project.org/package=DtD)
 -   [dyn](https://cran.r-project.org/package=dyn)
 -   [dynlm](https://cran.r-project.org/package=dynlm)
 -   [ESG](https://cran.r-project.org/package=ESG)

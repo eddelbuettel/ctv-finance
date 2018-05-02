@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2018-04-09</version>
+  <version>2018-05-02</version>
   
   <info>
     <p>
@@ -306,9 +306,6 @@
       <li> The <pkg>credule</pkg> package is another pricer for credit
       default swaps.
       </li>
-      <li> The <pkg>covmat</pkg> package provides several different methods
-        for computing covariance matrices.
-      </li>
       <li> The <pkg>obAnalytics</pkg> package analyses and visualizes
         information from events in limit order book data.
       </li>
@@ -366,6 +363,9 @@
       </li>
       <li>The <pkg>estudy2</pkg> package implements most commonly used
           parametric and nonparametric event-study methodology tests.
+      </li>
+      <li>The <pkg>DtD</pkg> package computes the <em>distance to
+          default</em> per Merton's model.
       </li>
     </ul>
 
@@ -587,7 +587,6 @@
     <pkg>ccgarch</pkg>
     <pkg>ChainLadder</pkg>
     <pkg>copula</pkg>
-    <pkg>covmat</pkg>
     <pkg>CreditMetrics</pkg>
     <pkg>credule</pkg>
     <pkg>crp.CSFP</pkg>
@@ -597,6 +596,7 @@
     <pkg>dlm</pkg>
     <pkg>Dowd</pkg>    
     <pkg>dse</pkg>
+    <pkg>DtD</pkg>
     <pkg>dyn</pkg>
     <pkg>dynlm</pkg>
     <pkg>ESG</pkg>
