@@ -4,7 +4,7 @@ CRAN Task View: Empirical Finance
                                                             
 **Maintainer:** Dirk Eddelbuettel                           
 **Contact:**    Dirk.Eddelbuettel at R-project.org          
-**Version:**    2018-05-25                                  
+**Version:**    2018-06-18                                  
 **URL:**        <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
@@ -45,9 +45,8 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [portfolio](https://cran.r-project.org/package=portfolio) package contains classes for equity portfolio management; the [portfolioSim](https://cran.r-project.org/package=portfolioSim) builds a related simulation framework. The [backtest](https://cran.r-project.org/package=backtest) offers tools to explore portfolio-based hypotheses about financial instruments. The [pa](https://cran.r-project.org/package=pa) package offers performance attribution functionality for equity portfolios.
 -   The [PerformanceAnalytics](https://cran.r-project.org/package=PerformanceAnalytics) package contains a large number of functions for portfolio performance calculations and risk management.
 -   The [TTR](https://cran.r-project.org/package=TTR) contains functions to construct technical trading rules in R.
--   The [financial](https://cran.r-project.org/package=financial) package can compute present values, cash flows and other simple finance calculations.
 -   The [sde](https://cran.r-project.org/package=sde) package provides simulation and inference functionality for stochastic differential equations.
--   The [termstrc](https://cran.r-project.org/package=termstrc) and [YieldCurve](https://cran.r-project.org/package=YieldCurve) packages contain methods for the estimation of zero-coupon yield curves and spread curves based the parametric Nelson and Siegel (1987) method with the Svensson (1994) extension. The former package adds the McCulloch (1975) cubic splines approach, the latter package adds the Diebold and Li approach. The [SmithWilsonYieldCurve](https://cran.r-project.org/package=SmithWilsonYieldCurve) construct the yield curve using the Smith-Wilson approach based on LIBOR and SWAP rates.
+-   The [YieldCurve](https://cran.r-project.org/package=YieldCurve) package contains methods for the estimation of zero-coupon yield curves and spread curves based the parametric Nelson and Siegel (1987) method with the Svensson (1994) extension. The former package adds the McCulloch (1975) cubic splines approach, the latter package adds the Diebold and Li approach. The [SmithWilsonYieldCurve](https://cran.r-project.org/package=SmithWilsonYieldCurve) construct the yield curve using the Smith-Wilson approach based on LIBOR and SWAP rates.
 -   The [vrtest](https://cran.r-project.org/package=vrtest) package contains a number of variance ratio tests for the weak-form of the efficient markets hypothesis.
 -   The [gmm](https://cran.r-project.org/package=gmm) package provides generalized method of moments (GMM) estimations function that are often used when estimating the parameters of the moment conditions implied by an asset pricing model.
 -   The [tawny](https://cran.r-project.org/package=tawny) package contains estimator based on random matrix theory as well as shrinkage methods to remove sampling noise when estimating sample covariance matrices.
@@ -181,7 +180,6 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [fgac](https://cran.r-project.org/package=fgac)
 -   [fGarch](https://cran.r-project.org/package=fGarch) (core)
 -   [fImport](https://cran.r-project.org/package=fImport) (core)
--   [financial](https://cran.r-project.org/package=financial)
 -   [FinancialMath](https://cran.r-project.org/package=FinancialMath)
 -   [FinAsym](https://cran.r-project.org/package=FinAsym)
 -   [finreportr](https://cran.r-project.org/package=finreportr)
@@ -266,7 +264,6 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [strucchange](https://cran.r-project.org/package=strucchange)
 -   [TAQMNGR](https://cran.r-project.org/package=TAQMNGR)
 -   [tawny](https://cran.r-project.org/package=tawny)
--   [termstrc](https://cran.r-project.org/package=termstrc)
 -   [TFX](https://cran.r-project.org/package=TFX)
 -   [tidyquant](https://cran.r-project.org/package=tidyquant)
 -   [timeDate](https://cran.r-project.org/package=timeDate) (core)

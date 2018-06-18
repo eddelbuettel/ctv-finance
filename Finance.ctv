@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2018-05-25</version>
+  <version>2018-06-18</version>
   
   <info>
     <p>
@@ -191,13 +191,10 @@
       <li>The <pkg>TTR</pkg> contains functions to construct technical
           trading rules in R.
       </li>
-      <li>The <pkg>financial</pkg> package can compute present values, cash
-	  flows and other simple finance calculations.
-      </li>
       <li>The <pkg>sde</pkg> package provides simulation and inference functionality
           for stochastic differential equations.
       </li>
-      <li>The <pkg>termstrc</pkg> and <pkg>YieldCurve</pkg> packages contain methods for the estimation
+      <li>The <pkg>YieldCurve</pkg> package contains methods for the estimation
           of zero-coupon yield curves and spread curves based the parametric 
           Nelson and Siegel (1987) method with the Svensson (1994)
           extension. The former package adds the McCulloch (1975) cubic
@@ -604,7 +601,6 @@
     <pkg>fame</pkg>
     <pkg>FatTailsR</pkg>
     <pkg>fgac</pkg>
-    <pkg>financial</pkg>
     <pkg priority="core">fAssets</pkg>
     <pkg priority="core">fBasics</pkg>
     <pkg priority="core">fBonds</pkg>
@@ -698,7 +694,6 @@
     <pkg>TAQMNGR</pkg>
     <pkg>timsac</pkg>
     <pkg priority="core">tseries</pkg>
-    <pkg>termstrc</pkg>
     <pkg>TFX</pkg>
     <pkg>TSdbi</pkg>
     <pkg>tsDyn</pkg>
