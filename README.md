@@ -4,7 +4,7 @@ CRAN Task View: Empirical Finance
                                                             
 **Maintainer:** Dirk Eddelbuettel                           
 **Contact:**    Dirk.Eddelbuettel at R-project.org          
-**Version:**    2018-06-18                                  
+**Version:**    2018-08-31                                  
 **URL:**        <https://CRAN.R-project.org/view=Finance>   
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by topic.
@@ -88,6 +88,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   The [PortfolioOptim](https://cran.r-project.org/package=PortfolioOptim) can solve both small and large sample portfolio optimization.
 -   The [estudy2](https://cran.r-project.org/package=estudy2) package implements most commonly used parametric and nonparametric event-study methodology tests.
 -   The [DtD](https://cran.r-project.org/package=DtD) package computes the *distance to default* per Merton's model.
+-   The [PeerPerformance](https://cran.r-project.org/package=PeerPerformance) package analyzes performance of investments fundss relative to its peers in a pairwise manner that is robust to false discoveries.
 
 **Risk management**
 
@@ -227,6 +228,7 @@ Contributions are always welcome, and encouraged. Since the start of this CRAN t
 -   [pa](https://cran.r-project.org/package=pa)
 -   [parma](https://cran.r-project.org/package=parma)
 -   [pbo](https://cran.r-project.org/package=pbo)
+-   [PeerPerformance](https://cran.r-project.org/package=PeerPerformance)
 -   [PerformanceAnalytics](https://cran.r-project.org/package=PerformanceAnalytics) (core)
 -   [pinbasic](https://cran.r-project.org/package=pinbasic)
 -   [portfolio](https://cran.r-project.org/package=portfolio)

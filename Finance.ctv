@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2018-06-18</version>
+  <version>2018-08-31</version>
   
   <info>
     <p>
@@ -363,6 +363,10 @@
       <li>The <pkg>DtD</pkg> package computes the <em>distance to
           default</em> per Merton's model.
       </li>
+      <li> The <pkg>PeerPerformance</pkg> package analyzes performance of
+          investments fundss relative to its peers in a pairwise manner that
+          is robust to false discoveries.
+      </li>
     </ul>
 
     <p>
@@ -655,6 +659,7 @@
     <pkg>OptionPricing</pkg>
     <pkg>pa</pkg>
     <pkg>parma</pkg>
+    <pkg>PeerPerformance</pkg>
     <pkg>pbo</pkg> 
     <pkg priority="core">PerformanceAnalytics</pkg>
     <pkg>pinbasic</pkg> 
