@@ -364,7 +364,7 @@
           default</em> per Merton's model.
       </li>
       <li> The <pkg>PeerPerformance</pkg> package analyzes performance of
-          investments fundss relative to its peers in a pairwise manner that
+          investments funds relative to its peers in a pairwise manner that
           is robust to false discoveries.
       </li>
     </ul>
