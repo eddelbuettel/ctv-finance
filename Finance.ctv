@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2018-08-31</version>
+  <version>2018-12-04</version>
   
   <info>
     <p>
@@ -367,6 +367,9 @@
           investments funds relative to its peers in a pairwise manner that
           is robust to false discoveries.
       </li>
+      <li> The <pkg>crseEventStudy</pkg> package provides another event-study
+       tool to analyse abnormal return in long-horizon events.
+      </li>
     </ul>
 
     <p>
@@ -590,6 +593,7 @@
     <pkg>CreditMetrics</pkg>
     <pkg>credule</pkg>
     <pkg>crp.CSFP</pkg>
+    <pkg>crseEventStudy</pkg>
     <pkg>cvar</pkg>    
     <pkg>data.table</pkg>
     <pkg>derivmkts</pkg>    
