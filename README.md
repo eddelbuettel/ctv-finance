@@ -4,7 +4,7 @@
 --------------- -----------------------------------------   
 **Maintainer:** Dirk Eddelbuettel                           
 **Contact:**    Dirk.Eddelbuettel at R-project.org          
-**Version:**    2018-12-04                                  
+**Version:**    2018-12-25                                  
 **URL:**        <https://CRAN.R-project.org/view=Finance>   
 
 <div>
@@ -397,6 +397,8 @@ are also possible.
     described in Zumbach (2007).
   - The [cvar](https://cran.r-project.org/package=cvar) package computes expected
     shortfall and value at risk for continuous distributions.
+  - [riskParityPortfolio](https://cran.r-project.org/package=riskParityPortfolio)
+    offers fast implementations for constructing risk-parity portfolios.
 
 **Books**
 
@@ -586,6 +588,7 @@ are also possible.
   - [reinsureR](https://cran.r-project.org/package=reinsureR)
   - [restimizeapi](https://cran.r-project.org/package=restimizeapi)
   - [Risk](https://cran.r-project.org/package=Risk)
+  - [riskParityPortfolio](https://cran.r-project.org/package=riskParityPortfolio)
   - [RiskPortfolios](https://cran.r-project.org/package=RiskPortfolios)
   - [riskSimul](https://cran.r-project.org/package=riskSimul)
   - [RM2006](https://cran.r-project.org/package=RM2006)

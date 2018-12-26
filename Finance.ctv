@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2018-12-04</version>
+  <version>2018-12-25</version>
   
   <info>
     <p>
@@ -457,6 +457,7 @@
         using the RiskMetrics 2006 methodology described in Zumbach (2007).
       </li>
       <li>The <pkg>cvar</pkg> package computes expected shortfall and value at risk for continuous distributions.</li>
+      <li><pkg>riskParityPortfolio</pkg> offers fast implementations for constructing risk-parity portfolios.</li>
     </ul>
 
     <p>
@@ -682,6 +683,7 @@
     <pkg>reinsureR</pkg>    
     <pkg>restimizeapi</pkg>
     <pkg>Risk</pkg> 
+    <pkg>riskParityPortfolio</pkg>
     <pkg>RiskPortfolios</pkg> 
     <pkg>riskSimul</pkg>
     <pkg>RM2006</pkg>
