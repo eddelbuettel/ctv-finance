@@ -152,8 +152,7 @@
       </li>
       <li>
           The <pkg>DriftBurstHypothesis</pkg> package estimates a t-test statistics for the
-          explosive drift burst hypothesis from the working paper Christensen, Oomen and Reno (2018) 
-          at <code>doi:10.2139/ssrn.2842535</code>.
+          explosive drift burst hypothesis (Christensen, Oomen and Reno, 2018).
       </li>
     </ul>
 

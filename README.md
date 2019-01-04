@@ -150,8 +150,7 @@ are also possible.
   - The
     [DriftBurstHypothesis](https://cran.r-project.org/package=DriftBurstHypothesis)
     package estimates a t-test statistics for the explosive drift burst
-    hypothesis from the working paper Christensen, Oomen and Reno (2018)
-    at `doi:10.2139/ssrn.2842535`.
+    hypothesis (Christensen, Oomen and Reno, 2018).
 
 **Finance**
 
@@ -509,6 +508,7 @@ are also possible.
   - [derivmkts](https://cran.r-project.org/package=derivmkts)
   - [dlm](https://cran.r-project.org/package=dlm)
   - [Dowd](https://cran.r-project.org/package=Dowd)
+  - [DriftBurstHypothesis](https://cran.r-project.org/package=DriftBurstHypothesis)
   - [dse](https://cran.r-project.org/package=dse)
   - [DtD](https://cran.r-project.org/package=DtD)
   - [dyn](https://cran.r-project.org/package=dyn)
