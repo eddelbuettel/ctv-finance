@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2018-12-25</version>
+  <version>2019-01-04</version>
   
   <info>
     <p>
@@ -149,6 +149,11 @@
       <li>
 	  The <pkg>MSGARCH</pkg> package adds methods to fit (by Maximum Likelihood
           or Bayesian), simulate, and forecast various Markov-Switching GARCH processes. 
+      </li>
+      <li>
+          The <pkg>DriftBurstHypothesis</pkg> package estimates a t-test statistics for the
+          explosive drift burst hypothesis from the working paper Christensen, Oomen and Reno (2018) 
+          at <code>doi:10.2139/ssrn.2842535</code>.
       </li>
     </ul>
 
@@ -600,6 +605,7 @@
     <pkg>derivmkts</pkg>    
     <pkg>dlm</pkg>
     <pkg>Dowd</pkg>    
+    <pkg>DriftBurstHypothesis</pkg>
     <pkg>dse</pkg>
     <pkg>DtD</pkg>
     <pkg>dyn</pkg>

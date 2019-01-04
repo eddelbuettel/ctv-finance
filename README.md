@@ -4,7 +4,7 @@
 --------------- -----------------------------------------   
 **Maintainer:** Dirk Eddelbuettel                           
 **Contact:**    Dirk.Eddelbuettel at R-project.org          
-**Version:**    2018-12-25                                  
+**Version:**    2019-01-04                                  
 **URL:**        <https://CRAN.R-project.org/view=Finance>   
 
 <div>
@@ -147,6 +147,11 @@ are also possible.
   - The [MSGARCH](https://cran.r-project.org/package=MSGARCH) package adds methods
     to fit (by Maximum Likelihood or Bayesian), simulate, and forecast
     various Markov-Switching GARCH processes.
+  - The
+    [DriftBurstHypothesis](https://cran.r-project.org/package=DriftBurstHypothesis)
+    package estimates a t-test statistics for the explosive drift burst
+    hypothesis from the working paper Christensen, Oomen and Reno (2018)
+    at `doi:10.2139/ssrn.2842535`.
 
 **Finance**
 
