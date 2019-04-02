@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2019-01-04</version>
+  <version>2019-03-07</version>
   
   <info>
     <p>
@@ -93,9 +93,7 @@
           Beta-t-EGARCH model by Harvey.  The <pkg>bayesGARCH</pkg>
           package can perform Bayesian estimation of a GARCH(1,1)
           model with Student's t innovations.  For multivariate
-          models, the <pkg>ccgarch</pkg> package can estimate
-          (multivariate) Conditional Correlation GARCH models whereas
-          the <pkg>gogarch</pkg> package provides functions for
+          models, the <pkg>gogarch</pkg> package provides functions for
           generalized orthogonal GARCH models.  The
           <pkg>gets</pkg> package (which was preceded by a related package
           AutoSEARCH) provides automated general-to-specific model selection of the mean and
@@ -217,9 +215,6 @@
       <li> The <pkg>tawny</pkg> package contains estimator based on random
 	  matrix theory as well as shrinkage methods to remove sampling noise
 	  when estimating sample covariance matrices.
-      </li>
-      <li> The <pkg>maRketSim</pkg> package provides a market simulator, 
-          initially designed around the bond market.
       </li>
       <li> The <pkg>BurStFin</pkg> and <pkg>BurStMisc</pkg> package has a collection of
           function for Finance including the estimation of covariance
@@ -345,10 +340,6 @@
           The <pkg>Sim.DiffProc</pkg> package provides functions to simulate
           and analyse multidimensional Itô and Stratonovitch stochastic calculus for 
           continuous-time models.
-      </li>
-      <li>
-          The <pkg>rpgm</pkg> package offers fast simulation of normal and
-          exponential random variables and stochastic differential equations.
       </li>
       <li>
           The <pkg>BLModel</pkg> package computes the posterior distribution
@@ -592,7 +583,6 @@
     <pkg>BurStMisc</pkg>
     <pkg>CADFtest</pkg>
     <pkg>car</pkg>
-    <pkg>ccgarch</pkg>
     <pkg>ChainLadder</pkg>
     <pkg>copula</pkg>
     <pkg>CreditMetrics</pkg>
@@ -656,7 +646,6 @@
     <pkg>LSMonteCarlo</pkg>
     <pkg>longmemo</pkg>
     <pkg>markovchain</pkg>
-    <pkg>maRketSim</pkg>
     <pkg>MarkowitzR</pkg>
     <pkg>matchingMarkets</pkg>
     <pkg>MSGARCH</pkg>
@@ -695,7 +684,6 @@
     <pkg>rmgarch</pkg> 
     <pkg>RND</pkg>
     <pkg>rpatrec</pkg>    
-    <pkg>rpgm</pkg>    
     <pkg>RQuantLib</pkg>
     <pkg priority="core">rugarch</pkg> 
     <pkg>rwt</pkg> 

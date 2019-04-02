@@ -4,7 +4,7 @@
 --------------- -----------------------------------------   
 **Maintainer:** Dirk Eddelbuettel                           
 **Contact:**    Dirk.Eddelbuettel at R-project.org          
-**Version:**    2019-01-04                                  
+**Version:**    2019-03-07                                  
 **URL:**        <https://CRAN.R-project.org/view=Finance>   
 
 <div>
@@ -97,8 +97,6 @@ are also possible.
     [bayesGARCH](https://cran.r-project.org/package=bayesGARCH) package can perform
     Bayesian estimation of a GARCH(1,1) model with Student's t
     innovations. For multivariate models, the
-    [ccgarch](https://cran.r-project.org/package=ccgarch) package can estimate
-    (multivariate) Conditional Correlation GARCH models whereas the
     [gogarch](https://cran.r-project.org/package=gogarch) package provides functions
     for generalized orthogonal GARCH models. The
     [gets](https://cran.r-project.org/package=gets) package (which was preceded by a
@@ -216,8 +214,6 @@ are also possible.
   - The [tawny](https://cran.r-project.org/package=tawny) package contains estimator
     based on random matrix theory as well as shrinkage methods to remove
     sampling noise when estimating sample covariance matrices.
-  - The [maRketSim](https://cran.r-project.org/package=maRketSim) package provides a
-    market simulator, initially designed around the bond market.
   - The [BurStFin](https://cran.r-project.org/package=BurStFin) and
     [BurStMisc](https://cran.r-project.org/package=BurStMisc) package has a
     collection of function for Finance including the estimation of
@@ -313,9 +309,6 @@ are also possible.
   - The [Sim.DiffProc](https://cran.r-project.org/package=Sim.DiffProc) package
     provides functions to simulate and analyse multidimensional Itô and
     Stratonovitch stochastic calculus for continuous-time models.
-  - The [rpgm](https://cran.r-project.org/package=rpgm) package offers fast
-    simulation of normal and exponential random variables and stochastic
-    differential equations.
   - The [BLModel](https://cran.r-project.org/package=BLModel) package computes the
     posterior distribution in a Black-Litterman model from a prior
     distribution given by asset returns and continuous distribution of
@@ -496,7 +489,6 @@ are also possible.
   - [BurStMisc](https://cran.r-project.org/package=BurStMisc)
   - [CADFtest](https://cran.r-project.org/package=CADFtest)
   - [car](https://cran.r-project.org/package=car)
-  - [ccgarch](https://cran.r-project.org/package=ccgarch)
   - [ChainLadder](https://cran.r-project.org/package=ChainLadder)
   - [copula](https://cran.r-project.org/package=copula)
   - [CreditMetrics](https://cran.r-project.org/package=CreditMetrics)
@@ -559,7 +551,6 @@ are also possible.
   - [lmtest](https://cran.r-project.org/package=lmtest)
   - [longmemo](https://cran.r-project.org/package=longmemo)
   - [LSMonteCarlo](https://cran.r-project.org/package=LSMonteCarlo)
-  - [maRketSim](https://cran.r-project.org/package=maRketSim)
   - [markovchain](https://cran.r-project.org/package=markovchain)
   - [MarkowitzR](https://cran.r-project.org/package=MarkowitzR)
   - [matchingMarkets](https://cran.r-project.org/package=matchingMarkets)
@@ -600,7 +591,6 @@ are also possible.
   - [rmgarch](https://cran.r-project.org/package=rmgarch)
   - [RND](https://cran.r-project.org/package=RND)
   - [rpatrec](https://cran.r-project.org/package=rpatrec)
-  - [rpgm](https://cran.r-project.org/package=rpgm)
   - [RQuantLib](https://cran.r-project.org/package=RQuantLib)
   - [rugarch](https://cran.r-project.org/package=rugarch)
     (core)
