@@ -331,6 +331,13 @@ are also possible.
 
 **Risk management**
 
+  - The packages [qrmtools](https://cran.r-project.org/package=qrmtools) and
+    [qrmdata](https://cran.r-project.org/package=qrmdata) provide tools and data for
+    standard tasks in Quantitative Risk Management (QRM) and accompany
+    the book of [McNeil, Frey, Embrechts (2005, 2015, "Quantitative Risk
+    Management: Concepts, Techniques,
+    Tools")](https://press.princeton.edu/books/hardcover/9780691166278/quantitative-risk-management)
+    .
   - The Task View
     [ExtremeValue](https://cran.r-project.org/web/views/ExtremeValue.html)
     regroups a number of relevant packages.
@@ -339,13 +346,18 @@ are also possible.
     modelling credit risks.
   - The [mvtnorm](https://cran.r-project.org/package=mvtnorm) package provides code
     for multivariate Normal and t-distributions.
+  - The package [nvmix](https://cran.r-project.org/package=nvmix) provides
+    functionality for multivariate normal variance mixtures (including
+    normal and t for non-integer degrees of freedom).
   - The Rmetrics packages
     [fPortfolio](https://cran.r-project.org/package=fPortfolio) and
     [fExtremes](https://cran.r-project.org/package=fExtremes) also contain a number
     of relevant functions.
-  - The [copula](https://cran.r-project.org/package=copula) and
-    [fgac](https://cran.r-project.org/package=fgac) packages cover multivariate
-    dependency structures using copula methods.
+  - The packages [copula](https://cran.r-project.org/package=copula) and
+    [copulaData](https://cran.r-project.org/package=copulaData) cover a wide range
+    of modeling tasks for copulas.
+  - The [fgac](https://cran.r-project.org/package=fgac) implements generalized
+    Archimedean copulas.
   - The [actuar](https://cran.r-project.org/package=actuar) package provides an
     actuarial perspective to risk management.
   - The [ghyp](https://cran.r-project.org/package=ghyp) package provides generalized
@@ -491,6 +503,7 @@ are also possible.
   - [car](https://cran.r-project.org/package=car)
   - [ChainLadder](https://cran.r-project.org/package=ChainLadder)
   - [copula](https://cran.r-project.org/package=copula)
+  - [copulaData](https://cran.r-project.org/package=copulaData)
   - [CreditMetrics](https://cran.r-project.org/package=CreditMetrics)
   - [credule](https://cran.r-project.org/package=credule)
   - [crp.CSFP](https://cran.r-project.org/package=crp.CSFP)
@@ -559,6 +572,7 @@ are also possible.
   - [NetworkRiskMeasures](https://cran.r-project.org/package=NetworkRiskMeasures)
   - [nlme](https://cran.r-project.org/package=nlme)
   - [NMOF](https://cran.r-project.org/package=NMOF)
+  - [nvmix](https://cran.r-project.org/package=nvmix)
   - [obAnalytics](https://cran.r-project.org/package=obAnalytics)
   - [OptHedging](https://cran.r-project.org/package=OptHedging)
   - [OptionPricing](https://cran.r-project.org/package=OptionPricing)
@@ -574,6 +588,8 @@ are also possible.
   - [PortfolioOptim](https://cran.r-project.org/package=PortfolioOptim)
   - [portfolioSim](https://cran.r-project.org/package=portfolioSim)
   - [PortRisk](https://cran.r-project.org/package=PortRisk)
+  - [qrmdata](https://cran.r-project.org/package=qrmdata)
+  - [qrmtools](https://cran.r-project.org/package=qrmtools)
   - [quantmod](https://cran.r-project.org/package=quantmod)
   - [QuantTools](https://cran.r-project.org/package=QuantTools)
   - [ragtop](https://cran.r-project.org/package=ragtop)
@@ -592,8 +608,7 @@ are also possible.
   - [RND](https://cran.r-project.org/package=RND)
   - [rpatrec](https://cran.r-project.org/package=rpatrec)
   - [RQuantLib](https://cran.r-project.org/package=RQuantLib)
-  - [rugarch](https://cran.r-project.org/package=rugarch)
-    (core)
+  - [rugarch](https://cran.r-project.org/package=rugarch) (core)
   - [rwt](https://cran.r-project.org/package=rwt)
   - [sandwich](https://cran.r-project.org/package=sandwich)
   - [sde](https://cran.r-project.org/package=sde)
