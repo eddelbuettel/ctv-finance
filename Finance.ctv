@@ -1,8 +1,8 @@
 <!-- Hey Emacs, make this -*- mode: XML -*- -->
 <CRANTaskView>
 
-  <name>Finance, Insurance, Risk Management</name>
-  <topic>Finance, Insurance, Risk Management</topic>
+  <name>Finance</name>
+  <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
   <version>2019-03-07</version>
 

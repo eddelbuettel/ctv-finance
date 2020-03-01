@@ -356,8 +356,8 @@ are also possible.
   - The packages [copula](https://cran.r-project.org/package=copula) and
     [copulaData](https://cran.r-project.org/package=copulaData) cover a wide range
     of modeling tasks for copulas.
-  - The [fgac](https://cran.r-project.org/package=fgac) implements generalized
-    Archimedean copulas.
+  - The [fgac](https://cran.r-project.org/package=fgac) package implements
+    generalized Archimedean copulas.
   - The [actuar](https://cran.r-project.org/package=actuar) package provides an
     actuarial perspective to risk management.
   - The [ghyp](https://cran.r-project.org/package=ghyp) package provides generalized
