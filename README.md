@@ -4,7 +4,7 @@
 --------------- -----------------------------------------   
 **Maintainer:** Dirk Eddelbuettel                           
 **Contact:**    Dirk.Eddelbuettel at R-project.org          
-**Version:**    2019-03-07                                  
+**Version:**    2020-03-01                                  
 **URL:**        <https://CRAN.R-project.org/view=Finance>   
 
 <div>
