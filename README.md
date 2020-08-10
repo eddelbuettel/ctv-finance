@@ -4,7 +4,7 @@
 --------------- -----------------------------------------   
 **Maintainer:** Dirk Eddelbuettel                           
 **Contact:**    Dirk.Eddelbuettel at R-project.org          
-**Version:**    2020-03-01                                  
+**Version:**    2020-07-17                                  
 **URL:**        <https://CRAN.R-project.org/view=Finance>   
 
 <div>
@@ -59,8 +59,7 @@ are also possible.
     [strucchange](https://cran.r-project.org/package=strucchange),
     [urca](https://cran.r-project.org/package=urca), and
     [sandwich](https://cran.r-project.org/package=sandwich) packages. The
-    [Rcmdr](https://cran.r-project.org/package=Rcmdr) and
-    [Zelig](https://cran.r-project.org/package=Zelig) packages provide user
+    [Rcmdr](https://cran.r-project.org/package=Rcmdr) package provide user
     interfaces that may be of interest as well.
 
 **Time series**
@@ -78,8 +77,6 @@ are also possible.
     [fracdiff](https://cran.r-project.org/package=fracdiff) can estimate
     fractionally integrated series;
     [longmemo](https://cran.r-project.org/package=longmemo) covers related material.
-    The [fractal](https://cran.r-project.org/package=fractal) provide fractal time
-    series modeling functionality.
   - For volatility modeling, the standard GARCH(1,1) model can be
     estimated with the `garch()` function in the
     [tseries](https://cran.r-project.org/package=tseries) package. Rmetrics (see
@@ -179,12 +176,8 @@ are also possible.
   - The [quantmod](https://cran.r-project.org/package=quantmod) package offers a
     number of functions for quantitative modelling in finance as well as
     data acquisition, plotting and other utilities.
-  - The [portfolio](https://cran.r-project.org/package=portfolio) package contains
-    classes for equity portfolio management; the
-    [portfolioSim](https://cran.r-project.org/package=portfolioSim) builds a related
-    simulation framework. The
-    [backtest](https://cran.r-project.org/package=backtest) offers tools to explore
-    portfolio-based hypotheses about financial instruments. The
+  - The [backtest](https://cran.r-project.org/package=backtest) offers tools to
+    explore portfolio-based hypotheses about financial instruments. The
     [pa](https://cran.r-project.org/package=pa) package offers performance
     attribution functionality for equity portfolios.
   - The
@@ -211,9 +204,6 @@ are also possible.
     method of moments (GMM) estimations function that are often used
     when estimating the parameters of the moment conditions implied by
     an asset pricing model.
-  - The [tawny](https://cran.r-project.org/package=tawny) package contains estimator
-    based on random matrix theory as well as shrinkage methods to remove
-    sampling noise when estimating sample covariance matrices.
   - The [BurStFin](https://cran.r-project.org/package=BurStFin) and
     [BurStMisc](https://cran.r-project.org/package=BurStMisc) package has a
     collection of function for Finance including the estimation of
@@ -342,8 +332,7 @@ are also possible.
     [ExtremeValue](https://cran.r-project.org/web/views/ExtremeValue.html)
     regroups a number of relevant packages.
   - The packages [CreditMetrics](https://cran.r-project.org/package=CreditMetrics)
-    and [crp.CSFP](https://cran.r-project.org/package=crp.CSFP) provide function for
-    modelling credit risks.
+    provides function for modelling credit risks.
   - The [mvtnorm](https://cran.r-project.org/package=mvtnorm) package provides code
     for multivariate Normal and t-distributions.
   - The package [nvmix](https://cran.r-project.org/package=nvmix) provides
@@ -476,10 +465,7 @@ are also possible.
     these reports.
   - The [GetTDData](https://cran.r-project.org/package=GetTDData) package imports
     Brazilian government bonds data (such as LTN, NTN-B and LFT ) from
-    the Tesouro Direto website. The
-    [GetHFData](https://cran.r-project.org/package=GetHFData) package downloads and
-    aggregates tick-by-tick trade data for equity and derivatives
-    markets in Brazil.
+    the Tesouro Direto website.
   - The [fmdates](https://cran.r-project.org/package=fmdates) package implements
     common date calculations according to the ISDA schedules, and can
     check for business in different locales.
@@ -506,7 +492,6 @@ are also possible.
   - [copulaData](https://cran.r-project.org/package=copulaData)
   - [CreditMetrics](https://cran.r-project.org/package=CreditMetrics)
   - [credule](https://cran.r-project.org/package=credule)
-  - [crp.CSFP](https://cran.r-project.org/package=crp.CSFP)
   - [crseEventStudy](https://cran.r-project.org/package=crseEventStudy)
   - [cvar](https://cran.r-project.org/package=cvar)
   - [data.table](https://cran.r-project.org/package=data.table)
@@ -542,13 +527,11 @@ are also possible.
   - [forecast](https://cran.r-project.org/package=forecast)
   - [fPortfolio](https://cran.r-project.org/package=fPortfolio) (core)
   - [fracdiff](https://cran.r-project.org/package=fracdiff)
-  - [fractal](https://cran.r-project.org/package=fractal)
   - [FRAPO](https://cran.r-project.org/package=FRAPO)
   - [fRegression](https://cran.r-project.org/package=fRegression) (core)
   - [frmqa](https://cran.r-project.org/package=frmqa)
   - [fTrading](https://cran.r-project.org/package=fTrading) (core)
   - [GCPM](https://cran.r-project.org/package=GCPM)
-  - [GetHFData](https://cran.r-project.org/package=GetHFData)
   - [gets](https://cran.r-project.org/package=gets)
   - [GetTDData](https://cran.r-project.org/package=GetTDData)
   - [GEVStableGarch](https://cran.r-project.org/package=GEVStableGarch)
@@ -583,10 +566,8 @@ are also possible.
   - [PerformanceAnalytics](https://cran.r-project.org/package=PerformanceAnalytics)
     (core)
   - [pinbasic](https://cran.r-project.org/package=pinbasic)
-  - [portfolio](https://cran.r-project.org/package=portfolio)
   - [PortfolioEffectHFT](https://cran.r-project.org/package=PortfolioEffectHFT)
   - [PortfolioOptim](https://cran.r-project.org/package=PortfolioOptim)
-  - [portfolioSim](https://cran.r-project.org/package=portfolioSim)
   - [PortRisk](https://cran.r-project.org/package=PortRisk)
   - [qrmdata](https://cran.r-project.org/package=qrmdata)
   - [qrmtools](https://cran.r-project.org/package=qrmtools)
@@ -619,7 +600,6 @@ are also possible.
   - [stochvol](https://cran.r-project.org/package=stochvol)
   - [strucchange](https://cran.r-project.org/package=strucchange)
   - [TAQMNGR](https://cran.r-project.org/package=TAQMNGR)
-  - [tawny](https://cran.r-project.org/package=tawny)
   - [TFX](https://cran.r-project.org/package=TFX)
   - [tidyquant](https://cran.r-project.org/package=tidyquant)
   - [timeDate](https://cran.r-project.org/package=timeDate) (core)
@@ -644,7 +624,6 @@ are also possible.
   - [xts](https://cran.r-project.org/package=xts) (core)
   - [ycinterextra](https://cran.r-project.org/package=ycinterextra)
   - [YieldCurve](https://cran.r-project.org/package=YieldCurve)
-  - [Zelig](https://cran.r-project.org/package=Zelig)
   - [zoo](https://cran.r-project.org/package=zoo) (core)
 
 ### Related links:

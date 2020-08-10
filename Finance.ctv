@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2020-03-01</version>
+  <version>2020-07-17</version>
 
   <info>
     <p>
@@ -56,7 +56,7 @@
       <li>For the linear model, a variety of regression diagnostic tests
         are provided by the <pkg>car</pkg>, <pkg>lmtest</pkg>,
         <pkg>strucchange</pkg>, <pkg>urca</pkg>, and <pkg>sandwich</pkg> packages.
-	The <pkg>Rcmdr</pkg> and <pkg>Zelig</pkg> packages provide user
+	The <pkg>Rcmdr</pkg> package provide user
 	interfaces that may be of interest as well.
       </li>
     </ul>
@@ -75,8 +75,7 @@
       <li>The <pkg>dse</pkg> and <pkg>timsac</pkg> packages provide a variety of more
 	  advanced estimation methods; <pkg>fracdiff</pkg> can
 	  estimate fractionally integrated series; <pkg>longmemo</pkg> covers
-	  related material. The <pkg>fractal</pkg> provide fractal time series modeling
-	  functionality.
+	  related material.
       </li>
       <li>For volatility modeling, the standard GARCH(1,1) model can
           be estimated with the <code>garch()</code> function in the
@@ -179,10 +178,7 @@
           quantitative modelling in finance as well as data acquisition, plotting
           and other utilities.
       </li>
-      <li>The <pkg>portfolio</pkg> package contains
-          classes for equity portfolio management; the
-          <pkg>portfolioSim</pkg> builds a related simulation framework.
-          The <pkg>backtest</pkg> offers tools to
+      <li>The <pkg>backtest</pkg> offers tools to
 	  explore portfolio-based hypotheses about financial instruments.
 	  The <pkg>pa</pkg> package offers performance attribution
 	  functionality for equity portfolios.
@@ -211,10 +207,6 @@
 	  (GMM) estimations function that are often used when estimating the
 	  parameters of the moment conditions implied by an asset pricing
 	  model.
-      </li>
-      <li> The <pkg>tawny</pkg> package contains estimator based on random
-	  matrix theory as well as shrinkage methods to remove sampling noise
-	  when estimating sample covariance matrices.
       </li>
       <li> The <pkg>BurStFin</pkg> and <pkg>BurStMisc</pkg> package has a collection of
           function for Finance including the estimation of covariance
@@ -380,7 +372,7 @@
          The Task View <view>ExtremeValue</view> regroups a number of relevant packages.
       </li>
       <li>
- 	 The packages <pkg>CreditMetrics</pkg> and <pkg>crp.CSFP</pkg> provide function for modelling credit risks.
+ 	 The packages <pkg>CreditMetrics</pkg> provides function for modelling credit risks.
       </li>
       <li>
         The <pkg>mvtnorm</pkg> package provides code for multivariate Normal and t-distributions.
@@ -565,8 +557,6 @@
       <li>
           The <pkg>GetTDData</pkg> package imports Brazilian government
           bonds data (such as LTN, NTN-B and LFT ) from the Tesouro Direto website.
-          The <pkg>GetHFData</pkg> package downloads and aggregates tick-by-tick
-          trade data for equity and derivatives markets in Brazil.
       </li>
       <li>
           The <pkg>fmdates</pkg> package implements common date calculations
@@ -599,7 +589,6 @@
     <pkg>copulaData</pkg>
     <pkg>CreditMetrics</pkg>
     <pkg>credule</pkg>
-    <pkg>crp.CSFP</pkg>
     <pkg>crseEventStudy</pkg>
     <pkg>cvar</pkg>
     <pkg>data.table</pkg>
@@ -637,11 +626,9 @@
     <pkg>fmdates</pkg>
     <pkg>forecast</pkg>
     <pkg>fracdiff</pkg>
-    <pkg>fractal</pkg>
     <pkg>FRAPO</pkg>
     <pkg>frmqa</pkg>
     <pkg>GCPM</pkg>
-    <pkg>GetHFData</pkg>
     <pkg>gets</pkg>
     <pkg>GetTDData</pkg>
     <pkg>GEVStableGarch</pkg>
@@ -675,10 +662,8 @@
     <pkg>pbo</pkg>
     <pkg priority="core">PerformanceAnalytics</pkg>
     <pkg>pinbasic</pkg>
-    <pkg>portfolio</pkg>
     <pkg>PortfolioEffectHFT</pkg>
     <pkg>PortfolioOptim</pkg>
-    <pkg>portfolioSim</pkg>
     <pkg>PortRisk</pkg>
     <pkg>qrmdata</pkg>
     <pkg>qrmtools</pkg>
@@ -719,7 +704,6 @@
     <pkg>tseriesChaos</pkg>
     <pkg>tsfa</pkg>
     <pkg>TTR</pkg>
-    <pkg>tawny</pkg>
     <pkg>tidyquant</pkg>
     <pkg priority="core">timeDate</pkg>
     <pkg priority="core">timeSeries</pkg>
@@ -736,7 +720,6 @@
     <pkg>YieldCurve</pkg>
     <pkg>XBRL</pkg>
     <pkg priority="core">xts</pkg>
-    <pkg>Zelig</pkg>
     <pkg priority="core">zoo</pkg>
   </packagelist>
 
