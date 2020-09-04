@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2020-07-17</version>
+  <version>2020-09-04</version>
 
   <info>
     <p>
@@ -99,7 +99,8 @@
           log-volatility of a log-ARCH-X model. The <pkg>GEVStableGarch</pkg>
           package can fit  ARMA-GARCH or ARMA-APARCH models with GEV and
           stable conditional distributions. The <pkg>lgarch</pkg> package
-          can estimate and fit log-Garch models.
+          can estimate and fit log-GARCH models. The <pkg>garchx</pkg>
+          package estimate GARCH models with leverage and external covariates.
       </li>
       <li>Unit root and cointegration tests are provided by <pkg>tseries</pkg>,
     	  and <pkg>urca</pkg>.
@@ -628,6 +629,7 @@
     <pkg>fracdiff</pkg>
     <pkg>FRAPO</pkg>
     <pkg>frmqa</pkg>
+    <pkg>garchx</pkg>
     <pkg>GCPM</pkg>
     <pkg>gets</pkg>
     <pkg>GetTDData</pkg>

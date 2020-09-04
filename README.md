@@ -4,7 +4,7 @@
 --------------- -----------------------------------------   
 **Maintainer:** Dirk Eddelbuettel                           
 **Contact:**    Dirk.Eddelbuettel at R-project.org          
-**Version:**    2020-07-17                                  
+**Version:**    2020-09-04                                  
 **URL:**        <https://CRAN.R-project.org/view=Finance>   
 
 <div>
@@ -103,7 +103,8 @@ are also possible.
     package can fit ARMA-GARCH or ARMA-APARCH models with GEV and stable
     conditional distributions. The
     [lgarch](https://cran.r-project.org/package=lgarch) package can estimate and fit
-    log-Garch models.
+    log-GARCH models. The [garchx](https://cran.r-project.org/package=garchx)
+    package estimate GARCH models with leverage and external covariates.
   - Unit root and cointegration tests are provided by
     [tseries](https://cran.r-project.org/package=tseries), and
     [urca](https://cran.r-project.org/package=urca). The Rmetrics packages
@@ -531,6 +532,7 @@ are also possible.
   - [fRegression](https://cran.r-project.org/package=fRegression) (core)
   - [frmqa](https://cran.r-project.org/package=frmqa)
   - [fTrading](https://cran.r-project.org/package=fTrading) (core)
+  - [garchx](https://cran.r-project.org/package=garchx)
   - [GCPM](https://cran.r-project.org/package=GCPM)
   - [gets](https://cran.r-project.org/package=gets)
   - [GetTDData](https://cran.r-project.org/package=GetTDData)
