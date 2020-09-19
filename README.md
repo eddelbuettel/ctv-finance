@@ -4,7 +4,7 @@
 --------------- -----------------------------------------   
 **Maintainer:** Dirk Eddelbuettel                           
 **Contact:**    Dirk.Eddelbuettel at R-project.org          
-**Version:**    2020-09-04                                  
+**Version:**    2020-09-19                                  
 **URL:**        <https://CRAN.R-project.org/view=Finance>   
 
 <div>
@@ -105,6 +105,8 @@ are also possible.
     [lgarch](https://cran.r-project.org/package=lgarch) package can estimate and fit
     log-GARCH models. The [garchx](https://cran.r-project.org/package=garchx)
     package estimate GARCH models with leverage and external covariates.
+    The [bmgarch](https://cran.r-project.org/package=bmgarch) package fits several
+    multivariate GARCH models in a Bayesian setting.
   - Unit root and cointegration tests are provided by
     [tseries](https://cran.r-project.org/package=tseries), and
     [urca](https://cran.r-project.org/package=urca). The Rmetrics packages
@@ -484,6 +486,7 @@ are also possible.
   - [betategarch](https://cran.r-project.org/package=betategarch)
   - [bizdays](https://cran.r-project.org/package=bizdays)
   - [BLModel](https://cran.r-project.org/package=BLModel)
+  - [bmgarch](https://cran.r-project.org/package=bmgarch)
   - [BurStFin](https://cran.r-project.org/package=BurStFin)
   - [BurStMisc](https://cran.r-project.org/package=BurStMisc)
   - [CADFtest](https://cran.r-project.org/package=CADFtest)

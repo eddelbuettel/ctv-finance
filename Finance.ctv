@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2020-09-04</version>
+  <version>2020-09-19</version>
 
   <info>
     <p>
@@ -100,7 +100,10 @@
           package can fit  ARMA-GARCH or ARMA-APARCH models with GEV and
           stable conditional distributions. The <pkg>lgarch</pkg> package
           can estimate and fit log-GARCH models. The <pkg>garchx</pkg>
-          package estimate GARCH models with leverage and external covariates.
+          package estimate GARCH models with leverage and external
+          covariates. The <pkg>bmgarch</pkg> package fits several
+          multivariate GARCH models in a Bayesian setting.
+          
       </li>
       <li>Unit root and cointegration tests are provided by <pkg>tseries</pkg>,
     	  and <pkg>urca</pkg>.
@@ -581,6 +584,7 @@
     <pkg>betategarch</pkg>
     <pkg>bizdays</pkg>
     <pkg>BLModel</pkg>
+    <pkg>bmgarch</pkg>
     <pkg>BurStFin</pkg>
     <pkg>BurStMisc</pkg>
     <pkg>CADFtest</pkg>
