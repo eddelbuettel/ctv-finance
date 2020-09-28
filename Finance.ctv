@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2020-09-19</version>
+  <version>2020-09-29</version>
 
   <info>
     <p>
@@ -360,6 +360,9 @@
       </li>
       <li> The <pkg>crseEventStudy</pkg> package provides another event-study
        tool to analyse abnormal return in long-horizon events.
+      </li>
+      <li> The <pkg>simfinapi</pkg> package provides R access to
+        <a href="https://SimFin.com">SimFin</a> fundamental financial statement data (given an API key). 
       </li>
     </ul>
 

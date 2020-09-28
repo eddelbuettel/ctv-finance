@@ -4,7 +4,7 @@
 --------------- -----------------------------------------   
 **Maintainer:** Dirk Eddelbuettel                           
 **Contact:**    Dirk.Eddelbuettel at R-project.org          
-**Version:**    2020-09-19                                  
+**Version:**    2020-09-29                                  
 **URL:**        <https://CRAN.R-project.org/view=Finance>   
 
 <div>
@@ -321,6 +321,9 @@ are also possible.
   - The [crseEventStudy](https://cran.r-project.org/package=crseEventStudy) package
     provides another event-study tool to analyse abnormal return in
     long-horizon events.
+  - The [simfinapi](https://cran.r-project.org/package=simfinapi) package provides R
+    access to [SimFin](https://SimFin.com) fundamental financial
+    statement data (given an API key).
 
 **Risk management**
 
