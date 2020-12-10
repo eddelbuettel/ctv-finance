@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2020-09-29</version>
+  <version>2020-12-10</version>
 
   <info>
     <p>
@@ -701,6 +701,7 @@
     <pkg>SharpeR</pkg>
     <pkg>sharpeRratio</pkg>
     <pkg>Sim.DiffProc</pkg>
+    <pkg>simfinapi</pkg>
     <pkg>SmithWilsonYieldCurve</pkg>
     <pkg>stochvol</pkg>
     <pkg>strucchange</pkg>
