@@ -560,7 +560,12 @@
           Edgar database, and relies on, inter alia, the <pkg>XBRL</pkg>
           package for parsing these reports.
       </li>
-
+      <li>
+	  Data from Kenneth French's website can be downloaded
+          with package <pkg>FFdownload</pkg>. Individual datasets
+          can also be downloaded with function
+          <code>French</code> in package <pkg>NMOF</pkg>.      
+      </li>	      
       <li>
           The <pkg>GetTDData</pkg> package imports Brazilian government
           bonds data (such as LTN, NTN-B and LFT ) from the Tesouro Direto website.
