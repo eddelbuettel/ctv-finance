@@ -103,7 +103,7 @@
           package estimate GARCH models with leverage and external
           covariates. The <pkg>bmgarch</pkg> package fits several
           multivariate GARCH models in a Bayesian setting.
-          
+
       </li>
       <li>Unit root and cointegration tests are provided by <pkg>tseries</pkg>,
     	  and <pkg>urca</pkg>.
@@ -362,7 +362,7 @@
        tool to analyse abnormal return in long-horizon events.
       </li>
       <li> The <pkg>simfinapi</pkg> package provides R access to
-        <a href="https://SimFin.com">SimFin</a> fundamental financial statement data (given an API key). 
+        <a href="https://SimFin.com">SimFin</a> fundamental financial statement data (given an API key).
       </li>
     </ul>
 
@@ -564,8 +564,8 @@
 	  Data from Kenneth French's website can be downloaded
           with package <pkg>FFdownload</pkg>. Individual datasets
           can also be downloaded with function
-          <code>French</code> in package <pkg>NMOF</pkg>.      
-      </li>	      
+          <code>French</code> in package <pkg>NMOF</pkg>.
+      </li>
       <li>
           The <pkg>GetTDData</pkg> package imports Brazilian government
           bonds data (such as LTN, NTN-B and LFT ) from the Tesouro Direto website.
@@ -618,6 +618,7 @@
     <pkg>factorstochvol</pkg>
     <pkg>fame</pkg>
     <pkg>FatTailsR</pkg>
+    <pkg>FFdownload</pkg>
     <pkg>fgac</pkg>
     <pkg priority="core">fAssets</pkg>
     <pkg priority="core">fBasics</pkg>
@@ -665,8 +666,8 @@
     <pkg>mvtnorm</pkg>
     <pkg>NetworkRiskMeasures</pkg>
     <pkg>nlme</pkg>
-    <pkg>nvmix</pkg>
     <pkg>NMOF</pkg>
+    <pkg>nvmix</pkg>
     <pkg>obAnalytics</pkg>
     <pkg>OptHedging</pkg>
     <pkg>OptionPricing</pkg>
