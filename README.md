@@ -3,7 +3,7 @@
                                                             
 **Maintainer:** Dirk Eddelbuettel                           
 **Contact:**    Dirk.Eddelbuettel at R-project.org          
-**Version:**    2020-12-10                                  
+**Version:**    2020-12-12                                  
 **URL:**        <https://CRAN.R-project.org/view=Finance>   
 
 <div>
@@ -98,13 +98,11 @@ are also possible.
     [gets](https://cran.r-project.org/package=gets) package (which was preceded by a
     related package AutoSEARCH) provides automated general-to-specific
     model selection of the mean and log-volatility of a log-ARCH-X
-    model. The [GEVStableGarch](https://cran.r-project.org/package=GEVStableGarch)
-    package can fit ARMA-GARCH or ARMA-APARCH models with GEV and stable
-    conditional distributions. The
-    [lgarch](https://cran.r-project.org/package=lgarch) package can estimate and fit
-    log-GARCH models. The [garchx](https://cran.r-project.org/package=garchx)
-    package estimate GARCH models with leverage and external covariates.
-    The [bmgarch](https://cran.r-project.org/package=bmgarch) package fits several
+    model. The [lgarch](https://cran.r-project.org/package=lgarch) package can
+    estimate and fit log-GARCH models. The
+    [garchx](https://cran.r-project.org/package=garchx) package estimate GARCH
+    models with leverage and external covariates. The
+    [bmgarch](https://cran.r-project.org/package=bmgarch) package fits several
     multivariate GARCH models in a Bayesian setting.
 -   Unit root and cointegration tests are provided by
     [tseries](https://cran.r-project.org/package=tseries), and
@@ -474,6 +472,10 @@ are also possible.
 -   The [fmdates](https://cran.r-project.org/package=fmdates) package implements
     common date calculations according to the ISDA schedules, and can
     check for business in different locales.
+-   Data from Kenneth French's website can be downloaded with package
+    [FFdownload](https://cran.r-project.org/package=FFdownload). Individual datasets
+    can also be downloaded with function `French` in package
+    [NMOF](https://cran.r-project.org/package=NMOF).
 
 </div>
 
@@ -520,6 +522,7 @@ are also possible.
 -   [fCopulae](https://cran.r-project.org/package=fCopulae) (core)
 -   [fExoticOptions](https://cran.r-project.org/package=fExoticOptions) (core)
 -   [fExtremes](https://cran.r-project.org/package=fExtremes) (core)
+-   [FFdownload](https://cran.r-project.org/package=FFdownload)
 -   [fgac](https://cran.r-project.org/package=fgac)
 -   [fGarch](https://cran.r-project.org/package=fGarch) (core)
 -   [fImport](https://cran.r-project.org/package=fImport) (core)
@@ -541,7 +544,6 @@ are also possible.
 -   [GCPM](https://cran.r-project.org/package=GCPM)
 -   [gets](https://cran.r-project.org/package=gets)
 -   [GetTDData](https://cran.r-project.org/package=GetTDData)
--   [GEVStableGarch](https://cran.r-project.org/package=GEVStableGarch)
 -   [ghyp](https://cran.r-project.org/package=ghyp)
 -   [gmm](https://cran.r-project.org/package=gmm)
 -   [gogarch](https://cran.r-project.org/package=gogarch)

@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2020-12-10</version>
+  <version>2020-12-12</version>
 
   <info>
     <p>
@@ -96,9 +96,7 @@
           generalized orthogonal GARCH models.  The
           <pkg>gets</pkg> package (which was preceded by a related package
           AutoSEARCH) provides automated general-to-specific model selection of the mean and
-          log-volatility of a log-ARCH-X model. The <pkg>GEVStableGarch</pkg>
-          package can fit  ARMA-GARCH or ARMA-APARCH models with GEV and
-          stable conditional distributions. The <pkg>lgarch</pkg> package
+          log-volatility of a log-ARCH-X model. The <pkg>lgarch</pkg> package
           can estimate and fit log-GARCH models. The <pkg>garchx</pkg>
           package estimate GARCH models with leverage and external
           covariates. The <pkg>bmgarch</pkg> package fits several
@@ -362,7 +360,8 @@
        tool to analyse abnormal return in long-horizon events.
       </li>
       <li> The <pkg>simfinapi</pkg> package provides R access to
-        <a href="https://SimFin.com">SimFin</a> fundamental financial statement data (given an API key).
+        <a href="https://SimFin.com">SimFin</a> fundamental financial
+        statement data (given an API key).
       </li>
     </ul>
 
@@ -561,12 +560,6 @@
           package for parsing these reports.
       </li>
       <li>
-	  Data from Kenneth French's website can be downloaded
-          with package <pkg>FFdownload</pkg>. Individual datasets
-          can also be downloaded with function
-          <code>French</code> in package <pkg>NMOF</pkg>.
-      </li>
-      <li>
           The <pkg>GetTDData</pkg> package imports Brazilian government
           bonds data (such as LTN, NTN-B and LFT ) from the Tesouro Direto website.
       </li>
@@ -574,6 +567,12 @@
           The <pkg>fmdates</pkg> package implements common date calculations
           according to the ISDA schedules, and can check for business in
           different locales.
+      </li>
+      <li>
+	  Data from Kenneth French's website can be downloaded
+          with package <pkg>FFdownload</pkg>. Individual datasets
+          can also be downloaded with function
+          <code>French</code> in package <pkg>NMOF</pkg>.
       </li>
 
 
@@ -646,7 +645,6 @@
     <pkg>GCPM</pkg>
     <pkg>gets</pkg>
     <pkg>GetTDData</pkg>
-    <pkg>GEVStableGarch</pkg>
     <pkg>ghyp</pkg>
     <pkg>gmm</pkg>
     <pkg>gogarch</pkg>
