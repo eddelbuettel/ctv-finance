@@ -3,7 +3,7 @@
                                                             
 **Maintainer:** Dirk Eddelbuettel                           
 **Contact:**    Dirk.Eddelbuettel at R-project.org          
-**Version:**    2020-12-12                                  
+**Version:**    2021-01-14                                  
 **URL:**        <https://CRAN.R-project.org/view=Finance>   
 
 <div>
@@ -321,6 +321,8 @@ are also possible.
 -   The [simfinapi](https://cran.r-project.org/package=simfinapi) package provides R
     access to [SimFin](https://SimFin.com) fundamental financial
     statement data (given an API key).
+-   The [NFCP](https://cran.r-project.org/package=NFCP) models commodity prices via
+    an n-factor term structure estimation.
 
 **Risk management**
 
@@ -562,6 +564,7 @@ are also possible.
 -   [MSGARCH](https://cran.r-project.org/package=MSGARCH)
 -   [mvtnorm](https://cran.r-project.org/package=mvtnorm)
 -   [NetworkRiskMeasures](https://cran.r-project.org/package=NetworkRiskMeasures)
+-   [NFCP](https://cran.r-project.org/package=NFCP)
 -   [nlme](https://cran.r-project.org/package=nlme)
 -   [NMOF](https://cran.r-project.org/package=NMOF)
 -   [nvmix](https://cran.r-project.org/package=nvmix)

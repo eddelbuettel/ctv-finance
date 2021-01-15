@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2020-12-12</version>
+  <version>2021-01-14</version>
 
   <info>
     <p>
@@ -363,6 +363,9 @@
         <a href="https://SimFin.com">SimFin</a> fundamental financial
         statement data (given an API key).
       </li>
+      <li>
+        The <pkg>NFCP</pkg> models commodity prices via an n-factor term structure estimation. 
+      </li>
     </ul>
 
     <p>
@@ -663,6 +666,7 @@
     <pkg>MSGARCH</pkg>
     <pkg>mvtnorm</pkg>
     <pkg>NetworkRiskMeasures</pkg>
+    <pkg>NFCP</pkg>
     <pkg>nlme</pkg>
     <pkg>NMOF</pkg>
     <pkg>nvmix</pkg>
