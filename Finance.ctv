@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2021-01-14</version>
+  <version>2021-01-22</version>
 
   <info>
     <p>
@@ -364,7 +364,10 @@
         statement data (given an API key).
       </li>
       <li>
-        The <pkg>NFCP</pkg> models commodity prices via an n-factor term structure estimation. 
+        The <pkg>NFCP</pkg> package models commodity prices via an n-factor term structure estimation. 
+      </li>
+      <li>
+        The <pkg>LSMRealOptions</pkg> package uses least-squares Monte Carlo to value American and Real options.
       </li>
     </ul>
 
@@ -659,6 +662,7 @@
     <pkg>lifecontingencies</pkg>
     <pkg>lmtest</pkg>
     <pkg>LSMonteCarlo</pkg>
+    <pkg>LSMRealOptions</pkg>
     <pkg>longmemo</pkg>
     <pkg>markovchain</pkg>
     <pkg>MarkowitzR</pkg>

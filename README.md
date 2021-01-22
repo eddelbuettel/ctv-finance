@@ -3,7 +3,7 @@
                                                             
 **Maintainer:** Dirk Eddelbuettel                           
 **Contact:**    Dirk.Eddelbuettel at R-project.org          
-**Version:**    2021-01-14                                  
+**Version:**    2021-01-22                                  
 **URL:**        <https://CRAN.R-project.org/view=Finance>   
 
 <div>
@@ -321,8 +321,10 @@ are also possible.
 -   The [simfinapi](https://cran.r-project.org/package=simfinapi) package provides R
     access to [SimFin](https://SimFin.com) fundamental financial
     statement data (given an API key).
--   The [NFCP](https://cran.r-project.org/package=NFCP) models commodity prices via
-    an n-factor term structure estimation.
+-   The [NFCP](https://cran.r-project.org/package=NFCP) package models commodity
+    prices via an n-factor term structure estimation.
+-   The [LSMRealOptions](https://cran.r-project.org/package=LSMRealOptions) package
+    uses least-squares Monte Carlo to value American and Real options.
 
 **Risk management**
 
@@ -558,6 +560,7 @@ are also possible.
 -   [lmtest](https://cran.r-project.org/package=lmtest)
 -   [longmemo](https://cran.r-project.org/package=longmemo)
 -   [LSMonteCarlo](https://cran.r-project.org/package=LSMonteCarlo)
+-   [LSMRealOptions](https://cran.r-project.org/package=LSMRealOptions)
 -   [markovchain](https://cran.r-project.org/package=markovchain)
 -   [MarkowitzR](https://cran.r-project.org/package=MarkowitzR)
 -   [matchingMarkets](https://cran.r-project.org/package=matchingMarkets)
