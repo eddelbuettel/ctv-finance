@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2021-01-22</version>
+  <version>2021-03-01</version>
 
   <info>
     <p>
@@ -135,9 +135,6 @@
       <li>
 	  The <pkg>forecast</pkg> package adds functions for
           forecasting problems.
-      </li>
-      <li>
-	  The <pkg>tsfa</pkg> package provides functions for time series factor analysis.
       </li>
       <li>
 	  The <pkg>stochvol</pkg> package implements Bayesian
@@ -724,7 +721,6 @@
     <pkg>TSdbi</pkg>
     <pkg>tsDyn</pkg>
     <pkg>tseriesChaos</pkg>
-    <pkg>tsfa</pkg>
     <pkg>TTR</pkg>
     <pkg>tidyquant</pkg>
     <pkg priority="core">timeDate</pkg>

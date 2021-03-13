@@ -3,7 +3,7 @@
                                                             
 **Maintainer:** Dirk Eddelbuettel                           
 **Contact:**    Dirk.Eddelbuettel at R-project.org          
-**Version:**    2021-01-22                                  
+**Version:**    2021-03-01                                  
 **URL:**        <https://CRAN.R-project.org/view=Finance>   
 
 <div>
@@ -132,8 +132,6 @@ are also possible.
     based on dynamical systems theory.
 -   The [forecast](https://cran.r-project.org/package=forecast) package adds
     functions for forecasting problems.
--   The [tsfa](https://cran.r-project.org/package=tsfa) package provides functions
-    for time series factor analysis.
 -   The [stochvol](https://cran.r-project.org/package=stochvol) package implements
     Bayesian estimation of stochastic volatility using Markov Chain
     Monte Carlo, and
@@ -626,7 +624,6 @@ are also possible.
 -   [tsDyn](https://cran.r-project.org/package=tsDyn)
 -   [tseries](https://cran.r-project.org/package=tseries) (core)
 -   [tseriesChaos](https://cran.r-project.org/package=tseriesChaos)
--   [tsfa](https://cran.r-project.org/package=tsfa)
 -   [TTR](https://cran.r-project.org/package=TTR)
 -   [tvm](https://cran.r-project.org/package=tvm)
 -   [urca](https://cran.r-project.org/package=urca) (core)
