@@ -368,7 +368,10 @@
       <li>
         The <pkg>LSMRealOptions</pkg> package uses least-squares Monte Carlo to value American and Real options.
       </li>
-    </ul>
+      <li>
+        The <pkg>AssetCorr</pkg> package estimates intra- and inter-cohort correlations from default data in a Vasicek credit portfolio model. 
+      </li>
+    </ul> 
 
     <p>
     <strong>Risk management</strong>
@@ -589,6 +592,7 @@
   <packagelist>
     <pkg>actuar</pkg>
     <pkg>AmericanCallOpt</pkg>
+    <pkg>AssetCorr</pkg>
     <pkg>backtest</pkg>
     <pkg>bayesGARCH</pkg>
     <pkg>BCC1997</pkg>

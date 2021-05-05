@@ -326,6 +326,9 @@ are also possible.
     prices via an n-factor term structure estimation.
 -   The [LSMRealOptions](https://cran.r-project.org/package=LSMRealOptions) package
     uses least-squares Monte Carlo to value American and Real options.
+-   The [AssetCorr](https://cran.r-project.org/package=AssetCorr) package estimates
+    intra- and inter-cohort correlations from default data in a Vasicek
+    credit portfolio model.
 
 **Risk management**
 
@@ -488,6 +491,7 @@ are also possible.
 
 -   [actuar](https://cran.r-project.org/package=actuar)
 -   [AmericanCallOpt](https://cran.r-project.org/package=AmericanCallOpt)
+-   [AssetCorr](https://cran.r-project.org/package=AssetCorr)
 -   [backtest](https://cran.r-project.org/package=backtest)
 -   [bayesGARCH](https://cran.r-project.org/package=bayesGARCH)
 -   [BCC1997](https://cran.r-project.org/package=BCC1997)
