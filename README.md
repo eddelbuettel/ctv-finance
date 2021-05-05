@@ -3,7 +3,7 @@
                                                             
 **Maintainer:** Dirk Eddelbuettel                           
 **Contact:**    Dirk.Eddelbuettel at R-project.org          
-**Version:**    2021-03-01                                  
+**Version:**    2021-05-05                                  
 **URL:**        <https://CRAN.R-project.org/view=Finance>   
 
 <div>
@@ -103,7 +103,10 @@ are also possible.
     [garchx](https://cran.r-project.org/package=garchx) package estimate GARCH
     models with leverage and external covariates. The
     [bmgarch](https://cran.r-project.org/package=bmgarch) package fits several
-    multivariate GARCH models in a Bayesian setting.
+    multivariate GARCH models in a Bayesian setting. The
+    [garchmodels](https://cran.r-project.org/package=garchmodels) package wraps the
+    [rugarch](https://cran.r-project.org/package=rugarch) and
+    [rmgarch](https://cran.r-project.org/package=rmgarch) packages.
 -   Unit root and cointegration tests are provided by
     [tseries](https://cran.r-project.org/package=tseries), and
     [urca](https://cran.r-project.org/package=urca). The Rmetrics packages
@@ -542,6 +545,7 @@ are also possible.
 -   [fRegression](https://cran.r-project.org/package=fRegression) (core)
 -   [frmqa](https://cran.r-project.org/package=frmqa)
 -   [fTrading](https://cran.r-project.org/package=fTrading) (core)
+-   [garchmodels](https://cran.r-project.org/package=garchmodels)
 -   [garchx](https://cran.r-project.org/package=garchx)
 -   [GCPM](https://cran.r-project.org/package=GCPM)
 -   [gets](https://cran.r-project.org/package=gets)

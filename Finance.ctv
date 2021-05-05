@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2021-03-01</version>
+  <version>2021-05-05</version>
 
   <info>
     <p>
@@ -100,7 +100,9 @@
           can estimate and fit log-GARCH models. The <pkg>garchx</pkg>
           package estimate GARCH models with leverage and external
           covariates. The <pkg>bmgarch</pkg> package fits several
-          multivariate GARCH models in a Bayesian setting.
+          multivariate GARCH models in a Bayesian setting. The
+          <pkg>garchmodels</pkg> package wraps the <pkg>rugarch</pkg> and
+          <pkg>rmgarch</pkg> packages.
 
       </li>
       <li>Unit root and cointegration tests are provided by <pkg>tseries</pkg>,
@@ -644,6 +646,7 @@
     <pkg>fracdiff</pkg>
     <pkg>FRAPO</pkg>
     <pkg>frmqa</pkg>
+    <pkg>garchmodels</pkg>
     <pkg>garchx</pkg>
     <pkg>GCPM</pkg>
     <pkg>gets</pkg>
