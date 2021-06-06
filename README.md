@@ -3,7 +3,7 @@
                                                             
 **Maintainer:** Dirk Eddelbuettel                           
 **Contact:**    Dirk.Eddelbuettel at R-project.org          
-**Version:**    2021-05-05                                  
+**Version:**    2021-06-06                                  
 **URL:**        <https://CRAN.R-project.org/view=Finance>   
 
 <div>
@@ -480,8 +480,9 @@ are also possible.
 -   The [fmdates](https://cran.r-project.org/package=fmdates) package implements
     common date calculations according to the ISDA schedules, and can
     check for business in different locales.
--   Data from Kenneth French's website can be downloaded with package
-    [FFdownload](https://cran.r-project.org/package=FFdownload). Individual datasets
+-   Data from Kenneth French's website can be downloaded with packages
+    [FFdownload](https://cran.r-project.org/package=FFdownload) and
+    [frenchdata](https://cran.r-project.org/package=frenchdata). Individual datasets
     can also be downloaded with function `French` in package
     [NMOF](https://cran.r-project.org/package=NMOF).
 
@@ -547,6 +548,7 @@ are also possible.
 -   [fracdiff](https://cran.r-project.org/package=fracdiff)
 -   [FRAPO](https://cran.r-project.org/package=FRAPO)
 -   [fRegression](https://cran.r-project.org/package=fRegression) (core)
+-   [frenchdata](https://cran.r-project.org/package=frenchdata)
 -   [frmqa](https://cran.r-project.org/package=frmqa)
 -   [fTrading](https://cran.r-project.org/package=fTrading) (core)
 -   [garchmodels](https://cran.r-project.org/package=garchmodels)
