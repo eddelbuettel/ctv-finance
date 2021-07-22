@@ -3,7 +3,7 @@
                                                             
 **Maintainer:** Dirk Eddelbuettel                           
 **Contact:**    Dirk.Eddelbuettel at R-project.org          
-**Version:**    2021-06-06                                  
+**Version:**    2021-07-22                                  
 **URL:**        <https://CRAN.R-project.org/view=Finance>   
 
 <div>
@@ -329,6 +329,12 @@ are also possible.
 -   The [AssetCorr](https://cran.r-project.org/package=AssetCorr) package estimates
     intra- and inter-cohort correlations from default data in a Vasicek
     credit portfolio model.
+-   The [ichimoku](https://cran.r-project.org/package=ichimoku) package provides
+    tools for creating and visualising Ichimoku Kinko Hyo strategies.
+    Additionally provides an interface to the OANDA fxTrade API for
+    retrieving historical and live streaming price data for major
+    currencies, metals, commodities, government bonds and stock indices
+    (free but requires registration).
 
 **Risk management**
 
@@ -562,6 +568,7 @@ are also possible.
 -   [GUIDE](https://cran.r-project.org/package=GUIDE)
 -   [highfrequency](https://cran.r-project.org/package=highfrequency)
 -   [IBrokers](https://cran.r-project.org/package=IBrokers)
+-   [ichimoku](https://cran.r-project.org/package=ichimoku)
 -   [InfoTrad](https://cran.r-project.org/package=InfoTrad)
 -   [lgarch](https://cran.r-project.org/package=lgarch)
 -   [lifecontingencies](https://cran.r-project.org/package=lifecontingencies)
