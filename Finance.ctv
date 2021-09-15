@@ -475,6 +475,82 @@
       <li>The <pkg>cvar</pkg> package computes expected shortfall and value at risk for continuous distributions.</li>
       <li><pkg>riskParityPortfolio</pkg> offers fast implementations for constructing risk-parity portfolios.</li>
     </ul>
+	  
+    <p>
+    <strong>Inequality and Concentration</strong>
+    </p>
+    <ul>
+      <li>
+        The <pkg>ineq</pkg> package provides functions for generating Lorenz curves,
+	measuring concentration (Herfindahl, Rosenbluth) and inequality (Gini, Atkinson, Ricci-Schutz/Pietra, Kolm, Theil).
+      </li>
+      <li>
+        The <pkg>lorenz</pkg> package provides functions for generating Lorenz curves and statistics derived from Lorenz interpolation.
+      </li>
+      <li>
+	The <pkg>acid</pkg> package provides functions for calculating and decomposing indequality indicies (Gini, sGini, Atkinson, Theil),
+	plotting Pen's Parade, as well as weighted indicies, polarization and generating indicies for known distributions.
+      </li> 
+      <li>
+	The <pkg>binequality</pkg> package provides functions for calculating inequality indicies (Gini, Theil, MLD) on binned
+	data with a right censor.
+      </li>
+      <li>
+	The <pkg>educineq</pkg> package provides example education data and corresponding results for several inequality
+	indicies (Gini, Theil, MLD).
+      </li>
+      <li>
+	The <pkg>IC2</pkg> package includes functions for calculating inequality indicies and their decomposition
+        (sGini, Atkinson, Entropy) and plotting Lorenz and Concentration curves.
+      </li>	    
+      <li>
+	The <pkg>dineq</pkg> package provides functions for the decomposition of inequality, weighted indicies (Gini, Theil) and
+	decomposition for changes in inequality.
+      </li>
+      <li>
+	The <pkg>ineqJD</pkg> package provides functions for calculating and plotting decompositions of inequality (Gini, Bonferroni, Zenga).
+      </li>
+      <li>
+	The <pkg>grattan</pkg> package provides functions specific to Australian tax policy analysis as well as a few general utility
+	functions, such as progressitivity (Reynolds-Smolensky, Kakwani).
+      </li>
+      <li>
+	The <pkg>iIneq</pkg> package provides functions for calculating decompositions of inequality (Gini, Theil T, Theil L).
+      </li>
+      <li>
+	The <pkg>laeken</pkg> package provides functions for calculating quintile, at-risk-of-poverty and fitting Pareto distributions.
+      </li> 
+      <li>
+	The <pkg>rtip</pkg> package provides functions specific to European inequality and poverty and some utility functions for basic
+	quintile and at-risk-of-poverty methods.
+      </li>
+      <li>
+	The <pkg>lctools</pkg> package provides functions for geographic concentration/inequality (Gini, Spatial Gini, LQ)
+	and Monte Carlo methods for determining their significance.
+      </li>
+      <li>
+	The <pkg>REAT</pkg> package provides functions for calculating inequality indicies (Gini, Hoover, Thiel, Coulter, Atkinson, Dalton, Williamson), concentration indicies (Herfindahl-Hirschman),
+	regional beta and sigma convergence, regional concentration/specialization (Hoover/Balassa, O’Donoghue-Gleave, Tian, Krugman, Duranton-Puga, Litzenberger-Sternberg),
+	firm agglomeration/coagglomeration (Ellison-Glaeser, Howard et al.), spatial accessibility (Hansen/Harris, Ripley) and regional growth/prognosis.
+      </li>
+      <li>
+	The <pkg>SegEnvIneq</pkg> package provides functions for measuring spatial centralization and dissimilarity.
+      </li>
+      <li>
+	The <pkg>seg</pkg> package provides functions for evaluating spatial concentration, dissimilarity and decomposition of these measures.
+      </li>
+      <li>
+	The <pkg>OasisR</pkg> package provides functions for calculating spaital concentration, dissimilarity and inequality
+	(Massey, Duncan, Atkinson, Morrill, Wong, Gini, Gorard, Shannon, Theil, Simpson, Bell)
+      </li>
+      <li>
+	The <pkg>gglorenz</pkg> package provides a grammar for generating Lorenz curves with <pkg>ggplot2</pkg>.
+      </li>
+      <li>
+	The <pkg>convey</pkg> package provides functions for measuring inequality and concentration in complex survey data by
+	linking to the <pkg>survey</pkg> package.
+      </li>
+    </ul>
 
     <p>
     <strong>Books</strong>
