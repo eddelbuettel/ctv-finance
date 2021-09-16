@@ -1,9 +1,21 @@
+---
+citation_author: Dirk Eddelbuettel
+citation_public_url: "https://CRAN.R-project.org/view=Finance"
+citation_publication_date: 2021-08-05
+citation_title: "CRAN Task View: Empirical Finance"
+DC.creator: Dirk Eddelbuettel
+DC.identifier: "https://CRAN.R-project.org/view=Finance"
+DC.issued: 2021-08-05
+DC.title: "CRAN Task View: Empirical Finance"
+title: "CRAN Task View: Empirical Finance"
+---
+
 ## CRAN Task View: Empirical Finance
 
                                                             
 **Maintainer:** Dirk Eddelbuettel                           
 **Contact:**    Dirk.Eddelbuettel at R-project.org          
-**Version:**    2021-07-22                                  
+**Version:**    2021-08-05                                  
 **URL:**        <https://CRAN.R-project.org/view=Finance>   
 
 <div>
@@ -24,10 +36,10 @@ other CRAN Task Views may contain suitable packages, in particular the
 and [TimeSeries](https://cran.r-project.org/web/views/TimeSeries.html)
 Task Views.
 
-The `ctv` package supports these Task Views. Its functions
-`install.views` and `update.views` allow, respectively, installation or
-update of packages from a given Task View; the option `coreOnly` can
-restrict operations to packages labeled as *core* below.
+The ctv package supports these Task Views. Its functions install.views
+and update.views allow, respectively, installation or update of packages
+from a given Task View; the option coreOnly can restrict operations to
+packages labeled as *core* below.
 
 Contributions are always welcome, and encouraged. Since the start of
 this CRAN task view in April 2005, most contributions have arrived as
@@ -44,13 +56,13 @@ are also possible.
     [Robust](https://cran.r-project.org/web/views/Robust.html) task
     view, which focuses on more robust and resistant methods.
 -   Linear models such as ordinary least squares (OLS) can be estimated
-    by `lm()` (from by the stats package contained in the basic R
+    by lm() (from by the stats package contained in the basic R
     distribution). Maximum Likelihood (ML) estimation can be undertaken
-    with the standard `optim()` function. Many other suitable methods
-    are listed in the
+    with the standard optim() function. Many other suitable methods are
+    listed in the
     [Optimization](https://cran.r-project.org/web/views/Optimization.html)
-    view. Non-linear least squares can be estimated with the `nls()`
-    function, as well as with `nlme()` from the
+    view. Non-linear least squares can be estimated with the nls()
+    function, as well as with nlme() from the
     [nlme](https://cran.r-project.org/package=nlme) package.
 -   For the linear model, a variety of regression diagnostic tests are
     provided by the [car](https://cran.r-project.org/package=car),
@@ -68,8 +80,8 @@ are also possible.
     [TimeSeries](https://cran.r-project.org/web/views/TimeSeries.html)
     task view. Below a brief overview of the most important methods in
     finance is given.
--   Classical time series functionality is provided by the `arima()` and
-    `KalmanLike()` commands in the basic R distribution.
+-   Classical time series functionality is provided by the arima() and
+    KalmanLike() commands in the basic R distribution.
 -   The [dse](https://cran.r-project.org/package=dse) and
     [timsac](https://cran.r-project.org/package=timsac) packages provide a variety
     of more advanced estimation methods;
@@ -77,7 +89,7 @@ are also possible.
     fractionally integrated series;
     [longmemo](https://cran.r-project.org/package=longmemo) covers related material.
 -   For volatility modeling, the standard GARCH(1,1) model can be
-    estimated with the `garch()` function in the
+    estimated with the garch() function in the
     [tseries](https://cran.r-project.org/package=tseries) package. Rmetrics (see
     below) contains the [fGarch](https://cran.r-project.org/package=fGarch) package
     which has additional models. The
@@ -473,9 +485,9 @@ are also possible.
     'aggregation' and 'import' where cleaning and aggregation are
     performed according to Brownlees and Gallo (2006).
 -   The [Rblpapi](https://cran.r-project.org/package=Rblpapi) package offers
-    efficient access to the Bloomberg API and allows `bdp`, `bdh`, and
-    `bds` queries as well as data retrieval both in (regular time-)bars
-    and ticks (albeit without subsecond resolution).
+    efficient access to the Bloomberg API and allows bdp, bdh, and bds
+    queries as well as data retrieval both in (regular time-)bars and
+    ticks (albeit without subsecond resolution).
 -   The [finreportr](https://cran.r-project.org/package=finreportr) package can
     download reports from the SEC Edgar database, and relies on, inter
     alia, the [XBRL](https://cran.r-project.org/package=XBRL) package for parsing
@@ -487,9 +499,8 @@ are also possible.
     common date calculations according to the ISDA schedules, and can
     check for business in different locales.
 -   Data from Kenneth French's website can be downloaded with packages
-    [FFdownload](https://cran.r-project.org/package=FFdownload) and
-    [frenchdata](https://cran.r-project.org/package=frenchdata). Individual datasets
-    can also be downloaded with function `French` in package
+    [FFdownload](https://cran.r-project.org/package=FFdownload). Individual datasets
+    can also be downloaded with function French in package
     [NMOF](https://cran.r-project.org/package=NMOF).
 
 </div>
@@ -554,7 +565,6 @@ are also possible.
 -   [fracdiff](https://cran.r-project.org/package=fracdiff)
 -   [FRAPO](https://cran.r-project.org/package=FRAPO)
 -   [fRegression](https://cran.r-project.org/package=fRegression) (core)
--   [frenchdata](https://cran.r-project.org/package=frenchdata)
 -   [frmqa](https://cran.r-project.org/package=frmqa)
 -   [fTrading](https://cran.r-project.org/package=fTrading) (core)
 -   [garchmodels](https://cran.r-project.org/package=garchmodels)
