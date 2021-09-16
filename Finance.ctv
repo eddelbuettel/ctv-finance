@@ -371,10 +371,8 @@
       <li>
         The <pkg>AssetCorr</pkg> package estimates intra- and inter-cohort correlations from default data in a Vasicek credit portfolio model. 
       </li>
-      <li>The <pkg>ichimoku</pkg> package provides tools for creating and visualising Ichimoku Kinko Hyo strategies.
-	  Additionally provides an interface to the OANDA fxTrade API for retrieving historical and live streaming price data for
-	  major currencies, metals, commodities, government bonds and stock indices (free but requires registration).
-      </li>
+      <li>The <pkg>ichimoku</pkg> package provides tools for creating and visualising Ichimoku Kinko Hyo strategies, and  provides an interface to the OANDA fxTrade API for retrieving historical and live streaming price data (which requires free registration).</li>
+      <li>The <pkg>greeks</pkg> package calculate sensitivities of financial option prices for European and Asian and American options in the Black Scholes model.</li>
     </ul> 
 
     <p>
@@ -664,6 +662,7 @@
     <pkg>ghyp</pkg>
     <pkg>gmm</pkg>
     <pkg>gogarch</pkg>
+    <pkg>greeks</pkg>
     <pkg>GUIDE</pkg>
     <pkg>highfrequency</pkg>
     <pkg>IBrokers</pkg>

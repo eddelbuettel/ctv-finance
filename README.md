@@ -342,11 +342,13 @@ are also possible.
     intra- and inter-cohort correlations from default data in a Vasicek
     credit portfolio model.
 -   The [ichimoku](https://cran.r-project.org/package=ichimoku) package provides
-    tools for creating and visualising Ichimoku Kinko Hyo strategies.
-    Additionally provides an interface to the OANDA fxTrade API for
-    retrieving historical and live streaming price data for major
-    currencies, metals, commodities, government bonds and stock indices
-    (free but requires registration).
+    tools for creating and visualising Ichimoku Kinko Hyo strategies,
+    and provides an interface to the OANDA fxTrade API for retrieving
+    historical and live streaming price data (which requires free
+    registration).
+-   The [greeks](https://cran.r-project.org/package=greeks) package calculate
+    sensitivities of financial option prices for European and Asian and
+    American options in the Black Scholes model.
 
 **Risk management**
 
@@ -580,6 +582,7 @@ are also possible.
 -   [ghyp](https://cran.r-project.org/package=ghyp)
 -   [gmm](https://cran.r-project.org/package=gmm)
 -   [gogarch](https://cran.r-project.org/package=gogarch)
+-   [greeks](https://cran.r-project.org/package=greeks)
 -   [GUIDE](https://cran.r-project.org/package=GUIDE)
 -   [highfrequency](https://cran.r-project.org/package=highfrequency)
 -   [IBrokers](https://cran.r-project.org/package=IBrokers)
