@@ -426,6 +426,9 @@ are also possible.
     shortfall and value at risk for continuous distributions.
 -   [riskParityPortfolio](https://cran.r-project.org/package=riskParityPortfolio)
     offers fast implementations for constructing risk-parity portfolios.
+-   The [monobin](https://cran.r-project.org/package=monobin) package performs
+    monotonic binning of numeric risk factor in credit rating models
+    (PD, LGD, EAD) development.
 
 **Books**
 
@@ -591,6 +594,7 @@ are also possible.
 -   [markovchain](https://cran.r-project.org/package=markovchain)
 -   [MarkowitzR](https://cran.r-project.org/package=MarkowitzR)
 -   [matchingMarkets](https://cran.r-project.org/package=matchingMarkets)
+-   [monobin](https://cran.r-project.org/package=monobin)
 -   [MSGARCH](https://cran.r-project.org/package=MSGARCH)
 -   [mvtnorm](https://cran.r-project.org/package=mvtnorm)
 -   [NetworkRiskMeasures](https://cran.r-project.org/package=NetworkRiskMeasures)

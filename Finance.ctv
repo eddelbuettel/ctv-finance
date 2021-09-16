@@ -474,6 +474,7 @@
       </li>
       <li>The <pkg>cvar</pkg> package computes expected shortfall and value at risk for continuous distributions.</li>
       <li><pkg>riskParityPortfolio</pkg> offers fast implementations for constructing risk-parity portfolios.</li>
+      <li>The <pkg>monobin</pkg> package performs monotonic binning of numeric risk factor in credit rating models (PD, LGD, EAD) development.</li>
     </ul>
 
     <p>
@@ -677,6 +678,7 @@
     <pkg>markovchain</pkg>
     <pkg>MarkowitzR</pkg>
     <pkg>matchingMarkets</pkg>
+    <pkg>monobin</pkg>
     <pkg>MSGARCH</pkg>
     <pkg>mvtnorm</pkg>
     <pkg>NetworkRiskMeasures</pkg>
