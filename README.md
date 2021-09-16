@@ -349,6 +349,10 @@ are also possible.
 -   The [greeks](https://cran.r-project.org/package=greeks) package calculate
     sensitivities of financial option prices for European and Asian and
     American options in the Black Scholes model.
+-   The [RTL](https://cran.r-project.org/package=RTL) (Risk Tool Library) package
+    offers a collection of functions and metadata to complement core
+    packages in finance and commodities, including futures expiry
+    tables.
 
 **Risk management**
 
@@ -638,6 +642,7 @@ are also possible.
 -   [RND](https://cran.r-project.org/package=RND)
 -   [rpatrec](https://cran.r-project.org/package=rpatrec)
 -   [RQuantLib](https://cran.r-project.org/package=RQuantLib)
+-   [RTL](https://cran.r-project.org/package=RTL)
 -   [rugarch](https://cran.r-project.org/package=rugarch) (core)
 -   [rwt](https://cran.r-project.org/package=rwt)
 -   [sandwich](https://cran.r-project.org/package=sandwich)
