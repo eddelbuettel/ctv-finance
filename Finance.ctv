@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2021-08-05</version>
+  <version>2021-09-16</version>
 
   <info>
     <p>
@@ -582,7 +582,7 @@
       </li>
       <li>
 	  Data from Kenneth French's website can be downloaded
-          with packages <pkg>FFdownload</pkg>.
+          with packages <pkg>FFdownload</pkg> and <pkg>frenchdata</pkg>.
           Individual datasets can also be downloaded with function
           <code>French</code> in package <pkg>NMOF</pkg>.
       </li>
@@ -653,6 +653,7 @@
     <pkg>forecast</pkg>
     <pkg>fracdiff</pkg>
     <pkg>FRAPO</pkg>
+    <pkg>frenchdata</pkg>
     <pkg>frmqa</pkg>
     <pkg>garchmodels</pkg>
     <pkg>garchx</pkg>
