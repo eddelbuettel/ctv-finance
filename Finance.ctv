@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2021-09-16</version>
+  <version>2021-09-17</version>
 
   <info>
     <p>
@@ -474,6 +474,7 @@
       <li>The <pkg>cvar</pkg> package computes expected shortfall and value at risk for continuous distributions.</li>
       <li><pkg>riskParityPortfolio</pkg> offers fast implementations for constructing risk-parity portfolios.</li>
       <li>The <pkg>monobin</pkg> package performs monotonic binning of numeric risk factor in credit rating models (PD, LGD, EAD) development.</li>
+      <li>The <pkg>etrm</pkg> package contains a collection of functions to perform core tasks within energy trading and risk management (ETRM).</li>
     </ul>
 
     <p>
@@ -627,6 +628,7 @@
     <pkg>dynlm</pkg>
     <pkg>ESG</pkg>
     <pkg>estudy2</pkg>
+    <pkg>etrm</pkg>
     <pkg>factorstochvol</pkg>
     <pkg>fame</pkg>
     <pkg>FatTailsR</pkg>

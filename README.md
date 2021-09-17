@@ -1,11 +1,11 @@
 ---
 citation_author: Dirk Eddelbuettel
 citation_public_url: "https://CRAN.R-project.org/view=Finance"
-citation_publication_date: 2021-09-16
+citation_publication_date: 2021-09-17
 citation_title: "CRAN Task View: Empirical Finance"
 DC.creator: Dirk Eddelbuettel
 DC.identifier: "https://CRAN.R-project.org/view=Finance"
-DC.issued: 2021-09-16
+DC.issued: 2021-09-17
 DC.title: "CRAN Task View: Empirical Finance"
 title: "CRAN Task View: Empirical Finance"
 ---
@@ -15,7 +15,7 @@ title: "CRAN Task View: Empirical Finance"
                                                             
 **Maintainer:** Dirk Eddelbuettel                           
 **Contact:**    Dirk.Eddelbuettel at R-project.org          
-**Version:**    2021-09-16                                  
+**Version:**    2021-09-17                                  
 **URL:**        <https://CRAN.R-project.org/view=Finance>   
 
 <div>
@@ -435,6 +435,9 @@ are also possible.
 -   The [monobin](https://cran.r-project.org/package=monobin) package performs
     monotonic binning of numeric risk factor in credit rating models
     (PD, LGD, EAD) development.
+-   The [etrm](https://cran.r-project.org/package=etrm) package contains a
+    collection of functions to perform core tasks within energy trading
+    and risk management (ETRM).
 
 **Books**
 
@@ -550,6 +553,7 @@ are also possible.
 -   [dynlm](https://cran.r-project.org/package=dynlm)
 -   [ESG](https://cran.r-project.org/package=ESG)
 -   [estudy2](https://cran.r-project.org/package=estudy2)
+-   [etrm](https://cran.r-project.org/package=etrm)
 -   [factorstochvol](https://cran.r-project.org/package=factorstochvol)
 -   [fame](https://cran.r-project.org/package=fame)
 -   [fAssets](https://cran.r-project.org/package=fAssets) (core)
