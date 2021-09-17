@@ -374,6 +374,7 @@
       <li>The <pkg>ichimoku</pkg> package provides tools for creating and visualising Ichimoku Kinko Hyo strategies, and  provides an interface to the OANDA fxTrade API for retrieving historical and live streaming price data (which requires free registration).</li>
       <li>The <pkg>greeks</pkg> package calculate sensitivities of financial option prices for European and Asian and American options in the Black Scholes model.</li>
       <li>The <pkg>RTL</pkg> (Risk Tool Library) package offers a collection of functions and metadata to complement core packages in finance and commodities, including futures expiry tables.</li> 
+      <li>The <pkg>GARCHSK</pkg> package estimates GARCHSK and GJRSK models allowing for time-varying volatility, skewness and kurtosis.</li>
     </ul> 
 
     <p>

@@ -353,6 +353,9 @@ are also possible.
     offers a collection of functions and metadata to complement core
     packages in finance and commodities, including futures expiry
     tables.
+-   The [GARCHSK](https://cran.r-project.org/package=GARCHSK) package estimates
+    GARCHSK and GJRSK models allowing for time-varying volatility,
+    skewness and kurtosis.
 
 **Risk management**
 
