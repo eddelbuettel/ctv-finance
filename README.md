@@ -359,6 +359,8 @@ are also possible.
 -   The [bidask](https://cran.r-project.org/package=bidask) package offers a novel
     procedure to estimate bid-ask spreads from OHLC data, and implements
     other reference models.
+-   The [strand](https://cran.r-project.org/package=strand) package adds a framework
+    for discrete (share-level) simulations of investment strategies.
 
 **Risk management**
 
@@ -664,6 +666,7 @@ are also possible.
 -   [simfinapi](https://cran.r-project.org/package=simfinapi)
 -   [SmithWilsonYieldCurve](https://cran.r-project.org/package=SmithWilsonYieldCurve)
 -   [stochvol](https://cran.r-project.org/package=stochvol)
+-   [strand](https://cran.r-project.org/package=strand)
 -   [strucchange](https://cran.r-project.org/package=strucchange)
 -   [TAQMNGR](https://cran.r-project.org/package=TAQMNGR)
 -   [TFX](https://cran.r-project.org/package=TFX)

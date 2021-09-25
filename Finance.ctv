@@ -376,6 +376,7 @@
       <li>The <pkg>RTL</pkg> (Risk Tool Library) package offers a collection of functions and metadata to complement core packages in finance and commodities, including futures expiry tables.</li> 
       <li>The <pkg>GARCHSK</pkg> package estimates GARCHSK and GJRSK models allowing for time-varying volatility, skewness and kurtosis.</li>
       <li>The <pkg>bidask</pkg> package offers a novel procedure to estimate bid-ask spreads from OHLC data, and implements other reference models.</li>
+      <li>The <pkg>strand</pkg> package adds a framework for discrete (share-level) simulations of investment strategies.</li>
     </ul> 
 
     <p>
@@ -734,6 +735,7 @@
     <pkg>simfinapi</pkg>
     <pkg>SmithWilsonYieldCurve</pkg>
     <pkg>stochvol</pkg>
+    <pkg>strand</pkg>
     <pkg>strucchange</pkg>
     <pkg>TAQMNGR</pkg>
     <pkg>timsac</pkg>
