@@ -363,7 +363,10 @@ are also possible.
     for discrete (share-level) simulations of investment strategies.
 -   The [HDShOP](https://cran.r-project.org/package=HDShOP) package constructs
     shrinkage estimators of high-dimensional mean-variance portfolios
-    and performs high-dimensional tests on optimality.
+    and performs high-dimensional tests on optimality, and the
+    [DOSPortfolio](https://cran.r-project.org/package=DOSPortfolio) package uses it
+    to constructs dynamic optimal shrinkage estimators for the weights
+    of the global minimum variance portfolio.
 
 **Risk management**
 
@@ -557,6 +560,7 @@ are also possible.
 -   [data.table](https://cran.r-project.org/package=data.table)
 -   [derivmkts](https://cran.r-project.org/package=derivmkts)
 -   [dlm](https://cran.r-project.org/package=dlm)
+-   [DOSPortfolio](https://cran.r-project.org/package=DOSPortfolio)
 -   [Dowd](https://cran.r-project.org/package=Dowd)
 -   [DriftBurstHypothesis](https://cran.r-project.org/package=DriftBurstHypothesis)
 -   [dse](https://cran.r-project.org/package=dse)
