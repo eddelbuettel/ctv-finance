@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2021-09-17</version>
+  <version>2021-09-24</version>
 
   <info>
     <p>
@@ -375,6 +375,7 @@
       <li>The <pkg>greeks</pkg> package calculate sensitivities of financial option prices for European and Asian and American options in the Black Scholes model.</li>
       <li>The <pkg>RTL</pkg> (Risk Tool Library) package offers a collection of functions and metadata to complement core packages in finance and commodities, including futures expiry tables.</li> 
       <li>The <pkg>GARCHSK</pkg> package estimates GARCHSK and GJRSK models allowing for time-varying volatility, skewness and kurtosis.</li>
+      <li>The <pkg>bidask</pkg> package offers a novel procedure to estimate bid-ask spreads from OHLC data, and implements other reference models.</li>
     </ul> 
 
     <p>
@@ -604,6 +605,7 @@
     <pkg>BCC1997</pkg>
     <pkg>BenfordTests</pkg>
     <pkg>betategarch</pkg>
+    <pkg>bidask</pkg>
     <pkg>bizdays</pkg>
     <pkg>BLModel</pkg>
     <pkg>bmgarch</pkg>

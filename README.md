@@ -1,11 +1,11 @@
 ---
 citation_author: Dirk Eddelbuettel
 citation_public_url: "https://CRAN.R-project.org/view=Finance"
-citation_publication_date: 2021-09-17
+citation_publication_date: 2021-09-24
 citation_title: "CRAN Task View: Empirical Finance"
 DC.creator: Dirk Eddelbuettel
 DC.identifier: "https://CRAN.R-project.org/view=Finance"
-DC.issued: 2021-09-17
+DC.issued: 2021-09-24
 DC.title: "CRAN Task View: Empirical Finance"
 title: "CRAN Task View: Empirical Finance"
 ---
@@ -15,7 +15,7 @@ title: "CRAN Task View: Empirical Finance"
                                                             
 **Maintainer:** Dirk Eddelbuettel                           
 **Contact:**    Dirk.Eddelbuettel at R-project.org          
-**Version:**    2021-09-17                                  
+**Version:**    2021-09-24                                  
 **URL:**        <https://CRAN.R-project.org/view=Finance>   
 
 <div>
@@ -356,6 +356,9 @@ are also possible.
 -   The [GARCHSK](https://cran.r-project.org/package=GARCHSK) package estimates
     GARCHSK and GJRSK models allowing for time-varying volatility,
     skewness and kurtosis.
+-   The [bidask](https://cran.r-project.org/package=bidask) package offers a novel
+    procedure to estimate bid-ask spreads from OHLC data, and implements
+    other reference models.
 
 **Risk management**
 
@@ -531,6 +534,7 @@ are also possible.
 -   [BCC1997](https://cran.r-project.org/package=BCC1997)
 -   [BenfordTests](https://cran.r-project.org/package=BenfordTests)
 -   [betategarch](https://cran.r-project.org/package=betategarch)
+-   [bidask](https://cran.r-project.org/package=bidask)
 -   [bizdays](https://cran.r-project.org/package=bizdays)
 -   [BLModel](https://cran.r-project.org/package=BLModel)
 -   [bmgarch](https://cran.r-project.org/package=bmgarch)
