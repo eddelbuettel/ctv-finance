@@ -361,6 +361,9 @@ are also possible.
     other reference models.
 -   The [strand](https://cran.r-project.org/package=strand) package adds a framework
     for discrete (share-level) simulations of investment strategies.
+-   The [HDShOP](https://cran.r-project.org/package=HDShOP) package constructs
+    shrinkage estimators of high-dimensional mean-variance portfolios
+    and performs high-dimensional tests on optimality.
 
 **Risk management**
 
@@ -601,6 +604,7 @@ are also possible.
 -   [gogarch](https://cran.r-project.org/package=gogarch)
 -   [greeks](https://cran.r-project.org/package=greeks)
 -   [GUIDE](https://cran.r-project.org/package=GUIDE)
+-   [HDShOP](https://cran.r-project.org/package=HDShOP)
 -   [highfrequency](https://cran.r-project.org/package=highfrequency)
 -   [IBrokers](https://cran.r-project.org/package=IBrokers)
 -   [ichimoku](https://cran.r-project.org/package=ichimoku)

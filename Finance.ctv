@@ -377,6 +377,7 @@
       <li>The <pkg>GARCHSK</pkg> package estimates GARCHSK and GJRSK models allowing for time-varying volatility, skewness and kurtosis.</li>
       <li>The <pkg>bidask</pkg> package offers a novel procedure to estimate bid-ask spreads from OHLC data, and implements other reference models.</li>
       <li>The <pkg>strand</pkg> package adds a framework for discrete (share-level) simulations of investment strategies.</li>
+      <li>The <pkg>HDShOP</pkg> package constructs shrinkage estimators of high-dimensional mean-variance portfolios and performs high-dimensional tests on optimality.</li>
     </ul> 
 
     <p>
@@ -671,6 +672,7 @@
     <pkg>gogarch</pkg>
     <pkg>greeks</pkg>
     <pkg>GUIDE</pkg>
+    <pkg>HDShOP</pkg>
     <pkg>highfrequency</pkg>
     <pkg>IBrokers</pkg>
     <pkg>ichimoku</pkg>
