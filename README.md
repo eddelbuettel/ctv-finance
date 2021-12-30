@@ -1,18 +1,9 @@
----
-citation_author: Dirk Eddelbuettel
-citation_public_url: "https://CRAN.R-project.org/view=Finance"
-citation_publication_date: 2021-09-24
-citation_title: "CRAN Task View: Empirical Finance"
-DC.creator: Dirk Eddelbuettel
-DC.identifier: "https://CRAN.R-project.org/view=Finance"
-DC.issued: 2021-09-24
-DC.title: "CRAN Task View: Empirical Finance"
-title: "CRAN Task View: Empirical Finance"
----
+
+**Please note that new home of this _CRAN Task View: Empirical Finance_ in in [this repo](https://github.com/cran-task-views/Finance) in the [cran-task-views organization](https://github.com/cran-task-views).**  This repository served for an earlier stage in the evolution of the Task Views and will remain to preserve links and attributions, but will likely not be extended.
 
 ## CRAN Task View: Empirical Finance
 
-                                                            
+
 **Maintainer:** Dirk Eddelbuettel                           
 **Contact:**    Dirk.Eddelbuettel at R-project.org          
 **Version:**    2021-09-24                                  
