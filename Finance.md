@@ -1,9 +1,11 @@
-
-## CRAN Task View Empirical Finance
-
-Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2022-01-16   
-
+---
+name: Finance
+topic: Empirical Finance
+maintainer: Dirk Eddelbuettel
+email: Dirk.Eddelbuettel@R-project.org
+version: 2022-01-16
+source: https://github.com/cran-task-views/Finance/
+---
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
 topic.
