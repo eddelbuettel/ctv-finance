@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2022-03-07
+Date: 2022-03-18
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -64,8 +64,7 @@ Views](https://github.com/cran-task-views) repo for details.
     of the mean and log-volatility of a log-ARCH-X model. The `r pkg("lgarch")` package can estimate
     and fit log-GARCH models. The `r pkg("garchx")` package estimate GARCH models with leverage and
     external covariates. The `r pkg("bmgarch")` package fits several multivariate GARCH models in a
-    Bayesian setting. The `r pkg("garchmodels")` package wraps the `r pkg("rugarch")` and `r
-    pkg("rmgarch")` packages.
+    Bayesian setting. 
 -   Unit root and cointegration tests are provided by `r pkg("tseries")`, and `r pkg("urca")`. The
     Rmetrics packages `r pkg("timeSeries", priority = "core")` and `r pkg("fMultivar", priority =
     "core")` contain a number of estimation functions for ARMA, GARCH, long memory models, unit
