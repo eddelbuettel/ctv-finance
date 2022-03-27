@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2022-03-18
+Date: 2022-03-27
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -12,8 +12,8 @@ Besides these packages, a very wide variety of functions suitable for empirical 
 provided by both the basic R system (and its set of recommended core packages), and a number of
 other packages on the [Comprehensive R Archive Network
 (CRAN)](https://cran.r-project.org). Consequently, several of the other CRAN Task Views may contain
-suitable packages, in particular the `r view("Econometrics")`, `r view("Optimization")`, `r
-view("Robust")`, and `r view("TimeSeries")` Task Views.
+suitable packages, in particular the `r view("Econometrics")`, `r view("Optimization")`,
+`r view("Robust")`, and `r view("TimeSeries")` Task Views.
 
 The `ctv` package supports these Task Views. Its functions `install.views` and `update.views` allow,
 respectively, installation or update of packages from a given Task View; the option `coreOnly` can
@@ -27,16 +27,16 @@ Views](https://github.com/cran-task-views) repo for details.
 
 ### Standard regression models
 
--   A detailed overview of the available regression methodologies is provided by the `r
-    view("Econometrics")` task view. This is complemented by the `r view("Robust")` task view, which
+-   A detailed overview of the available regression methodologies is provided by the
+    `r view("Econometrics")` task view. This is complemented by the `r view("Robust")` task view, which
     focuses on more robust and resistant methods.
 -   Linear models such as ordinary least squares (OLS) can be estimated by `lm()` (from by the stats
     package contained in the basic R distribution). Maximum Likelihood (ML) estimation can be
     undertaken with the standard `optim()` function. Many other suitable methods are listed in the
     `r view("Optimization")` view.  Non-linear least squares can be estimated with the `nls()`
     function, as well as with `nlme()` from the `r pkg("nlme")` package.
--   For the linear model, a variety of regression diagnostic tests are provided by the `r
-    pkg("car")`, `r pkg("lmtest")`, `r pkg("strucchange")`, `r pkg("urca", priority = "core")`, and
+-   For the linear model, a variety of regression diagnostic tests are provided by the `r pkg("car")`,
+    `r pkg("lmtest")`, `r pkg("strucchange")`, `r pkg("urca", priority = "core")`, and
     `r pkg("sandwich")` packages. The `r pkg("Rcmdr")` package provide user interfaces that may be
     of interest as well.
 
@@ -54,8 +54,8 @@ Views](https://github.com/cran-task-views) repo for details.
     `r pkg("fGarch", priority = "core")` package which has additional models. The `r pkg("rugarch",
     priority = "core")` package can be used to model a variety of univariate GARCH models with
     extensions such as ARFIMA, in-mean, external regressors and various other specifications; with
-    methods for fit, forecast, simulation, inference and plotting are provided too. The `r
-    pkg("rmgarch")` builds on it to provide the ability to estimate several multivariate GARCH
+    methods for fit, forecast, simulation, inference and plotting are provided too. The
+    `r pkg("rmgarch")` builds on it to provide the ability to estimate several multivariate GARCH
     models. The `r pkg("betategarch")` package can estimate and simulate the Beta-t-EGARCH model by
     Harvey. The `r pkg("bayesGARCH")` package can perform Bayesian estimation of a GARCH(1,1) model
     with Student's t innovations. For multivariate models, the `r pkg("gogarch")` package provides
@@ -75,8 +75,8 @@ Views](https://github.com/cran-task-views) repo for details.
     of VAR and SVAR model in a classical framework.
 -   The `r pkg("dyn")` and `r pkg("dynlm")` packages are suitable for dynamic (linear) regression
     models.
--   Several packages provide wavelet analysis functionality: `r pkg("rwt")`, `r pkg("wavelets")`, `r
-    pkg("waveslim")`, `r pkg("wavethresh")`.  Some methods from chaos theory are provided by the
+-   Several packages provide wavelet analysis functionality: `r pkg("rwt")`, `r pkg("wavelets")`,
+    `r pkg("waveslim")`, `r pkg("wavethresh")`.  Some methods from chaos theory are provided by the
     package `r pkg("tseriesChaos")`. `r pkg("tsDyn")` adds time series analysis based on dynamical
     systems theory.
 -   The `r pkg("forecast")` package adds functions for forecasting problems.
@@ -91,14 +91,14 @@ Views](https://github.com/cran-task-views) repo for details.
 
 ### Finance
 
--   The Rmetrics suite of packages comprises `r pkg("fAssets", priority = "core")`, `r
-    pkg("fBasics", priority = "core")`, `r pkg("fBonds", priority = "core")`, `r pkg("timeDate",
-    priority = "core")` (formerly: fCalendar), `r pkg("fCopulae", priority = "core")`, `r
-    pkg("fExoticOptions", priority = "core")`, `r pkg("fExtremes", priority = "core")`, `r
-    pkg("fGarch")`, `r pkg("fImport", priority = "core")`, `r pkg("fNonlinear", priority = "core")`,
-    `r pkg("fOptions", priority = "core")`, `r pkg("fPortfolio", priority = "core")`, `r
-    pkg("fRegression", priority = "core")`, `r pkg("timeSeries")` (formerly: fSeries), `r
-    pkg("fTrading", priority = "core")`, and contains a very large number of relevant functions for
+-   The Rmetrics suite of packages comprises `r pkg("fAssets", priority = "core")`,
+    `r pkg("fBasics", priority = "core")`, `r pkg("fBonds", priority = "core")`, `r pkg("timeDate",
+    priority = "core")` (formerly: fCalendar), `r pkg("fCopulae", priority = "core")`,
+    `r pkg("fExoticOptions", priority = "core")`, `r pkg("fExtremes", priority = "core")`,
+    `r pkg("fGarch")`, `r pkg("fImport", priority = "core")`, `r pkg("fNonlinear", priority = "core")`,
+    `r pkg("fOptions", priority = "core")`, `r pkg("fPortfolio", priority = "core")`,
+    `r pkg("fRegression", priority = "core")`, `r pkg("timeSeries")` (formerly: fSeries),
+    `r pkg("fTrading", priority = "core")`, and contains a very large number of relevant functions for
     different aspect of empirical and computational finance.
 -   The `r pkg("RQuantLib")` package provides several option-pricing functions as well as some
     fixed-income functionality from the QuantLib project to R. The `r pkg("RcppQuantuccia")`
@@ -294,8 +294,8 @@ Views](https://github.com/cran-task-views) repo for details.
 
 -   The `r pkg("zoo", priority = "core")` and `r pkg("timeDate")` (part of Rmetrics) packages
     provide support for irregularly-spaced time series. The `r pkg("xts", priority = "core")`
-    package extends `r pkg("zoo")` specifically for financial time series.  See the `r
-    view("TimeSeries")` task view for more details.
+    package extends `r pkg("zoo")` specifically for financial time series.  See the
+    `r view("TimeSeries")` task view for more details.
 -   `r pkg("timeDate")` also addresses calendar issues such as recurring holidays for a large number
     of financial centers, and provides code for high-frequency data sets.
 -   The `r pkg("fame")` package can access Fame time series databases (but also requires a Fame
@@ -328,8 +328,8 @@ Views](https://github.com/cran-task-views) repo for details.
     LFT ) from the Tesouro Direto website.
 -   The `r pkg("fmdates")` package implements common date calculations according to the ISDA
     schedules, and can check for business in different locales.
--   Data from Kenneth French's website can be downloaded with packages `r pkg("FFdownload")` and `r
-    pkg("frenchdata")`. Individual datasets can also be downloaded with function `French` in package
+-   Data from Kenneth French's website can be downloaded with packages `r pkg("FFdownload")` and
+    `r pkg("frenchdata")`. Individual datasets can also be downloaded with function `French` in package
     `r pkg("NMOF")`.
 
 
