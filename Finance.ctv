@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2021-09-24</version>
+  <version>2022-03-23</version>
 
   <info>
     <p>
@@ -100,9 +100,7 @@
           can estimate and fit log-GARCH models. The <pkg>garchx</pkg>
           package estimate GARCH models with leverage and external
           covariates. The <pkg>bmgarch</pkg> package fits several
-          multivariate GARCH models in a Bayesian setting. The
-          <pkg>garchmodels</pkg> package wraps the <pkg>rugarch</pkg> and
-          <pkg>rmgarch</pkg> packages.
+          multivariate GARCH models in a Bayesian setting.
 
       </li>
       <li>Unit root and cointegration tests are provided by <pkg>tseries</pkg>,
@@ -260,10 +258,6 @@
 	easily handle and analyse discrete Markov chains.
       </li>
       <li>
-	The <pkg>ycinterextra</pkg> package models yield curve interpolation and extrapolation using
-        via the Nelson-Siegel, Svensson, or Smith-Wilson models, as well as Hermite cubic splines.
-      </li>
-      <li>
 	The <pkg>tvm</pkg> package models provides functions for time
 	value of money such as cashflows and yield curves.
       </li>
@@ -394,9 +388,6 @@
       </li>
       <li>
          The Task View <view>ExtremeValue</view> regroups a number of relevant packages.
-      </li>
-      <li>
- 	 The packages <pkg>CreditMetrics</pkg> provides function for modelling credit risks.
       </li>
       <li>
         The <pkg>mvtnorm</pkg> package provides code for multivariate Normal and t-distributions.
@@ -621,7 +612,6 @@
     <pkg>ChainLadder</pkg>
     <pkg>copula</pkg>
     <pkg>copulaData</pkg>
-    <pkg>CreditMetrics</pkg>
     <pkg>credule</pkg>
     <pkg>crseEventStudy</pkg>
     <pkg>cvar</pkg>
@@ -666,7 +656,6 @@
     <pkg>FRAPO</pkg>
     <pkg>frenchdata</pkg>
     <pkg>frmqa</pkg>
-    <pkg>garchmodels</pkg>
     <pkg>garchx</pkg>
     <pkg>GCPM</pkg>
     <pkg>gets</pkg>
@@ -763,7 +752,6 @@
     <pkg>wavelets</pkg>
     <pkg>waveslim</pkg>
     <pkg>wavethresh</pkg>
-    <pkg>ycinterextra</pkg>
     <pkg>YieldCurve</pkg>
     <pkg>XBRL</pkg>
     <pkg priority="core">xts</pkg>
