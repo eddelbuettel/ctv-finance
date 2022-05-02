@@ -117,8 +117,8 @@ Views](https://github.com/cran-task-views) repo for details.
 -   The `r pkg("sde")` package provides simulation and inference functionality for stochastic
     differential equations.
 -   The `r pkg("YieldCurve")` package contains methods for the estimation of zero-coupon yield
-    curves and spread curves based the parametric Nelson and Siegel (1987) method with the Svensson
-    (1994) extension. The former package adds the McCulloch (1975) cubic splines approach, the
+    curves and spread curves based the parametric Nelson and Siegel (1987) method with the
+    Svensson (1994) extension. The former package adds the McCulloch (1975) cubic splines approach, the
     latter package adds the Diebold and Li approach. The `r pkg("SmithWilsonYieldCurve")` construct
     the yield curve using the Smith-Wilson approach based on LIBOR and SWAP rates.
 -   The `r pkg("vrtest")` package contains a number of variance ratio tests for the weak-form of the
