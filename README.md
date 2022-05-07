@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2022-05-02
+Date: 2022-05-07
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -91,13 +91,19 @@ Views](https://github.com/cran-task-views) repo for details.
 
 ### Finance
 
--   The Rmetrics suite of packages comprises `r pkg("fAssets", priority = "core")`,
-    `r pkg("fBasics", priority = "core")`, `r pkg("fBonds", priority = "core")`, `r pkg("timeDate",
-    priority = "core")` (formerly: fCalendar), `r pkg("fCopulae", priority = "core")`,
-    `r pkg("fExoticOptions", priority = "core")`, `r pkg("fExtremes", priority = "core")`,
-    `r pkg("fGarch")`, `r pkg("fImport", priority = "core")`, `r pkg("fNonlinear", priority = "core")`,
-    `r pkg("fOptions", priority = "core")`, `r pkg("fPortfolio", priority = "core")`,
-    `r pkg("fRegression", priority = "core")`, `r pkg("timeSeries")` (formerly: fSeries),
+-   The Rmetrics suite of packages comprises 
+    `r pkg("fAssets", priority = "core")`,
+    `r pkg("fBasics", priority = "core")`, 
+    `r pkg("fBonds", priority = "core")`, 
+    `r pkg("timeDate", priority = "core")` (formerly: fCalendar), 
+    `r pkg("fCopulae", priority = "core")`,
+    `r pkg("fExtremes", priority = "core")`, 
+    `r pkg("fGarch")`, 
+    `r pkg("fImport", priority = "core")`, 
+    `r pkg("fNonlinear", priority = "core")`,
+    `r pkg("fPortfolio", priority = "core")`,
+    `r pkg("fRegression", priority = "core")`, 
+    `r pkg("timeSeries")` (formerly: fSeries),
     `r pkg("fTrading", priority = "core")`, and contains a very large number of relevant functions for
     different aspect of empirical and computational finance.
 -   The `r pkg("RQuantLib")` package provides several option-pricing functions as well as some
