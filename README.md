@@ -178,7 +178,6 @@ Views](https://github.com/cran-task-views) repo for details.
     high-frequency data, and also interfaces the PortfolioEffect service.
 -   The `r pkg("ragtop")` package prices equity derivatives under an extension to Black and Scholes
     supporting default under a power-law link price and hazard rate.
--   The `r pkg("sharpeRratio")` package adds moment-free estimation of Sharpe ratios.
 -   The `r pkg("QuantTools")` package offers enhanced quantitative trading and modeling tools.
 -   The `r pkg("pinbasic")` package adds tools for fast and stable estimates the Probability of
     Informed Trading (PIN) by Easley et al, and offers factorizations of the model likelihood. The
