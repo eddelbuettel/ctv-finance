@@ -171,7 +171,7 @@ Views](https://github.com/cran-task-views) repo for details.
     high-frequency data, and also interfaces the PortfolioEffect service.
 -   The `r pkg("ragtop")` package prices equity derivatives under an extension to Black and Scholes
     supporting default under a power-law link price and hazard rate.
--   The `r pkg("InfoTrad")` packages also estimates PIN and extends it different factorization and
+-   The `r pkg("InfoTrad")` packages estimates PIN and extends it to different factorization and
     estimation algorithms.
 -   The `r pkg("FinancialMath")` package contains financial math and derivatives pricing functions
     as required by the actuarial exams by the Society of Actuaries and Casualty Actuarial Society
