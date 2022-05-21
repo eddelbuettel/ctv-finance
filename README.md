@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2022-05-07
+Date: 2022-05-20
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -120,11 +120,6 @@ Views](https://github.com/cran-task-views) repo for details.
 -   The `r pkg("TTR")` contains functions to construct technical trading rules in R.
 -   The `r pkg("sde")` package provides simulation and inference functionality for stochastic
     differential equations.
--   The `r pkg("YieldCurve")` package contains methods for the estimation of zero-coupon yield
-    curves and spread curves based the parametric Nelson and Siegel (1987) method with the
-    Svensson (1994) extension. The former package adds the McCulloch (1975) cubic splines approach, the
-    latter package adds the Diebold and Li approach. The `r pkg("SmithWilsonYieldCurve")` construct
-    the yield curve using the Smith-Wilson approach based on LIBOR and SWAP rates.
 -   The `r pkg("vrtest")` package contains a number of variance ratio tests for the weak-form of the
     efficient markets hypothesis.
 -   The `r pkg("gmm")` package provides generalized method of moments (GMM) estimations function
@@ -133,8 +128,6 @@ Views](https://github.com/cran-task-views) repo for details.
 -   The `r pkg("BurStFin")` and `r pkg("BurStMisc")` package has a collection of function for
     Finance including the estimation of covariance matrices.
 -   The `r pkg("AmericanCallOpt")` package contains a pricer for different American call options.
--   The `r pkg("VarSwapPrice")` package can price a variance swap via a portfolio of European
-    options contracts.
 -   The `r pkg("FinAsym")` package implements the Lee and Ready (1991) and Easley and O'Hara (1987)
     tests for, respectively, trade direction, and probability of informed trading.
 -   The `r pkg("parma")` package provides support for portfolio allocation and risk management
@@ -153,8 +146,6 @@ Views](https://github.com/cran-task-views) repo for details.
     hedging strategy.
 -   The `r pkg("markovchain")` package provides functionality to easily handle and analyse discrete
     Markov chains.
--   The `r pkg("ycinterextra")` package models yield curve interpolation and extrapolation using via
-    the Nelson-Siegel, Svensson, or Smith-Wilson models, as well as Hermite cubic splines.
 -   The `r pkg("tvm")` package models provides functions for time value of money such as cashflows
     and yield curves.
 -   The `r pkg("MarkowitzR")` package provides functions to test the statistical significance of
@@ -178,10 +169,7 @@ Views](https://github.com/cran-task-views) repo for details.
     high-frequency data, and also interfaces the PortfolioEffect service.
 -   The `r pkg("ragtop")` package prices equity derivatives under an extension to Black and Scholes
     supporting default under a power-law link price and hazard rate.
--   The `r pkg("QuantTools")` package offers enhanced quantitative trading and modeling tools.
--   The `r pkg("pinbasic")` package adds tools for fast and stable estimates the Probability of
-    Informed Trading (PIN) by Easley et al, and offers factorizations of the model likelihood. The
-    `r pkg("InfoTrad")` packages also estimates PIN and extends it different factorization and
+-   The `r pkg("InfoTrad")` packages also estimates PIN and extends it different factorization and
     estimation algorithms.
 -   The `r pkg("FinancialMath")` package contains financial math and derivatives pricing functions
     as required by the actuarial exams by the Society of Actuaries and Casualty Actuarial Society
@@ -318,8 +306,6 @@ Views](https://github.com/cran-task-views) repo for details.
 -   The package `r pkg("highfrequency")` contains functionality to manage, clean and match
     highfrequency trades and quotes data and enables users to calculate various liquidity measures,
     estimate and forecast volatility, and investigate microstructure noise and intraday periodicity.
--   The `r pkg("Rbitcoin")` package offers access to Bitcoin exchange APIs (mtgox, bitstamp, btce,
-    kraken) via public and private API calls and integration of data structures for all markets.
 -   The `r pkg("bizdays")` package compute business days if provided a list of holidays.
 -   The `r pkg("TAQMNGR")` package manages tick-by-tick (equity) transaction data performing
     'cleaning', 'aggregation' and 'import' where cleaning and aggregation are performed according to
