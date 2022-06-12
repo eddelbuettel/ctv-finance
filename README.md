@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2022-05-20
+Date: 2022-06-11
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -75,7 +75,7 @@ Views](https://github.com/cran-task-views) repo for details.
     of VAR and SVAR model in a classical framework.
 -   The `r pkg("dyn")` and `r pkg("dynlm")` packages are suitable for dynamic (linear) regression
     models.
--   Several packages provide wavelet analysis functionality: `r pkg("rwt")`, `r pkg("wavelets")`,
+-   Several packages provide wavelet analysis functionality: `r pkg("wavelets")`,
     `r pkg("waveslim")`, `r pkg("wavethresh")`.  Some methods from chaos theory are provided by the
     package `r pkg("tseriesChaos")`. `r pkg("tsDyn")` adds time series analysis based on dynamical
     systems theory.

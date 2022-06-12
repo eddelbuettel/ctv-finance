@@ -3,7 +3,7 @@ name: Finance
 topic: Empirical Finance
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2022-05-20
+version: 2022-06-11
 source: https://github.com/cran-task-views/Finance/
 ---
 
@@ -77,7 +77,7 @@ Views](https://github.com/cran-task-views) repo for details.
     of VAR and SVAR model in a classical framework.
 -   The `r pkg("dyn")` and `r pkg("dynlm")` packages are suitable for dynamic (linear) regression
     models.
--   Several packages provide wavelet analysis functionality: `r pkg("rwt")`, `r pkg("wavelets")`,
+-   Several packages provide wavelet analysis functionality: `r pkg("wavelets")`,
     `r pkg("waveslim")`, `r pkg("wavethresh")`.  Some methods from chaos theory are provided by the
     package `r pkg("tseriesChaos")`. `r pkg("tsDyn")` adds time series analysis based on dynamical
     systems theory.
