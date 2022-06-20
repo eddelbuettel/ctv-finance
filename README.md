@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2022-06-11
+Date: 2022-06-20
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -120,8 +120,6 @@ Views](https://github.com/cran-task-views) repo for details.
 -   The `r pkg("TTR")` contains functions to construct technical trading rules in R.
 -   The `r pkg("sde")` package provides simulation and inference functionality for stochastic
     differential equations.
--   The `r pkg("vrtest")` package contains a number of variance ratio tests for the weak-form of the
-    efficient markets hypothesis.
 -   The `r pkg("gmm")` package provides generalized method of moments (GMM) estimations function
     that are often used when estimating the parameters of the moment conditions implied by an asset
     pricing model.
@@ -232,15 +230,12 @@ Views](https://github.com/cran-task-views) repo for details.
     relevant functions.
 -   The packages `r pkg("copula")` and `r pkg("copulaData")` cover a wide range of modeling tasks
     for copulas.
--   The `r pkg("fgac")` package implements generalized Archimedean copulas.
 -   The `r pkg("actuar")` package provides an actuarial perspective to risk management.
 -   The `r pkg("ghyp")` package provides generalized hyberbolic distribution functions as well as
     procedures for VaR, CVaR or target-return portfolio optimizations.
 -   The `r pkg("ChainLadder")` package provides functions for modeling insurance claim reserves; and
     the `r pkg("lifecontingencies")` package provides functions for financial and actuarial
     evaluations of life contingencies.
--   The `r pkg("frmqa")` package aims to collect functions for Financial Risk Management and
-    Quantitative Analysis.
 -   The `r pkg("ESG")` package can be used to model for asset projection, a scenario-based
     simulation approach.
 -   The `r pkg("riskSimul")` package provides efficient simulation procedures to estimate tail loss
@@ -300,9 +295,6 @@ Views](https://github.com/cran-task-views) repo for details.
     (but requires an account to access the service).
 -   The `r pkg("data.table")` package provides very efficient and fast access to in-memory data sets
     such as asset prices.
--   The `r pkg("TFX")` package provides an interface to the TrueFX (TM) service for free streaming
-    real-time and historical tick-by-tick market data for interbank foreign exchange rates at the
-    millisecond resolution.
 -   The package `r pkg("highfrequency")` contains functionality to manage, clean and match
     highfrequency trades and quotes data and enables users to calculate various liquidity measures,
     estimate and forecast volatility, and investigate microstructure noise and intraday periodicity.
