@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2022-06-20
+Date: 2022-07-02
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -120,6 +120,8 @@ Views](https://github.com/cran-task-views) repo for details.
 -   The `r pkg("TTR")` contains functions to construct technical trading rules in R.
 -   The `r pkg("sde")` package provides simulation and inference functionality for stochastic
     differential equations.
+-   The `r pkg("vrtest")` package contains a number of variance ratio tests for the weak-form of the
+    efficient markets hypothesis.
 -   The `r pkg("gmm")` package provides generalized method of moments (GMM) estimations function
     that are often used when estimating the parameters of the moment conditions implied by an asset
     pricing model.
