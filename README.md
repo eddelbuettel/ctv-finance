@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2022-07-16
+Date: 2022-08-26
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -270,6 +270,7 @@ Views](https://github.com/cran-task-views) repo for details.
     energy trading and risk management (ETRM).
 -   Package `r pkg("ufRisk")` offers multiple Value at Risk and Expected Shortfall measures from both
     parametric and semiparametrics models.
+-   Package `r pkg("bondAnalyst")` provides a number of bond pricing and fixed-income valuation functions corresponding to standard industry practices for risk and return.
 
 
 ### Books

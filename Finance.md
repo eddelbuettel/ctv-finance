@@ -3,7 +3,7 @@ name: Finance
 topic: Empirical Finance
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2022-07-16
+version: 2022-08-26
 source: https://github.com/cran-task-views/Finance/
 ---
 
@@ -272,6 +272,7 @@ Views](https://github.com/cran-task-views) repo for details.
     energy trading and risk management (ETRM).
 -   Package `r pkg("ufRisk")` offers multiple Value at Risk and Expected Shortfall measures from both
     parametric and semiparametrics models.
+-   Package `r pkg("bondAnalyst")` provides a number of bond pricing and fixed-income valuation functions corresponding to standard industry practices for risk and return.
 
 
 ### Books
