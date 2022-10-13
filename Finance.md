@@ -336,3 +336,4 @@ Views](https://github.com/cran-task-views) repo for details.
 -   [Eric Zivot](http://faculty.washington.edu/ezivot/splus.htm)
 -   [R Code for Ruppert's 'Statistics and Finance'](http://christopherggreen.github.io/RuppertStatisticsFinance2004/)
 -   [Guy Yollin](http://www.r-programming.org/papers)
+-   [Textbook "Tidy Finance with R" with many empirical finance applications](http://www.tidy-finance.org//)
