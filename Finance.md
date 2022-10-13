@@ -3,7 +3,7 @@ name: Finance
 topic: Empirical Finance
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2022-09-21
+version: 2022-10-13
 source: https://github.com/cran-task-views/Finance/
 ---
 
