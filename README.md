@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2022-10-13
+Date: 2022-10-26
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -69,8 +69,8 @@ Views](https://github.com/cran-task-views) repo for details.
     Rmetrics packages `r pkg("timeSeries", priority = "core")` and `r pkg("fMultivar", priority =
     "core")` contain a number of estimation functions for ARMA, GARCH, long memory models, unit
     roots and more. The `r pkg("CADFtest")` package implements the Hansen unit root test.
--   `r pkg("dlm")` package provides Bayesian and likelihood analysis of dynamic linear models
-    (i.e. linear Gaussian state space models).
+<!-- -   `r pkg("dlm")` package provides Bayesian and likelihood analysis of dynamic linear models -->
+<!--     (i.e. linear Gaussian state space models). -->
 -   The `r pkg("vars")` package offer estimation, diagnostics, forecasting and error decomposition
     of VAR and SVAR model in a classical framework.
 -   The `r pkg("dyn")` and `r pkg("dynlm")` packages are suitable for dynamic (linear) regression
@@ -183,11 +183,11 @@ Views](https://github.com/cran-task-views) repo for details.
 -   The `r pkg("BLModel")` package computes the posterior distribution in a Black-Litterman model
     from a prior distribution given by asset returns and continuous distribution of views given by
     an external function.
--   The `r pkg("rpatrec")` package aims to recognise charting patterns in (financial) time series
-    data.
+<!-- -   The `r pkg("rpatrec")` package aims to recognise charting patterns in (financial) time series -->
+<!--     data. -->
 -   The `r pkg("PortfolioOptim")` can solve both small and large sample portfolio optimization.
--   The `r pkg("estudy2")` package implements most commonly used parametric and nonparametric
-    event-study methodology tests.
+<!-- -   The `r pkg("estudy2")` package implements most commonly used parametric and nonparametric -->
+<!--     event-study methodology tests. -->
 -   The `r pkg("DtD")` package computes the *distance to default* per Merton's model.
 -   The `r pkg("PeerPerformance")` package analyzes performance of investments funds relative to its
     peers in a pairwise manner that is robust to false discoveries.
@@ -294,8 +294,8 @@ Views](https://github.com/cran-task-views) repo for details.
 -   The `r pkg("fame")` package can access Fame time series databases (but also requires a Fame
     backend). The `r pkg("tis")` package provides time indices and time-indexed series compatible
     with Fame frequencies.
--   The `r pkg("TSdbi")` package provides a unifying interface for several time series data base
-    backends, and its SQL implementations provide a database table design.
+<!-- -   The `r pkg("TSdbi")` package provides a unifying interface for several time series data base -->
+<!--     backends, and its SQL implementations provide a database table design. -->
 -   The `r pkg("IBrokers")` package provides access to the Interactive Brokers API for data access
     (but requires an account to access the service).
 -   The `r pkg("data.table")` package provides very efficient and fast access to in-memory data sets
