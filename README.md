@@ -270,9 +270,11 @@ Views](https://github.com/cran-task-views) repo for details.
     energy trading and risk management (ETRM).
 -   Package `r pkg("ufRisk")` offers multiple Value at Risk and Expected Shortfall measures from both
     parametric and semiparametrics models.
--   Packages `r pkg("bondAnalyst")` and `r pkg("stockAnalyst")` provide a number of, respectively, bond pricing 
-    and fixed-income valuation functions and fundamental equity valuation function corresponding to standard 
-    industry practices for risk and return.
+-   Packages `r pkg("bondAnalyst")` and `r pkg("stockAnalyst")` provide a number of, respectively,
+    bond pricing  and fixed-income valuation functions and fundamental equity valuation function
+    corresponding to standard  industry practices for risk and return. 
+-   Packages `r pkg("bearishTrader")`,  `r pkg("bullishTrader")`, and `r pkg("volatilityTrader")`
+    support trading strategies and analysis for, respectively, directional views or volatility regimes.
 
 ### Books
 
