@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2022-10-26
+Date: 2022-11-08
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
