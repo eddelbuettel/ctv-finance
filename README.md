@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2022-11-08
+Date: 2022-11-13
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -217,7 +217,11 @@ Views](https://github.com/cran-task-views) repo for details.
     portfolios and performs high-dimensional tests on optimality, and the `r pkg("DOSPortfolio")`
     package uses it to constructs dynamic optimal shrinkage estimators for the weights of the global
     minimum variance portfolio.
--   The `r pkg("fixedincome")` package adds functions for fixed-income models, calculation, models and curves.
+-   The `r pkg("fixedincome")` package adds functions for fixed-income models, calculation, models 
+    and curves.
+-   The `r pkg("SVDNF")` package implements a discrete nonlinear filter to find filtering distribution
+    and maximum likelihood parameter estimates for stochastic volatility models with jumps.
+
 
 ### Risk management
 
