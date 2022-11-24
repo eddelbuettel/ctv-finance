@@ -304,8 +304,8 @@ Views](https://github.com/cran-task-views) repo for details.
     with Fame frequencies.
 <!-- -   The `r pkg("TSdbi")` package provides a unifying interface for several time series data base -->
 <!--     backends, and its SQL implementations provide a database table design. -->
--   The `r pkg("IBrokers")` package provides access to the Interactive Brokers API for data access
-    (but requires an account to access the service).
+-   Packages `r pkg("IBrokers")` and `r pkg("rib")` provide access to the Interactive Brokers API
+    (but require an account to access the service).
 -   The `r pkg("data.table")` package provides very efficient and fast access to in-memory data sets
     such as asset prices.
 -   The package `r pkg("highfrequency")` contains functionality to manage, clean and match
