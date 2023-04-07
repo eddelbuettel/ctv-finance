@@ -3,7 +3,7 @@ name: Finance
 topic: Empirical Finance
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2022-11-13
+version: 2023-04-07
 source: https://github.com/cran-task-views/Finance/
 ---
 
@@ -219,8 +219,8 @@ Views](https://github.com/cran-task-views) repo for details.
     portfolios and performs high-dimensional tests on optimality, and the `r pkg("DOSPortfolio")`
     package uses it to constructs dynamic optimal shrinkage estimators for the weights of the global
     minimum variance portfolio.
--   The `r pkg("fixedincome")` package adds functions for fixed-income models, calculation, models 
-    and curves.
+<!-- -   The `r pkg("fixedincome")` package adds functions for fixed-income models, calculation, models  -->
+<!--     and curves. -->
 -   The `r pkg("SVDNF")` package implements a discrete nonlinear filter to find filtering distribution
     and maximum likelihood parameter estimates for stochastic volatility models with jumps.
 

@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2022-11-13
+Date: 2023-04-07
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -217,8 +217,8 @@ Views](https://github.com/cran-task-views) repo for details.
     portfolios and performs high-dimensional tests on optimality, and the `r pkg("DOSPortfolio")`
     package uses it to constructs dynamic optimal shrinkage estimators for the weights of the global
     minimum variance portfolio.
--   The `r pkg("fixedincome")` package adds functions for fixed-income models, calculation, models 
-    and curves.
+<!-- -   The `r pkg("fixedincome")` package adds functions for fixed-income models, calculation, models  -->
+<!--     and curves. -->
 -   The `r pkg("SVDNF")` package implements a discrete nonlinear filter to find filtering distribution
     and maximum likelihood parameter estimates for stochastic volatility models with jumps.
 
@@ -302,8 +302,8 @@ Views](https://github.com/cran-task-views) repo for details.
     with Fame frequencies.
 <!-- -   The `r pkg("TSdbi")` package provides a unifying interface for several time series data base -->
 <!--     backends, and its SQL implementations provide a database table design. -->
--   The `r pkg("IBrokers")` package provides access to the Interactive Brokers API for data access
-    (but requires an account to access the service).
+-   Packages `r pkg("IBrokers")` and `r pkg("rib")` provide access to the Interactive Brokers API
+    (but require an account to access the service).
 -   The `r pkg("data.table")` package provides very efficient and fast access to in-memory data sets
     such as asset prices.
 -   The package `r pkg("highfrequency")` contains functionality to manage, clean and match
