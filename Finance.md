@@ -3,7 +3,7 @@ name: Finance
 topic: Empirical Finance
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2023-04-07
+version: 2023-04-18
 source: https://github.com/cran-task-views/Finance/
 ---
 
@@ -223,6 +223,8 @@ Views](https://github.com/cran-task-views) repo for details.
 <!--     and curves. -->
 -   The `r pkg("SVDNF")` package implements a discrete nonlinear filter to find filtering distribution
     and maximum likelihood parameter estimates for stochastic volatility models with jumps.
+-   The `r pkg("fHMM")` package implements hidden Markov models and their hierarchical extension
+    for the detection and characterization of financial market regimes.
 
 
 ### Risk management
