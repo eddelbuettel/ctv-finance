@@ -3,7 +3,7 @@ name: Finance
 topic: Empirical Finance
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2023-04-18
+version: 2023-04-22
 source: https://github.com/cran-task-views/Finance/
 ---
 
@@ -283,6 +283,8 @@ Views](https://github.com/cran-task-views) repo for details.
     corresponding to standard  industry practices for risk and return. 
 -   Packages `r pkg("bearishTrader")`,  `r pkg("bullishTrader")`, and `r pkg("volatilityTrader")`
     support trading strategies and analysis for, respectively, directional views or volatility regimes.
+-   Package `r pkg("VaRES")` computes both value at risk and expected shortfall for many parametric 
+    distributions.
 
 ### Books
 

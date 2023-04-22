@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2023-04-07
+Date: 2023-04-22
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -221,6 +221,8 @@ Views](https://github.com/cran-task-views) repo for details.
 <!--     and curves. -->
 -   The `r pkg("SVDNF")` package implements a discrete nonlinear filter to find filtering distribution
     and maximum likelihood parameter estimates for stochastic volatility models with jumps.
+-   The `r pkg("fHMM")` package implements hidden Markov models and their hierarchical extension
+    for the detection and characterization of financial market regimes.
 
 
 ### Risk management
@@ -279,6 +281,8 @@ Views](https://github.com/cran-task-views) repo for details.
     corresponding to standard  industry practices for risk and return. 
 -   Packages `r pkg("bearishTrader")`,  `r pkg("bullishTrader")`, and `r pkg("volatilityTrader")`
     support trading strategies and analysis for, respectively, directional views or volatility regimes.
+-   Package `r pkg("VaRES")` computes both value at risk and expected shortfall for many parametric 
+    distributions.
 
 ### Books
 
