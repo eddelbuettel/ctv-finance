@@ -3,7 +3,7 @@ name: Finance
 topic: Empirical Finance
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2023-04-22
+version: 2023-05-02
 source: https://github.com/cran-task-views/Finance/
 ---
 
@@ -157,9 +157,9 @@ Views](https://github.com/cran-task-views) repo for details.
     strategies.
 -   The `r pkg("OptionPricing")` package implements efficient Monte Carlo algorithms for the price
     and the sensitivities of Asian and European Options under Geometric Brownian Motion.
--   The `r pkg("matchingMarkets")` package implements a structural estimator to correct for the bias
-    arising from endogenous matching (e.g. group formation in microfinance or matching of firms and
-    venture capitalists).
+<!-- -   The `r pkg("matchingMarkets")` package implements a structural estimator to correct for the bias -->
+<!--     arising from endogenous matching (e.g. group formation in microfinance or matching of firms and -->
+<!--     venture capitalists). -->
 -   The `r pkg("restimizeapi")` package interfaces the API at www.estimize.com which provides
     crowd-sourced earnings estimates.
 -   The `r pkg("credule")` package is another pricer for credit default swaps.
@@ -167,8 +167,8 @@ Views](https://github.com/cran-task-views) repo for details.
     order book data.
 -   The `r pkg("derivmkts")` package adds a set of pricing and expository functions useful in
     teaching derivatives markets.
--   The `r pkg("PortfolioEffectHFT")` package provides portfolio analysis suitable for intra-day and
-    high-frequency data, and also interfaces the PortfolioEffect service.
+<!-- -   The `r pkg("PortfolioEffectHFT")` package provides portfolio analysis suitable for intra-day and -->
+<!--     high-frequency data, and also interfaces the PortfolioEffect service. -->
 -   The `r pkg("ragtop")` package prices equity derivatives under an extension to Black and Scholes
     supporting default under a power-law link price and hazard rate.
 -   The `r pkg("InfoTrad")` packages estimates PIN and extends it to different factorization and
@@ -303,8 +303,9 @@ Views](https://github.com/cran-task-views) repo for details.
     `r view("TimeSeries")` task view for more details.
 -   `r pkg("timeDate")` also addresses calendar issues such as recurring holidays for a large number
     of financial centers, and provides code for high-frequency data sets.
--   The `r pkg("fame")` package can access Fame time series databases (but also requires a Fame
-    backend). The `r pkg("tis")` package provides time indices and time-indexed series compatible
+<!-- -   The `r pkg("fame")` package can access Fame time series databases (but also requires a Fame -->
+<!--     backend).  -->
+-    The `r pkg("tis")` package provides time indices and time-indexed series compatible
     with Fame frequencies.
 <!-- -   The `r pkg("TSdbi")` package provides a unifying interface for several time series data base -->
 <!--     backends, and its SQL implementations provide a database table design. -->
@@ -328,9 +329,9 @@ Views](https://github.com/cran-task-views) repo for details.
     LFT ) from the Tesouro Direto website.
 -   The `r pkg("fmdates")` package implements common date calculations according to the ISDA
     schedules, and can check for business in different locales.
--   Data from Kenneth French's website can be downloaded with packages `r pkg("FFdownload")` and
-    `r pkg("frenchdata")`. Individual datasets can also be downloaded with function `French` in package
-    `r pkg("NMOF")`.
+<!-- -   Data from Kenneth French's website can be downloaded with packages `r pkg("FFdownload")` and -->
+-   Data from Kenneth French's website can be downloaded with package `r pkg("frenchdata")`. 
+    Individual datasets can also be downloaded with function `French` in package `r pkg("NMOF")`.
 
 
 
