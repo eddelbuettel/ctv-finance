@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2023-05-02
+Date: 2023-05-16
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -330,7 +330,7 @@ Views](https://github.com/cran-task-views) repo for details.
 <!-- -   Data from Kenneth French's website can be downloaded with packages `r pkg("FFdownload")` and -->
 -   Data from Kenneth French's website can be downloaded with package `r pkg("frenchdata")`. 
     Individual datasets can also be downloaded with function `French` in package `r pkg("NMOF")`.
-
+-   Exchange data can be accessed (with a free API subscription) via package `r pkg("freecurrencyapi")`.
 
 
 ### Links
