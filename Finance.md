@@ -3,7 +3,7 @@ name: Finance
 topic: Empirical Finance
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2023-08-17
+version: 2023-11-14
 source: https://github.com/cran-task-views/Finance/
 ---
 
@@ -225,8 +225,10 @@ Views](https://github.com/cran-task-views) repo for details.
     and maximum likelihood parameter estimates for stochastic volatility models with jumps.
 -   The `r pkg("fHMM")` package implements hidden Markov models and their hierarchical extension
     for the detection and characterization of financial market regimes.
--   The `r pkg("epo")` package offers enhanced portfolio optimization (EPO)
-    as described in Pedersen et al (2021).
+-   The `r pkg("epo")` package offers enhanced portfolio optimization (EPO) as described in Pedersen
+    et al (2021).
+-   The `r pkg("BayesianFactorZoo")` package provides a novel Bayesian framework for analysing
+    linear asset pricing models as in Bryzgalova et al (2013).
 
 ### Risk management
 
