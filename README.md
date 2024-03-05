@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2024-01-16
+Date: 2024-03-05
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -46,7 +46,8 @@ Views](https://github.com/cran-task-views) repo for details.
     task view. Below a brief overview of the most important methods in finance is given.
 -   Classical time series functionality is provided by the `arima()` and `KalmanLike()` commands in
     the basic R distribution.
--   The `r pkg("dse")` and `r pkg("timsac")` packages provide a variety of more advanced estimation
+<!-- -   The `r pkg("dse")` and `r pkg("timsac")` packages provide a variety of more advanced estimation -->
+-   The `r pkg("timsac")` package provides a variety of more advanced estimation
     methods; `r pkg("fracdiff")` can estimate fractionally integrated series; `r pkg("longmemo")`
     covers related material.
 -   For volatility modeling, the standard GARCH(1,1) model can be estimated with the `garch()`
@@ -127,9 +128,9 @@ Views](https://github.com/cran-task-views) repo for details.
     pricing model.
 -   The `r pkg("BurStFin")` and `r pkg("BurStMisc")` package has a collection of function for
     Finance including the estimation of covariance matrices.
--   The `r pkg("AmericanCallOpt")` package contains a pricer for different American call options.
--   The `r pkg("FinAsym")` package implements the Lee and Ready (1991) and Easley and O'Hara (1987)
-    tests for, respectively, trade direction, and probability of informed trading.
+<!-- -   The `r pkg("AmericanCallOpt")` package contains a pricer for different American call options. -->
+<!-- -   The `r pkg("FinAsym")` package implements the Lee and Ready (1991) and Easley and O'Hara (1987) -->
+<!--     tests for, respectively, trade direction, and probability of informed trading. -->
 -   The `r pkg("parma")` package provides support for portfolio allocation and risk management
     applications.
 -   The `r pkg("GUIDE")` package provides a *GUI* for *DE* rivatives and contains numerous pricer
