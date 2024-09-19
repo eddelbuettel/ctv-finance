@@ -3,7 +3,7 @@ name: Finance
 topic: Empirical Finance
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2024-03-05
+version: 2024-09-19
 source: https://github.com/cran-task-views/Finance/
 ---
 
@@ -332,8 +332,8 @@ Views](https://github.com/cran-task-views) repo for details.
     on, inter alia, the `r pkg("XBRL")` package for parsing these reports.
 -   The `r pkg("GetTDData")` package imports Brazilian government bonds data (such as LTN, NTN-B and
     LFT ) from the Tesouro Direto website.
--   The `r pkg("fmdates")` package implements common date calculations according to the ISDA
-    schedules, and can check for business in different locales.
+<!-- -   The `r pkg("fmdates")` package implements common date calculations according to the ISDA -->
+<!--     schedules, and can check for business in different locales. -->
 <!-- -   Data from Kenneth French's website can be downloaded with packages `r pkg("FFdownload")` and -->
 -   Data from Kenneth French's website can be downloaded with package `r pkg("frenchdata")`. 
     Individual datasets can also be downloaded with function `French` in package `r pkg("NMOF")`.
