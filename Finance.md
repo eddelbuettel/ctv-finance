@@ -3,7 +3,7 @@ name: Finance
 topic: Empirical Finance
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2024-09-19
+version: 2024-11-06
 source: https://github.com/cran-task-views/Finance/
 ---
 
@@ -135,8 +135,8 @@ Views](https://github.com/cran-task-views) repo for details.
 <!--     tests for, respectively, trade direction, and probability of informed trading. -->
 -   The `r pkg("parma")` package provides support for portfolio allocation and risk management
     applications.
--   The `r pkg("GUIDE")` package provides a *GUI* for *DE* rivatives and contains numerous pricer
-    examples as well as interactive 2d and 3d plots to study these pricing functions.
+<!-- -   The `r pkg("GUIDE")` package provides a *GUI* for *DE* rivatives and contains numerous pricer -->
+<!--     examples as well as interactive 2d and 3d plots to study these pricing functions. -->
 -   The `r pkg("SharpeR")` package contains a collection of tools for analyzing significance of
     trading strategies, based on the Sharpe ratio and overfit of the same.
 -   The `r pkg("RND")` package implements various functions to extract risk-neutral densities from

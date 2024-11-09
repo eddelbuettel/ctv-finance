@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2024-09-19
+Date: 2024-11-09
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -133,8 +133,8 @@ Views](https://github.com/cran-task-views) repo for details.
 <!--     tests for, respectively, trade direction, and probability of informed trading. -->
 -   The `r pkg("parma")` package provides support for portfolio allocation and risk management
     applications.
--   The `r pkg("GUIDE")` package provides a *GUI* for *DE* rivatives and contains numerous pricer
-    examples as well as interactive 2d and 3d plots to study these pricing functions.
+<!-- -   The `r pkg("GUIDE")` package provides a *GUI* for *DE* rivatives and contains numerous pricer -->
+<!--     examples as well as interactive 2d and 3d plots to study these pricing functions. -->
 -   The `r pkg("SharpeR")` package contains a collection of tools for analyzing significance of
     trading strategies, based on the Sharpe ratio and overfit of the same.
 -   The `r pkg("RND")` package implements various functions to extract risk-neutral densities from
