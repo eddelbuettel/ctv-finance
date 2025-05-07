@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2024-11-09
+Date: 2025-05-07
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -326,8 +326,8 @@ Views](https://github.com/cran-task-views) repo for details.
 -   The `r pkg("Rblpapi")` package offers efficient access to the Bloomberg API and allows `bdp`,
     `bdh`, and `bds` queries as well as data retrieval both in (regular time-)bars and ticks (albeit
     without subsecond resolution).
--   The `r pkg("finreportr")` package can download reports from the SEC Edgar database, and relies
-    on, inter alia, the `r pkg("XBRL")` package for parsing these reports.
+<!-- -   The `r pkg("finreportr")` package can download reports from the SEC Edgar database, and relies -->
+<!--     on, inter alia, the `r pkg("XBRL")` package for parsing these reports. -->
 -   The `r pkg("GetTDData")` package imports Brazilian government bonds data (such as LTN, NTN-B and
     LFT ) from the Tesouro Direto website.
 <!-- -   The `r pkg("fmdates")` package implements common date calculations according to the ISDA -->

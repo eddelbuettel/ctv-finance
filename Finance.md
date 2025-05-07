@@ -3,7 +3,7 @@ name: Finance
 topic: Empirical Finance
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2024-11-06
+version: 2025-05-07
 source: https://github.com/cran-task-views/Finance/
 ---
 
@@ -328,8 +328,8 @@ Views](https://github.com/cran-task-views) repo for details.
 -   The `r pkg("Rblpapi")` package offers efficient access to the Bloomberg API and allows `bdp`,
     `bdh`, and `bds` queries as well as data retrieval both in (regular time-)bars and ticks (albeit
     without subsecond resolution).
--   The `r pkg("finreportr")` package can download reports from the SEC Edgar database, and relies
-    on, inter alia, the `r pkg("XBRL")` package for parsing these reports.
+<!-- -   The `r pkg("finreportr")` package can download reports from the SEC Edgar database, and relies -->
+<!--     on, inter alia, the `r pkg("XBRL")` package for parsing these reports. -->
 -   The `r pkg("GetTDData")` package imports Brazilian government bonds data (such as LTN, NTN-B and
     LFT ) from the Tesouro Direto website.
 <!-- -   The `r pkg("fmdates")` package implements common date calculations according to the ISDA -->
