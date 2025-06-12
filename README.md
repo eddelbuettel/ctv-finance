@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2025-05-07
+Date: 2025-06-12
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -65,7 +65,7 @@ Views](https://github.com/cran-task-views) repo for details.
     of the mean and log-volatility of a log-ARCH-X model. The `r pkg("lgarch")` package can estimate
     and fit log-GARCH models. The `r pkg("garchx")` package estimate GARCH models with leverage and
     external covariates. The `r pkg("bmgarch")` package fits several multivariate GARCH models in a
-    Bayesian setting. 
+    Bayesian setting. The `r pkg("fEGarch")` package fits a variety of EGARCH models.
 -   Unit root and cointegration tests are provided by `r pkg("tseries")`, and `r pkg("urca")`. The
     Rmetrics packages `r pkg("timeSeries", priority = "core")` and `r pkg("fMultivar", priority =
     "core")` contain a number of estimation functions for ARMA, GARCH, long memory models, unit
@@ -168,8 +168,8 @@ Views](https://github.com/cran-task-views) repo for details.
     teaching derivatives markets.
 <!-- -   The `r pkg("PortfolioEffectHFT")` package provides portfolio analysis suitable for intra-day and -->
 <!--     high-frequency data, and also interfaces the PortfolioEffect service. -->
--   The `r pkg("ragtop")` package prices equity derivatives under an extension to Black and Scholes
-    supporting default under a power-law link price and hazard rate.
+<!-- -   The `r pkg("ragtop")` package prices equity derivatives under an extension to Black and Scholes -->
+<!--     supporting default under a power-law link price and hazard rate. -->
 -   The `r pkg("InfoTrad")` packages estimates PIN and extends it to different factorization and
     estimation algorithms.
 -   The `r pkg("FinancialMath")` package contains financial math and derivatives pricing functions
