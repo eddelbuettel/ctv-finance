@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2025-06-12
+Date: 2025-06-13
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -261,7 +261,7 @@ Views](https://github.com/cran-task-views) repo for details.
     distribution with symmetric and asymmetric fat tails.
 -   The `r pkg("Dowd")` package contains functions ported from the 'MMR2' toolbox offered in Kevin
     Dowd's book "Measuring Market Risk".
--   The `r pkg("PortRisk")` package computes portfolio risk attribution.
+<!-- -   The `r pkg("PortRisk")` package computes portfolio risk attribution. -->
 -   The `r pkg("NetworkRiskMeasures")` package implements some risk measures for financial networks
     such as DebtRank, Impact Susceptibility, Impact Diffusion and Impact Fluidity.
 -   The `r pkg("Risk")` package computes 26 financial risk measures for any continuous distribution.
