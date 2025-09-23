@@ -3,7 +3,7 @@ name: Finance
 topic: Empirical Finance
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2025-06-13
+version: 2025-09-23
 source: https://github.com/cran-task-views/Finance/
 ---
 
@@ -91,6 +91,9 @@ Views](https://github.com/cran-task-views) repo for details.
     drift burst hypothesis (Christensen, Oomen and Reno, 2018).
 -   Package `r pkg("lmForc")` various in-sample, out-of-sample, pseudo-out-of-sample and benchmark
     linear model forecast tests.
+-   The `r pkg("Rmfrac")` package provides tools for simulation of fractional
+    and multifractional processes and related topics.
+
 
 ### Finance
 
