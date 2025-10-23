@@ -233,11 +233,10 @@ Views](https://github.com/cran-task-views) repo for details.
     et al (2021).
 -   The `r pkg("BayesianFactorZoo")` package provides a novel Bayesian framework for analysing
     linear asset pricing models as in Bryzgalova et al (2013).
--   The `r pkg("cryptoQuotes")` package provides a streamlined access to
-    cryptocurrency OHLC-V market data and sentiment indicators with
-    granularity varying from seconds to months.
--   The `r pkg("talib")` is a wrapper of TA-Lib, and provides candlestick
-    patterns and other indicators for Technical Analysis.
+-   The `r pkg("cryptoQuotes")` package provides a streamlined access to cryptocurrency OHLC-V
+    market data and sentiment indicators with granularity varying from seconds to months.
+<!-- -   The `r pkg("talib")` is a wrapper of TA-Lib, and provides candlestick patterns and other -->
+<!--     indicators for Technical Analysis. -->
     
 ### Risk management
 
