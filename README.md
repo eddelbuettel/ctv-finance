@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2025-10-23
+Date: 2025-11-07
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -338,6 +338,10 @@ Views](https://github.com/cran-task-views) repo for details.
     LFT ) from the Tesouro Direto website.
 <!-- -   The `r pkg("fmdates")` package implements common date calculations according to the ISDA -->
 <!--     schedules, and can check for business in different locales. -->
+-   Package `r pkg("qlcal")` offers QuantLib-based exchange and business calendars for over sixty
+    country or exchange settings.
+-   Package `r pkg("tind")` can compute with different time indices: years, quarters, months, ISO
+    8601 weeks, dates, time of day, date-time, and arbitrary integer/numeric indices.
 <!-- -   Data from Kenneth French's website can be downloaded with packages `r pkg("FFdownload")` and -->
 -   Data from Kenneth French's website can be downloaded with package `r pkg("frenchdata")`. 
     Individual datasets can also be downloaded with function `French` in package `r pkg("NMOF")`.
