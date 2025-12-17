@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2025-11-07
+Date: 2025-12-17
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -202,11 +202,11 @@ Views](https://github.com/cran-task-views) repo for details.
 -   The `r pkg("NFCP")` package models commodity prices via an n-factor term structure estimation.
 -   The `r pkg("LSMRealOptions")` package uses least-squares Monte Carlo to value American and Real
     options.
--   The `r pkg("AssetCorr")` package estimates intra- and inter-cohort correlations from default
-    data in a Vasicek credit portfolio model.
--   The `r pkg("ichimoku")` package provides tools for creating and visualising Ichimoku Kinko Hyo
-    strategies, and provides an interface to the OANDA fxTrade API for retrieving historical and
-    live streaming price data (which requires free registration).
+<!-- -   The `r pkg("AssetCorr")` package estimates intra- and inter-cohort correlations from default -->
+<!--     data in a Vasicek credit portfolio model. -->
+<!-- -   The `r pkg("ichimoku")` package provides tools for creating and visualising Ichimoku Kinko Hyo -->
+<!--     strategies, and provides an interface to the OANDA fxTrade API for retrieving historical and -->
+<!--     live streaming price data (which requires free registration). -->
 -   The `r pkg("greeks")` package calculate sensitivities of financial option prices for European
     and Asian and American options in the Black Scholes model.
 -   The `r pkg("RTL")` (Risk Tool Library) package offers a collection of functions and metadata to
@@ -229,8 +229,8 @@ Views](https://github.com/cran-task-views) repo for details.
     for the detection and characterization of financial market regimes.
 -   The `r pkg("epo")` package offers enhanced portfolio optimization (EPO) as described in Pedersen
     et al (2021).
--   The `r pkg("BayesianFactorZoo")` package provides a novel Bayesian framework for analysing
-    linear asset pricing models as in Bryzgalova et al (2013).
+<!-- -   The `r pkg("BayesianFactorZoo")` package provides a novel Bayesian framework for analysing -->
+<!--     linear asset pricing models as in Bryzgalova et al (2013). -->
 -   The `r pkg("cryptoQuotes")` package provides a streamlined access to cryptocurrency OHLC-V
     market data and sentiment indicators with granularity varying from seconds to months.
 <!-- -   The `r pkg("talib")` is a wrapper of TA-Lib, and provides candlestick patterns and other -->
