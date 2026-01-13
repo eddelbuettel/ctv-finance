@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2025-12-28
+Date: 2026-01-13
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -85,8 +85,8 @@ Views](https://github.com/cran-task-views) repo for details.
     Markov Chain Monte Carlo, and `r pkg("factorstochvol")` extends this to the multivariate case.
 -   The `r pkg("MSGARCH")` package adds methods to fit (by Maximum Likelihood or Bayesian),
     simulate, and forecast various Markov-Switching GARCH processes.
--   The `r pkg("DriftBurstHypothesis")` package estimates a t-test statistics for the explosive
-    drift burst hypothesis (Christensen, Oomen and Reno, 2018).
+<!-- -   The `r pkg("DriftBurstHypothesis")` package estimates a t-test statistics for the explosive -->
+<!--     drift burst hypothesis (Christensen, Oomen and Reno, 2018). -->
 -   Package `r pkg("lmForc")` various in-sample, out-of-sample, pseudo-out-of-sample and benchmark
     linear model forecast tests.
 -   The `r pkg("Rmfrac")` package provides tools for simulation of fractional
@@ -192,7 +192,7 @@ Views](https://github.com/cran-task-views) repo for details.
 -   The `r pkg("PortfolioOptim")` can solve both small and large sample portfolio optimization.
 <!-- -   The `r pkg("estudy2")` package implements most commonly used parametric and nonparametric -->
 <!--     event-study methodology tests. -->
--   The `r pkg("DtD")` package computes the *distance to default* per Merton's model.
+<!-- -   The `r pkg("DtD")` package computes the *distance to default* per Merton's model. -->
 -   The `r pkg("PeerPerformance")` package analyzes performance of investments funds relative to its
     peers in a pairwise manner that is robust to false discoveries.
 -   The `r pkg("crseEventStudy")` package provides another event-study tool to analyse abnormal
