@@ -3,7 +3,7 @@ name: Finance
 topic: Empirical Finance
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2026-01-13
+version: 2026-03-26
 source: https://github.com/cran-task-views/Finance/
 ---
 
@@ -237,6 +237,7 @@ Views](https://github.com/cran-task-views) repo for details.
     market data and sentiment indicators with granularity varying from seconds to months.
 <!-- -   The `r pkg("talib")` is a wrapper of TA-Lib, and provides candlestick patterns and other -->
 <!--     indicators for Technical Analysis. -->
+-   The `r pkg("yieldcurve")` package implements yield curve fitting, analysis, and decomposition.
     
 ### Risk management
 
