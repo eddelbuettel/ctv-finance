@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2026-04-23
+Date: 2026-04-29
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -240,6 +240,7 @@ Views](https://github.com/cran-task-views) repo for details.
     risk analytics.
 -   The `r pkg("talib")` package provides an interface to the TA-LIB library of technical analysis
     routines. 
+-   The `r pkg("vasicekfit")` package extends the Vasicek credit loss model with macroeconomic factors. 
 
 ### Risk management
 

@@ -3,7 +3,7 @@ name: Finance
 topic: Empirical Finance
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2026-04-23
+version: 2026-04-29
 source: https://github.com/cran-task-views/Finance/
 ---
 
@@ -242,6 +242,7 @@ Views](https://github.com/cran-task-views) repo for details.
     risk analytics.
 -   The `r pkg("talib")` package provides an interface to the TA-LIB library of technical analysis
     routines. 
+-   The `r pkg("vasicekfit")` package extends the Vasicek credit loss model with macroeconomic factors. 
 
 ### Risk management
 
