@@ -3,7 +3,7 @@ name: Finance
 topic: Empirical Finance
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2026-04-29
+version: 2026-05-04
 source: https://github.com/cran-task-views/Finance/
 ---
 
@@ -175,8 +175,8 @@ Views](https://github.com/cran-task-views) repo for details.
 <!--     high-frequency data, and also interfaces the PortfolioEffect service. -->
 <!-- -   The `r pkg("ragtop")` package prices equity derivatives under an extension to Black and Scholes -->
 <!--     supporting default under a power-law link price and hazard rate. -->
--   The `r pkg("InfoTrad")` packages estimates PIN and extends it to different factorization and
-    estimation algorithms.
+<!-- -   The `r pkg("InfoTrad")` packages estimates PIN and extends it to different factorization and -->
+<!--     estimation algorithms. -->
 -   The `r pkg("FinancialMath")` package contains financial math and derivatives pricing functions
     as required by the actuarial exams by the Society of Actuaries and Casualty Actuarial Society
     'Financial Mathematics' exam.
@@ -281,8 +281,8 @@ Views](https://github.com/cran-task-views) repo for details.
 -   The `r pkg("Risk")` package computes 26 financial risk measures for any continuous distribution.
 -   The `r pkg("RiskPortfolios")` package constructs risk-based portfolios as per the corresponding
     papers by Ardia et al.
--   The `r pkg("reinsureR")` package models reinsurances a class Claims whose objective is to store
-    claims and premiums, on which different treaties can be applied.
+<!-- -   The `r pkg("reinsureR")` package models reinsurances a class Claims whose objective is to store -->
+<!--     claims and premiums, on which different treaties can be applied. -->
 -   The `r pkg("RM2006")` package estimates conditional covariance matrix using the RiskMetrics 2006
     methodology described in Zumbach (2007).
 -   The `r pkg("cvar")` package computes expected shortfall and value at risk for continuous
