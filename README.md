@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2026-05-04
+Date: 2026-06-05
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -199,7 +199,7 @@ Views](https://github.com/cran-task-views) repo for details.
     return in long-horizon events.
 -   The `r pkg("simfinapi")` package provides R access to [SimFin](https://SimFin.com) fundamental
     financial statement data (given an API key).
--   The `r pkg("NFCP")` package models commodity prices via an n-factor term structure estimation.
+<!-- -   The `r pkg("NFCP")` package models commodity prices via an n-factor term structure estimation. -->
 -   The `r pkg("LSMRealOptions")` package uses least-squares Monte Carlo to value American and Real
     options.
 <!-- -   The `r pkg("AssetCorr")` package estimates intra- and inter-cohort correlations from default -->
