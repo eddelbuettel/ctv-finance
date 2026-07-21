@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2026-06-05
+Date: 2026-07-21
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -200,8 +200,8 @@ Views](https://github.com/cran-task-views) repo for details.
 -   The `r pkg("simfinapi")` package provides R access to [SimFin](https://SimFin.com) fundamental
     financial statement data (given an API key).
 <!-- -   The `r pkg("NFCP")` package models commodity prices via an n-factor term structure estimation. -->
--   The `r pkg("LSMRealOptions")` package uses least-squares Monte Carlo to value American and Real
-    options.
+<!-- -   The `r pkg("LSMRealOptions")` package uses least-squares Monte Carlo to value American and Real -->
+<!--     options. -->
 <!-- -   The `r pkg("AssetCorr")` package estimates intra- and inter-cohort correlations from default -->
 <!--     data in a Vasicek credit portfolio model. -->
 <!-- -   The `r pkg("ichimoku")` package provides tools for creating and visualising Ichimoku Kinko Hyo -->
@@ -332,9 +332,9 @@ Views](https://github.com/cran-task-views) repo for details.
     highfrequency trades and quotes data and enables users to calculate various liquidity measures,
     estimate and forecast volatility, and investigate microstructure noise and intraday periodicity.
 -   The `r pkg("bizdays")` package compute business days if provided a list of holidays.
--   The `r pkg("TAQMNGR")` package manages tick-by-tick (equity) transaction data performing
-    'cleaning', 'aggregation' and 'import' where cleaning and aggregation are performed according to
-    Brownlees and Gallo (2006).
+<!-- -   The `r pkg("TAQMNGR")` package manages tick-by-tick (equity) transaction data performing -->
+<!--     'cleaning', 'aggregation' and 'import' where cleaning and aggregation are performed according to -->
+<!--     Brownlees and Gallo (2006). -->
 -   The `r pkg("Rblpapi")` package offers efficient access to the Bloomberg API and allows `bdp`,
     `bdh`, and `bds` queries as well as data retrieval both in (regular time-)bars and ticks (albeit
     without subsecond resolution).
