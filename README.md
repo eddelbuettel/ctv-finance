@@ -2,7 +2,7 @@
 ## CRAN Task View Empirical Finance
 
 Maintainer: [Dirk Eddelbuettel](https://dirk.eddelbuettel.com)  
-Date: 2026-08-25
+Date: 2026-09-20
 
 
 This CRAN Task View contains a list of packages useful for empirical work in Finance, grouped by
@@ -79,7 +79,7 @@ Views](https://github.com/cran-task-views) repo for details.
 -   Several packages provide wavelet analysis functionality: `r pkg("wavelets")`,
     `r pkg("waveslim")`, `r pkg("wavethresh")`.  Some methods from chaos theory are provided by the
     package `r pkg("tseriesChaos")`. 
-    <!-- `r pkg("tsDyn")` adds time series analysis based on dynamical systems theory. -->
+<!-- `r pkg("tsDyn")` adds time series analysis based on dynamical systems theory. -->
 -   The `r pkg("forecast")` package adds functions for forecasting problems.
 -   The `r pkg("stochvol")` package implements Bayesian estimation of stochastic volatility using
     Markov Chain Monte Carlo, and `r pkg("factorstochvol")` extends this to the multivariate case.
